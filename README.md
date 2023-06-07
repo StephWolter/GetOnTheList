@@ -38,6 +38,8 @@
 
 * Final Website: [Get On The List]()
 
+* Presentation in Google Slides: [Get On The List](https://docs.google.com/presentation/d/1gQKRitfOxRw1ZQLOcBUpYoVPGTOzSaYite_0RqtkBIM/edit?usp=sharing)
+
 ## Step 1: Setting Up
 ### Conceptualization
 * Piggy backing off work from Project 1
