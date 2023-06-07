@@ -1,0 +1,787 @@
+book_id,book_title,book_image,book_description,author_id,imprint_id
+1,WHERE THE CRAWDADS SING,https://storage.googleapis.com/du-prd/books/images/9780735219090.jpg,"In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",1,1
+2,THE SAVIOR,https://storage.googleapis.com/du-prd/books/images/9781501194962.jpg,The 17th book in the Black Dagger Brotherhood series. Secrets about inhumane experiments surface at a biomedical firm.,2,2
+3,A GENTLEMAN IN MOSCOW,https://storage.googleapis.com/du-prd/books/images/9780670026197.jpg,"A Russian count undergoes 30 years of house arrest in the Metropol hotel, across from the Kremlin.",3,3
+4,SUPERMARKET,https://storage.googleapis.com/du-prd/books/images/9781982127138.jpg,A depressed young man’s secrets are exposed when the grocery store where he works becomes a crime scene.,4,4
+5,THE CORNWALLS ARE GONE,https://storage.googleapis.com/du-prd/books/images/9780316485555.jpg,An Army intelligence officer must commit a crime or lose her kidnapped husband and daughter.,5,5
+6,THE TATTOOIST OF AUSCHWITZ,https://storage.googleapis.com/du-prd/books/images/9780062797155.jpg,A concentration camp detainee tasked with permanently marking fellow prisoners falls in love with one of them.,6,6
+7,THE WOMAN IN THE WINDOW,https://storage.googleapis.com/du-prd/books/images/9780062678416.jpg,A recluse who drinks heavily and takes prescription drugs may have witnessed a crime across from her Harlem townhouse.,7,7
+8,RUN AWAY,https://storage.googleapis.com/du-prd/books/images/9781538748466.jpg,A family is torn apart when the daughter becomes addicted to drugs and goes missing.,8,8
+9,THE FIRST LADY,https://storage.googleapis.com/du-prd/books/images/9781538714928.jpg,Sally Grissom investigates the disappearance of President Harrison Tucker’s wife.,5,8
+10,CELTIC EMPIRE,https://storage.googleapis.com/du-prd/books/images/9780735219007.jpg,The 25th book in the Dirk Pitt series.,9,1
+11,THE SILENT PATIENT,https://storage.googleapis.com/du-prd/books/images/9781250301697.jpg,Theo Faber looks into the mystery of a famous painter who stops speaking after shooting her husband.,10,9
+12,THE LOST GIRLS OF PARIS,https://storage.googleapis.com/du-prd/books/images/9780778330271.jpg,Grace Healey investigates the fates of 12 women who were sent to occupied Europe to help the resistance during World War II.,11,10
+13,THE A LIST,https://storage.googleapis.com/du-prd/books/images/9781501151033.jpg,The 14th book in the Ali Reynolds Series. An imprisoned fertility doctor seeks revenge.,12,2
+14,ELEANOR OLIPHANT IS COMPLETELY FINE,https://storage.googleapis.com/du-prd/books/images/9780735220690.jpg,A young woman’s well-ordered life is disrupted by the I.T. guy from her office.,13,3
+15,CEMETERY ROAD,https://storage.googleapis.com/du-prd/books/images/9780062824639.jpg,"The journalist Marshall McEwan returns to his hometown, which is shaken by two deaths and an economy on the brink.",14,7
+16,BECOMING,https://storage.googleapis.com/du-prd/books/images/9781524763138.jpg,"The former first lady describes her journey from the South Side of Chicago to the White House, and how she balanced work, family and her husband’s political ascent.",15,11
+17,EDUCATED,https://storage.googleapis.com/du-prd/books/images/9780399590504.jpg,"The daughter of survivalists, who is kept out of school, educates herself enough to leave home for university.",16,12
+18,THE MATRIARCH,https://storage.googleapis.com/du-prd/books/images/9781538713648.jpg,"A biography of the former first lady Barbara Bush, based on interviews and her private diaries.",17,13
+19,THE RIGHT SIDE OF HISTORY,https://storage.googleapis.com/du-prd/books/images/9780062857903.jpg,The conservative political commentator reflects upon what he considers most impactful to Western civilization.,18,14
+20,LADIES WHO PUNCH,https://storage.googleapis.com/du-prd/books/images/9781250112101.jpg,A behind-the-scenes look at the daytime talk show “The View.”,19,15
+21,MAYBE YOU SHOULD TALK TO SOMEONE,https://storage.googleapis.com/du-prd/books/images/9781328662057.jpg,A psychotherapist gains unexpected insights when she becomes another therapist’s patient.,20,16
+22,COMMANDER IN CHEAT,https://storage.googleapis.com/du-prd/books/images/9780316528085.jpg,"A sportswriter handicaps the current president’s character, based on how he plays golf.",21,17
+23,BAD BLOOD,https://storage.googleapis.com/du-prd/books/images/9781524731663.jpg,"The rise and fall of Theranos, the biotech startup that failed to deliver on its promise to make blood testing more efficient.",22,18
+24,THE UNWINDING OF THE MIRACLE,https://storage.googleapis.com/du-prd/books/images/9780525511359.jpg,"After receiving a terminal cancer diagnosis, a lawyer and mother of two chronicles her life.",23,12
+25,SAY NOTHING,https://storage.googleapis.com/du-prd/books/images/9780385521314.jpg,A look at the conflict in Northern Ireland known as the Troubles.,24,19
+26,DOING JUSTICE,https://storage.googleapis.com/du-prd/books/images/9780525521129.jpg,The former U.S. Attorney for the Southern District of New York describes some of his career highlights and gives insights into our legal system.,25,18
+27,BORN A CRIME,https://storage.googleapis.com/du-prd/books/images/9780399588181.jpg,A memoir about growing up biracial in apartheid South Africa by the host of “The Daily Show.”,26,20
+28,AMERICAN MOONSHOT,https://storage.googleapis.com/du-prd/books/images/9780062655066.jpg,The development of NASA and the space race against the Soviet Union during the Cold War.,27,6
+29,SHORTEST WAY HOME,https://storage.googleapis.com/du-prd/books/images/9781631494369.jpg,"A memoir by the current mayor of South Bend, Ind., and the first openly gay Democratic candidate to run for president of the United States.",28,21
+30,SAVE ME THE PLUMS,https://storage.googleapis.com/du-prd/books/images/9781400069996.jpg,A memoir by the former restaurant critic of The New York Times and editor in chief of Gourmet.,29,12
+31,WHERE THE CRAWDADS SING,https://storage.googleapis.com/du-prd/books/images/9780735219090.jpg,A woman who survived alone in the marsh becomes a murder suspect.,1,1
+32,THE CORNWALLS ARE GONE,https://storage.googleapis.com/du-prd/books/images/9780316485555.jpg,An Army intelligence officer must commit a crime or lose her kidnapped husband and daughter.,5,5
+33,THE SAVIOR,https://storage.googleapis.com/du-prd/books/images/9781501194962.jpg,The 17th book in the Black Dagger Brotherhood series. Secrets about inhumane experiments surface at a biomedical firm.,2,2
+34,RUN AWAY,https://storage.googleapis.com/du-prd/books/images/9781538748466.jpg,A family is torn apart when the daughter becomes addicted to drugs and goes missing.,8,8
+35,CELTIC EMPIRE,https://storage.googleapis.com/du-prd/books/images/9780735219007.jpg,The 25th book in the Dirk Pitt series.,9,1
+36,THE SILENT PATIENT,https://storage.googleapis.com/du-prd/books/images/9781250301697.jpg,Theo Faber looks into the mystery of a famous painter who stops speaking after shooting her husband.,10,9
+37,DAISY JONES & THE SIX,https://storage.googleapis.com/du-prd/books/images/9781524798628.jpg,A fictional oral history charting the rise and fall of a ’70s rock ’n’ roll band.,30,22
+38,CEMETERY ROAD,https://storage.googleapis.com/du-prd/books/images/9780062824639.jpg,"The journalist Marshall McEwan returns to his hometown, which is shaken by two deaths and an economy on the brink.",14,7
+39,WOLF PACK,https://storage.googleapis.com/du-prd/books/images/9780525538202.jpg,The Wyoming game wardens Joe Pickett and Katelyn Hamm take on killers working for the Sinaloa cartel.,31,1
+40,THE CHEF,https://storage.googleapis.com/du-prd/books/images/9780316530002.jpg,"Caleb Rooney, a police detective and celebrity food truck chef, must clear his name of murder allegations.",32,5
+41,WILD CARD,https://storage.googleapis.com/du-prd/books/images/9780735219304.jpg,The 49th book in the Stone Barrington series.,33,1
+42,THE LAST ROMANTICS,https://storage.googleapis.com/du-prd/books/images/9780062358202.jpg,A family crisis tests the bonds and ideals of a renowned poet and her siblings.,34,7
+43,THE A LIST,https://storage.googleapis.com/du-prd/books/images/9781501151033.jpg,The 14th book in the Ali Reynolds Series. An imprisoned fertility doctor seeks revenge.,12,2
+44,THE AMERICAN AGENT,https://storage.googleapis.com/du-prd/books/images/9780062436696.jpg,"The 15th book in the Maisie Dobbs series. While the Germans attack the British Isles, Maisie must solve a case and protect a young evacuee.",35,6
+45,THE ISLAND OF SEA WOMEN,https://storage.googleapis.com/du-prd/books/images/9781501154850.jpg,The friendship over many decades of two female divers from the Korean Island of Jeju is pushed to a breaking point.,36,23
+46,BECOMING,https://storage.googleapis.com/du-prd/books/images/9781524763138.jpg,"The former first lady describes how she balanced work, family and her husband’s political ascent.",15,11
+47,EDUCATED,https://storage.googleapis.com/du-prd/books/images/9780399590504.jpg,The daughter of survivalists leaves home for university.,16,12
+48,THE MATRIARCH,https://storage.googleapis.com/du-prd/books/images/9781538713648.jpg,"A biography of the former first lady Barbara Bush, based on interviews and her private diaries.",17,13
+49,THE RIGHT SIDE OF HISTORY,https://storage.googleapis.com/du-prd/books/images/9780062857903.jpg,The conservative political commentator reflects upon what he considers most impactful to Western civilization.,18,14
+50,MAYBE YOU SHOULD TALK TO SOMEONE,https://storage.googleapis.com/du-prd/books/images/9781328662057.jpg,A psychotherapist gains unexpected insights when she becomes another therapist’s patient.,20,16
+51,COMMANDER IN CHEAT,https://storage.googleapis.com/du-prd/books/images/9780316528085.jpg,"A sportswriter handicaps the current president’s character, based on how he plays golf.",21,17
+52,LADIES WHO PUNCH,https://storage.googleapis.com/du-prd/books/images/9781250112101.jpg,A behind-the-scenes look at the daytime talk show “The View.”,19,15
+53,DOING JUSTICE,https://storage.googleapis.com/du-prd/books/images/9780525521129.jpg,The former U.S. Attorney for the Southern District of New York describes some of his career highlights and gives insights into our legal system.,25,18
+54,BAD BLOOD,https://storage.googleapis.com/du-prd/books/images/9781524731663.jpg,The rise and fall of the biotech startup Theranos.,22,18
+55,AMERICAN MOONSHOT,https://storage.googleapis.com/du-prd/books/images/9780062655066.jpg,The development of NASA and the space race against the Soviet Union during the Cold War.,27,6
+56,SAY NOTHING,https://storage.googleapis.com/du-prd/books/images/9780385521314.jpg,A look at the conflict in Northern Ireland known as the Troubles.,24,19
+57,THE UNWINDING OF THE MIRACLE,https://storage.googleapis.com/du-prd/books/images/9780525511359.jpg,"After receiving a terminal cancer diagnosis, a lawyer and mother of two chronicles her life.",23,12
+58,THE CASE FOR TRUMP,https://storage.googleapis.com/du-prd/books/images/9781541673540.jpg,A defense stating that the current president adopted several traditional conservative positions.,37,24
+59,FINDING MY VOICE,https://storage.googleapis.com/du-prd/books/images/9780525558132.jpg,A memoir by President Obama’s longest-serving senior advisor.,38,25
+60,SHORTEST WAY HOME,https://storage.googleapis.com/du-prd/books/images/9781631494369.jpg,"A memoir by the current mayor of South Bend, Ind., and the first openly gay Democratic candidate to run for president of the United States.",28,21
+61,SUPERMARKET,https://storage.googleapis.com/du-prd/books/images/9781982127138.jpg,A depressed young man’s secrets are exposed when the grocery store where he works becomes a crime scene.,4,4
+62,A GENTLEMAN IN MOSCOW,https://storage.googleapis.com/du-prd/books/images/9780670026197.jpg,"A Russian count undergoes 30 years of house arrest in the Metropol hotel, across from the Kremlin.",3,3
+63,THE WOMAN IN THE WINDOW,https://storage.googleapis.com/du-prd/books/images/9780062678416.jpg,A recluse who drinks heavily and takes prescription drugs may have witnessed a crime across from her Harlem townhouse.,7,7
+64,THE TATTOOIST OF AUSCHWITZ,https://storage.googleapis.com/du-prd/books/images/9780062797155.jpg,A concentration camp detainee tasked with permanently marking fellow prisoners falls in love with one of them.,6,6
+65,THE LOST GIRLS OF PARIS,https://storage.googleapis.com/du-prd/books/images/9780778330271.jpg,Grace Healey investigates the fates of 12 women who were sent to occupied Europe to help the resistance during World War II.,11,10
+66,THE FIRST LADY,https://storage.googleapis.com/du-prd/books/images/9781538714928.jpg,Sally Grissom investigates the disappearance of President Harrison Tucker’s wife.,5,8
+67,ELEANOR OLIPHANT IS COMPLETELY FINE,https://storage.googleapis.com/du-prd/books/images/9780735220690.jpg,A young woman’s well-ordered life is disrupted by the I.T. guy from her office.,13,3
+68,THE HUNTRESS,https://storage.googleapis.com/du-prd/books/images/9780062740373.jpg,A British journalist and a Russian female bomber pilot go after a Nazi war criminal.,39,7
+69,AFTER,https://storage.googleapis.com/du-prd/books/images/9781982111007.jpg,A college freshman leaves behind a reliable boyfriend in her hometown and falls for a bad boy.,40,2
+70,THE OVERSTORY,https://storage.googleapis.com/du-prd/books/images/9780393635522.jpg,Nine people drawn to trees for different reasons fight for the last of the remaining acres of virgin forest.,41,26
+111,WE ARE THE GARDENERS,https://storage.googleapis.com/du-prd/books/images/9781400314225.jpg,The Gaines children start a garden and learn life lessons.,79,53
+71,THEN SHE WAS GONE,https://storage.googleapis.com/du-prd/books/images/9781501154669.jpg,"Ten years after her daughter disappears, a woman tries to get her life in order but remains haunted by unanswered questions.",42,27
+72,A DOG'S WAY HOME,https://storage.googleapis.com/du-prd/books/images/9780765374653.jpg,A dog sets out across 400 miles of wilderness to find the man who rescued her as a puppy.,43,28
+73,SOLD ON A MONDAY,https://storage.googleapis.com/du-prd/books/images/9781492663997.jpg,A staged photograph launches the career of a struggling journalist and devastates a family during the Great Depression.,44,29
+74,THE ALICE NETWORK,https://storage.googleapis.com/du-prd/books/images/9780062654205.jpg,A pregnant American college student and a French spy join together on a mission in London in 1947.,39,7
+75,THE IMMORTALISTS,https://storage.googleapis.com/du-prd/books/images/9780735213180.jpg,Four adolescents learn the dates of their deaths from a psychic and their lives go on different courses.,45,1
+76,BORN A CRIME,https://storage.googleapis.com/du-prd/books/images/9780399588181.jpg,A memoir about growing up biracial in apartheid South Africa by the host of “The Daily Show.”,26,20
+77,SAPIENS,https://storage.googleapis.com/du-prd/books/images/9780062316097.jpg,How Homo sapiens became Earth’s dominant species.,46,30
+78,WHITE FRAGILITY,https://storage.googleapis.com/du-prd/books/images/9780807047415.jpg,Historical and cultural analyses on what causes defensive moves by white people and how this inhibits cross-racial dialogue.,47,31
+79,THE COST OF THESE DREAMS,https://storage.googleapis.com/du-prd/books/images/9780143133872.jpg,A sportswriter goes beyond the public personas of sports icons to reveal the conflict between their skills and ability to enjoy them.,48,3
+80,THE BODY KEEPS THE SCORE,https://storage.googleapis.com/du-prd/books/images/9780670785933.jpg,"How trauma affects the body and mind, and innovative treatments for recovery.",49,3
+81,LEAD FROM THE OUTSIDE,https://storage.googleapis.com/du-prd/books/images/9781250214805.jpg,A memoir by the former minority leader of the Georgia House of Representatives who ran to be the state’s governor in 2018.,50,32
+82,I'LL BE GONE IN THE DARK,https://storage.googleapis.com/du-prd/books/images/9780062319784.jpg,"The late true-crime journalist''s search for '"the Golden State Killer.'"",51,30
+83,THE DIRT,https://storage.googleapis.com/du-prd/books/images/9780060989156.jpg,The story of Mötley Crüe as told by the four original members of the band.,52,33
+84,GRIT,https://storage.googleapis.com/du-prd/books/images/9781501111129.jpg,The MacArthur Fellow argues that passion and perseverance are more important than innate talent in creating success.,53,23
+85,"THINKING, FAST AND SLOW",https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg,When we can and cannot trust our intuitions in making business and personal decisions.,54,34
+86,THE HEART OF A BOY,https://storage.googleapis.com/du-prd/books/images/9781523505517.jpg,Two hundred photographs celebrating the many facets of boyhood.,55,35
+87,JUST MERCY,https://storage.googleapis.com/du-prd/books/images/9780812994520.jpg,A law professor and MacArthur grant recipient’s memoir of his decades of work to free innocent people condemned to death.,56,20
+88,KILLERS OF THE FLOWER MOON,https://storage.googleapis.com/du-prd/books/images/9780385534246.jpg,"The story of a murder spree in 1920s Oklahoma that targeted Osage Indians, whose lands contained oil. The fledgling F.B.I. intervened, ineffectively.",57,36
+89,BEING MORTAL,https://storage.googleapis.com/du-prd/books/images/9780805095159.jpg,"The surgeon and New Yorker writer considers how doctors fail patients at the end of life, and how they can do better.",58,32
+90,THE INNOCENT MAN,https://storage.googleapis.com/du-prd/books/images/9780440243830.jpg,Grisham's first nonfiction book concerns a man wrongly sentenced to death.,59,37
+91,"GIRL, STOP APOLOGIZING",https://storage.googleapis.com/du-prd/books/images/9781400209606.jpg,"",60,38
+92,"GIRL, WASH YOUR FACE",https://storage.googleapis.com/du-prd/books/images/9781400201655.jpg,"",60,39
+93,THE PATH MADE CLEAR,https://storage.googleapis.com/du-prd/books/images/9781250307507.jpg,"",61,40
+94,THE SUBTLE ART OF NOT GIVING A F*CK,https://storage.googleapis.com/du-prd/books/images/9780062457714.jpg,"",62,41
+95,A LOVE LETTER LIFE,https://storage.googleapis.com/du-prd/books/images/9780310353621.jpg,"",63,42
+96,YOU ARE A BADASS,https://storage.googleapis.com/du-prd/books/images/9780762447695.jpg,"",64,43
+97,THE FIVE LOVE LANGUAGES,https://storage.googleapis.com/du-prd/books/images/9780802473158.jpg,"",65,44
+98,DARE TO LEAD,https://storage.googleapis.com/du-prd/books/images/9780399592522.jpg,"",66,12
+99,THE LIFE-CHANGING MAGIC OF TIDYING UP,https://storage.googleapis.com/du-prd/books/images/9781607747307.jpg,"",67,45
+100,#IMOMSOHARD,https://storage.googleapis.com/du-prd/books/images/9780062857699.jpg,"",68,46
+101,RUMPLE BUTTERCUP,https://storage.googleapis.com/du-prd/books/images/9780525648444.jpg,"A little monster, who dwells underground because he thinks that he''s weird, finds that he''s not alone.",69,12
+102,KATT VS. DOGG,https://storage.googleapis.com/du-prd/books/images/9780316411561.jpg,Oscar and Molly call a temporary truce while they try to find their way out of the forest.,70,47
+103,WONDER,https://storage.googleapis.com/du-prd/books/images/9780375899881.jpg,A boy with a facial deformity starts school.,71,18
+104,A BEAUTIFUL DAY IN THE NEIGHBORHOOD,https://storage.googleapis.com/du-prd/books/images/9781683691136.jpg,An illustrated treasury of 75 songs.,72,48
+105,THE WIZENARD: TRAINING CAMP,https://storage.googleapis.com/du-prd/books/images/9781949520019.jpg,"Professor Rolabi Wizenard, the new coach of the West Bottom Badgers, uses unorthodox methods to train his basketball players.",73,49
+106,REFUGEE,https://storage.googleapis.com/du-prd/books/images/9780545880831.jpg,Three children in three different conflicts look for safe haven.,74,50
+107,HARBOR ME,https://storage.googleapis.com/du-prd/books/images/9780399252525.jpg,Six children meet every Friday and form lasting bonds.,75,51
+108,DOG DIARIES,https://storage.googleapis.com/du-prd/books/images/9780316487481.jpg,"A '"Middle School'" story told by Rafe''s dog, Junior.",76,47
+109,MERCI SUÁREZ CHANGES GEARS,https://storage.googleapis.com/du-prd/books/images/9780763690496.jpg,Eleven-year-old Merci tackles the pressures of school and her home life.,77,52
+110,MAX AND THE MIDKNIGHTS,https://storage.googleapis.com/du-prd/books/images/9781101931080.jpg,When Max’s uncle Budrick is kidnapped by King Gastley she forms the Midknights to rescue him.,78,11
+112,THE WONDERFUL THINGS YOU WILL BE,https://storage.googleapis.com/du-prd/books/images/9780385376716.jpg,A celebration of future possibilities.,80,12
+113,PETE THE CAT: BIG EASTER ADVENTURE,https://storage.googleapis.com/du-prd/books/images/9780062198679.jpg,A certain rabbit needs Pete's help.,81,54
+114,DON'T LET THEM DISAPPEAR,https://storage.googleapis.com/du-prd/books/images/9780525514329.jpg,An introduction to young readers of 12 endangered species.,82,55
+115,A PIGLET NAMED MERCY,https://storage.googleapis.com/du-prd/books/images/9780763677534.jpg,The Watson family finds a piglet.,83,52
+116,THE GOOD EGG,https://storage.googleapis.com/du-prd/books/images/9780062866004.jpg,An egg who is good to others learns to be good to itself.,84,56
+117,DRAGONS LOVE TACOS,https://storage.googleapis.com/du-prd/books/images/9780803736801.jpg,What to serve your dragon-guests.,85,57
+118,YOU ARE MY HAPPY,https://storage.googleapis.com/du-prd/books/images/9780062887894.jpg,A celebration of things that make us happy.,86,6
+119,"ROSIE REVERE, ENGINEER",https://storage.googleapis.com/du-prd/books/images/9781419708459.jpg,A young inventor learns to fail better.,87,58
+120,THE UNDEFEATED,https://storage.googleapis.com/du-prd/books/images/9781328780966.jpg,A poem celebrating African-American resilience and strength.,88,59
+121,DOG MAN,https://storage.googleapis.com/du-prd/books/images/9780545935210.jpg,A dog’s head is combined with a policeman’s body to create this hybrid supercop hound.,89,50
+122,DIARY OF A WIMPY KID,https://storage.googleapis.com/du-prd/books/images/9781419711329.jpg,The travails and challenges of adolescence.,90,60
+123,SHATTER ME,https://storage.googleapis.com/du-prd/books/images/9780062085566.jpg,"In a crumbling dystopian world, dark forces want to use Juliette’s superhuman powers.",91,56
+124,HARRY POTTER,https://storage.googleapis.com/du-prd/books/images/9780590353427.jpg,A wizard hones his conjuring skills in the service of fighting evil.,92,50
+125,THE TRIALS OF APOLLO,https://storage.googleapis.com/du-prd/books/images/9781484746431.jpg,"As punishment from his father, Zeus, Apollo is stripped of his godly powers and sent to Earth as a mortal named Lester.",93,61
+126,CAPTAIN UNDERPANTS,https://storage.googleapis.com/du-prd/books/images/9780545175340.jpg,Boys and their principal fight evil.,94,50
+127,BIG NATE,https://storage.googleapis.com/du-prd/books/images/9781449420437.jpg,"Where Nate goes, trouble is sure to follow.",78,62
+128,WHO WAS/IS . . . ?,https://storage.googleapis.com/du-prd/books/images/9780448482996.jpg,Biographies unlock legendary lives.,95,63
+129,WINGS OF FIRE,https://storage.googleapis.com/du-prd/books/images/9780545349215.jpg,Only the five dragonets of destiny can unite the seven warring dragon tribes.,96,50
+130,TO ALL THE BOYS I'VE LOVED BEFORE,https://storage.googleapis.com/du-prd/books/images/9781481430487.jpg,"A girl faces budding love, a widower father and the trials of getting into and ready for college.",97,4
+131,FIVE FEET APART,https://storage.googleapis.com/du-prd/books/images/9781534437333.jpg,"Stella and Will are in love, but they can''t get within five feet of each other.",98,4
+132,THE HATE U GIVE,https://storage.googleapis.com/du-prd/books/images/9780062498533.jpg,A 16-year-old girl sees a police officer kill her friend.,99,64
+133,ON THE COME UP,https://storage.googleapis.com/du-prd/books/images/9780062498564.jpg,Bri strives to become a hip-hop star despite numerous obstacles.,99,64
+134,WICKED SAINTS,https://storage.googleapis.com/du-prd/books/images/9781250195661.jpg,"After fleeing an invasion of the monastery where she is hiding, Nadya joins forces with two refugees of her enemies.",100,65
+135,"THE FORK, THE WITCH, AND THE WORM",https://storage.googleapis.com/du-prd/books/images/9781984894861.jpg,Three stories set in the magical world of Alagaësia.,101,18
+136,DEAR EVAN HANSEN: THE NOVEL,https://storage.googleapis.com/du-prd/books/images/9780316420235.jpg,"When one of Evan''s letters to himself is accidentally found on a suicide victim, the victim''s family assumes that he was a close friend.",102,66
+137,SHOUT,https://storage.googleapis.com/du-prd/books/images/9780670012107.jpg,The author’s memoir in free verse.,103,25
+138,CHILDREN OF BLOOD AND BONE,https://storage.googleapis.com/du-prd/books/images/9781250170972.jpg,Zélie fights to restore magic to the land of Orïsha.,104,67
+139,TWO CAN KEEP A SECRET,https://storage.googleapis.com/du-prd/books/images/9781524714727.jpg,Ellery Corcoran investigates the mysteries of Echo Ridge.,105,68
+140,ONE OF US IS LYING,https://storage.googleapis.com/du-prd/books/images/9781524714680.jpg,"For five students, a detour into detention ends in murder.",106,68
+141,WHERE THE CRAWDADS SING,https://storage.googleapis.com/du-prd/books/images/9780735219090.jpg,"In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect. Read by Cassandra Campbell. 12 hours, 12 minutes unabridged.",1,69
+142,THE SILENT PATIENT,https://storage.googleapis.com/du-prd/books/images/9781250301697.jpg,"Theo Faber looks into the mystery of a famous painter who stops speaking after shooting her husband. Read by Jack Hawkins and Louise Brealey. 8 hours, 43 minutes unabridged.",10,70
+143,DAISY JONES & THE SIX,https://storage.googleapis.com/du-prd/books/images/9781524798628.jpg,"A fictional oral history charting the rise and fall of a ’70s rock ’n’ roll band. Read by Jennifer Beals, Benjamin Bratt, Judy Greer and Pablo Schreiber. 9 hours, 3 minutes unabridged.",30,71
+144,CEMETERY ROAD,https://storage.googleapis.com/du-prd/books/images/9780062824639.jpg,"The journalist Marshall McEwan returns to his hometown, which is shaken by two deaths and an economy on the brink. Read by Scott Brick. 23 hours, 43 minutes unabridged.",14,72
+145,TIAMAT'S WRATH,https://storage.googleapis.com/du-prd/books/images/9780316332873.jpg,"The eighth book in the Expanse series. Read by Jefferson Mays. 19 hours, 8 minutes unabridged.",107,73
+146,RENEGADES,https://storage.googleapis.com/du-prd/books/images/9781772308631.jpg,"The seventh book in the Expeditionary Force series. Read by R.C. Bray. 17 hours, 7 minutes unabridged.",108,74
+147,A GAME OF THRONES,https://storage.googleapis.com/du-prd/books/images/120112125.jpg,"In the frozen wastes to the north of Winterfell, sinister and supernatural forces are mustering. Read by Roy Dotrice. 33 hours, 46 minutes unabridged.",109,71
+148,ELEANOR OLIPHANT IS COMPLETELY FINE,https://storage.googleapis.com/du-prd/books/images/9780735220690.jpg,"A young woman’s well-ordered life is disrupted by the I.T. guy from her office. Read by Cathleen McCarron. 11 hours, 1 minute unabridged.",13,69
+187,"THINKING, FAST AND SLOW",https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg,"",54,34
+149,GOOD OMENS,https://storage.googleapis.com/du-prd/books/images/1539240.jpg,"Aziraphale, an angel and rare-book dealer, and his demon friend Crowley try to circumvent the end of the world. Read by Martin Jarvis. 12 hours, 32 minutes unabridged.",110,72
+150,RUN AWAY,https://storage.googleapis.com/du-prd/books/images/9781538748466.jpg,"A family is torn apart when the daughter becomes addicted to drugs and goes missing. Read by Steven Weber. 10 hours, 20 minutes unabridged.",8,75
+151,THE TATTOOIST OF AUSCHWITZ,https://storage.googleapis.com/du-prd/books/images/9780062797155.jpg,"A concentration camp detainee tasked with permanently marking fellow prisoners falls in love with one of them. Read by Richard Armitage. 7 hours, 25 minutes.",6,72
+152,PRETTY GIRLS,https://storage.googleapis.com/du-prd/books/images/9780062429063.jpg,A wealthy Atlanta woman reconnects with her estranged sister and they investigate the long-ago disappearance of a third sister. Read by Kathleen Early. 20 hours unabridged.,111,76
+153,CELTIC EMPIRE,https://storage.googleapis.com/du-prd/books/images/9780735219007.jpg,"The 25th book in the Dirk Pitt series. Read by Scott Brick. 10 hours, 20 minutes unabridged.",9,69
+154,THEN SHE WAS GONE,https://storage.googleapis.com/du-prd/books/images/9781501154669.jpg,"Ten years after her daughter disappears, a woman tries to get her life in order. Read by Helen Duff. 10 hours, 11 minutes unabridged.",42,77
+155,WOLF PACK,https://storage.googleapis.com/du-prd/books/images/9780525538202.jpg,"The Wyoming game wardens Joe Pickett and Katelyn Hamm take on killers working for the Sinaloa cartel. Read by David Chandler. 9 hours, 51 minutes unabridged.",31,73
+156,BECOMING,https://storage.googleapis.com/du-prd/books/images/9781524763138.jpg,"The former first lady describes how she balanced work, family and her husband’s political ascent. Read by the author. 19 hours, 3 minutes unabridged.",15,71
+157,EDUCATED,https://storage.googleapis.com/du-prd/books/images/9780399590504.jpg,"The daughter of survivalists, who is kept out of school, educates herself enough to leave home for university. Read by Julia Whelan. 12 hours, 10 minutes unabridged.",16,71
+158,THE RIGHT SIDE OF HISTORY,https://storage.googleapis.com/du-prd/books/images/9780062857903.jpg,"The conservative political commentator reflects upon what he considers most impactful to Western civilization. Read by the author. 6 hours, 6 minutes unabridged.",18,72
+159,BAD BLOOD,https://storage.googleapis.com/du-prd/books/images/9781524731663.jpg,"The rise and fall of the biotech startup Theranos. Read by Will Damron. 11 hours, 36 minutes unabridged.",22,71
+160,BORN A CRIME,https://storage.googleapis.com/du-prd/books/images/9780399588181.jpg,"A memoir about growing up in South Africa by the host of “The Daily Show.'" Read by the author. 8 hours, 50 minutes unabridged.",26,78
+161,SAPIENS,https://storage.googleapis.com/du-prd/books/images/9780062316097.jpg,"How Homo sapiens became Earth’s dominant species. Read by Derek Perkins. 15 hours, 17 minutes unabridged.",46,79
+162,EXTREME OWNERSHIP,https://storage.googleapis.com/du-prd/books/images/9781466874961.jpg,"Applying the principles of Navy SEALs leadership training to any organization. Read by the authors. 8 hours, 15 minutes unabridged.",112,70
+163,DOING JUSTICE,https://storage.googleapis.com/du-prd/books/images/9780525521129.jpg,"The former U.S. Attorney for the Southern District of New York describes some of his career highlights and gives insights into our legal system. Read by the author. 10 hours, 32 minutes unabridged.",25,71
+164,THE CASE FOR TRUMP,https://storage.googleapis.com/du-prd/books/images/9781541673540.jpg,"A defense stating that the current president adopted several traditional conservative positions. Read by David Lertham. 16 hours, 22 minutes unabridged.",37,80
+165,THE POWER OF HABIT,https://storage.googleapis.com/du-prd/books/images/9780812981605.jpg,"An examination of the science behind habits. Read by Mike Chamberlain. 10 hours, 57 minutes unabridged.",113,71
+166,"THINKING, FAST AND SLOW",https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg,"When we can and cannot trust our intuitions in making business and personal decisions. Read by Patrick Egan. 20 hours, 2 minutes unabridged.",54,71
+167,HOMO DEUS,https://storage.googleapis.com/du-prd/books/images/9780062464316.jpg,"A look into the future by the author of “Sapiens.” Read by Derek Perkins. 14 hours, 53 minutes unabridged.",46,72
+168,THE THREAT,https://storage.googleapis.com/du-prd/books/images/9781250207579.jpg,"The former deputy director of the F.B.I. describes major events of his career and the ways the agency works to protect Americans. Read by the author. 9 hours, 25 minutes unabridged.",114,70
+169,MY OWN WORDS,https://storage.googleapis.com/du-prd/books/images/9781501145247.jpg,"A collection of articles and speeches by the Supreme Court justice. Read by Linda Lavin. 13 hours, 16 minutes unabridged.",115,81
+170,THE UNINHABITABLE EARTH,https://storage.googleapis.com/du-prd/books/images/9780525576709.jpg,"How climate-related crises may cause food shortages, refugee emergencies and other catastrophes. Read by the author. 8 hours, 33 minutes unabridged.",116,71
+171,BAD BLOOD,https://storage.googleapis.com/du-prd/books/images/9781524731663.jpg,"",22,18
+172,DARE TO LEAD,https://storage.googleapis.com/du-prd/books/images/9780399592522.jpg,"",66,12
+173,ATOMIC HABITS,https://storage.googleapis.com/du-prd/books/images/9780735211292.jpg,"",117,82
+174,THE POWER OF HABIT,https://storage.googleapis.com/du-prd/books/images/9780812981605.jpg,"",113,12
+175,YOU ARE A BADASS AT MAKING MONEY,https://storage.googleapis.com/du-prd/books/images/9780735222977.jpg,"",64,25
+176,EXTREME OWNERSHIP,https://storage.googleapis.com/du-prd/books/images/9781466874961.jpg,"",112,83
+177,GRIT,https://storage.googleapis.com/du-prd/books/images/9781501111129.jpg,"",53,23
+178,"THINKING, FAST AND SLOW",https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg,"",54,34
+179,BEST SELF,https://storage.googleapis.com/du-prd/books/images/9780062911735.jpg,"",118,33
+180,SHOE DOG,https://storage.googleapis.com/du-prd/books/images/9781501135934.jpg,"",119,23
+181,THE UNINHABITABLE EARTH,https://storage.googleapis.com/du-prd/books/images/9780525576709.jpg,"",116,84
+182,SAPIENS,https://storage.googleapis.com/du-prd/books/images/9780062316097.jpg,"",46,30
+183,MAMA'S LAST HUG,https://storage.googleapis.com/du-prd/books/images/9780393635065.jpg,"",120,26
+184,THE POWER OF HABIT,https://storage.googleapis.com/du-prd/books/images/9780812981605.jpg,"",113,12
+185,THE BODY KEEPS THE SCORE,https://storage.googleapis.com/du-prd/books/images/9780670785933.jpg,"",49,3
+186,ASTROPHYSICS FOR PEOPLE IN A HURRY,https://storage.googleapis.com/du-prd/books/images/9780393609394.jpg,"",121,26
+188,BEING MORTAL,https://storage.googleapis.com/du-prd/books/images/9780805095159.jpg,"",58,32
+189,WHEN BREATH BECOMES AIR,https://storage.googleapis.com/du-prd/books/images/9780812988413.jpg,"",122,12
+190,WHY WE SLEEP,https://storage.googleapis.com/du-prd/books/images/9781501144318.jpg,"",123,23
+191,SHOE DOG,https://storage.googleapis.com/du-prd/books/images/9781501135934.jpg,"",119,23
+192,FLY GIRLS,https://storage.googleapis.com/du-prd/books/images/9781328876645.jpg,"",124,85
+193,THE IMPOSSIBLE CLIMB,https://storage.googleapis.com/du-prd/books/images/9781101986646.jpg,"",125,86
+194,INSIDE THE EMPIRE,https://storage.googleapis.com/du-prd/books/images/9781328589354.jpg,"",126,16
+195,ALL-AMERICAN MURDER,https://storage.googleapis.com/du-prd/books/images/9780316412650.jpg,"",127,5
+196,26 MARATHONS,https://storage.googleapis.com/du-prd/books/images/9781635652888.jpg,"",128,87
+197,AFTER THE MIRACLE,https://storage.googleapis.com/du-prd/books/images/9781501176517.jpg,"",129,4
+198,THIS IS THE DAY,https://storage.googleapis.com/du-prd/books/images/9780525650300.jpg,"",130,88
+199,LIFERIDER,https://storage.googleapis.com/du-prd/books/images/9781635652901.jpg,"",131,87
+200,THE MAMBA MENTALITY,https://storage.googleapis.com/du-prd/books/images/9780374201234.jpg,"",132,89
+201,THE BORDER,https://storage.googleapis.com/du-prd/books/images/9780062664488.jpg,The third book in the Power of the Dog series. Art Keller’s fight to keep drugs out of the country has taken a complicated turn.,133,7
+202,CHOCOLATE CREAM PIE MURDER,https://storage.googleapis.com/du-prd/books/images/9781496718884.jpg,Hannah Swensen teams up with a former lover to find out who left a dead body in her bedroom.,134,217
+203,BACKLASH,https://storage.googleapis.com/du-prd/books/images/9781420148213.jpg,"Two stories featuring Denver and Colton McLean: '"Tender Trap'" and '"Aftermath.'"",135,359
+204,CALIFORNIA GIRLS,https://storage.googleapis.com/du-prd/books/images/9781488088612.jpg,"After getting dumped in the same week, three sisters rebuild their lives.",136,363
+205,WHEN AUGUST ENDS,https://storage.googleapis.com/du-prd/books/images/9781942215936.jpg,A college student has feelings for an older man over the course of a summer.,137,247
+206,NEVER TELL,https://storage.googleapis.com/du-prd/books/images/9781524742096.jpg,D.D. Warren and Flora Dane investigate whether a pregnant woman shot and killed her husband.,138,86
+207,CIRCLE OF THE MOON,https://storage.googleapis.com/du-prd/books/images/9780399587955.jpg,The fourth book in the Soulwood novel series. Nell uses her magic to help a group that solves paranormal crimes.,139,132
+208,AN ANONYMOUS GIRL,https://storage.googleapis.com/du-prd/books/images/9781250133731.jpg,Jessica Farris’s life unravels when she signs up for Dr. Shields’s psychology study.,140,83
+209,WOMEN ROWING NORTH,https://storage.googleapis.com/du-prd/books/images/9781632869609.jpg,"Reflections on the ageism, misogyny and loss that women might encounter as they grow older.",141,95
+210,GRATEFUL AMERICAN,https://storage.googleapis.com/du-prd/books/images/9781400208128.jpg,The Oscar-nominated actor describes how he has entertained troops and helped veterans.,142,39
+211,SPEARHEAD,https://storage.googleapis.com/du-prd/books/images/9780804176729.jpg,"An American tank gunner faces enemies in Cologne, Germany, during World War II.",143,22
+212,BEAUTIFUL BOY,https://storage.googleapis.com/du-prd/books/images/9780618683352.jpg,A father struggles with his son's meth addiction.,144,229
+213,THE FIRST CONSPIRACY,https://storage.googleapis.com/du-prd/books/images/9781250130334.jpg,The story of a secret plot to kill George Washington in 1776.,145,40
+214,THE LIBRARY BOOK,https://storage.googleapis.com/du-prd/books/images/9781476740188.jpg,The story of the 1986 fire at the Los Angeles Public Library provides a backdrop to the evolution and purpose of libraries.,146,4
+215,AN ANONYMOUS GIRL,https://storage.googleapis.com/du-prd/books/images/9781250133731.jpg,Jessica Farris’s life unravels when she signs up for Dr. Shields’s psychology study.,140,83
+216,NINE PERFECT STRANGERS,https://storage.googleapis.com/du-prd/books/images/9781250069849.jpg,A romance writer becomes fascinated by the owner and director of a health resort.,147,40
+217,THE RECKONING,https://storage.googleapis.com/du-prd/books/images/9780385544160.jpg,A decorated World War II veteran shoots and kills a pastor.,59,19
+218,NEVER TELL,https://storage.googleapis.com/du-prd/books/images/9781524742096.jpg,D.D. Warren and Flora Dane investigate whether a pregnant woman shot and killed her husband.,138,86
+219,FIRE AND BLOOD,https://storage.googleapis.com/du-prd/books/images/9781524796280.jpg,The first volume of the two-part history of the Targaryens in Westeros.,148,145
+220,THE PRIORY OF THE ORANGE TREE,https://storage.googleapis.com/du-prd/books/images/9781635570298.jpg,Queen Sabran the Ninth must conceive a daughter to protect her realm from a dragon.,149,95
+221,"BLACK LEOPARD, RED WOLF",https://storage.googleapis.com/du-prd/books/images/9780735220171.jpg,A loner named Tracker teams up with a group of unusual characters in search of a mysterious boy.,150,121
+222,CIRCE,https://storage.googleapis.com/du-prd/books/images/9780316556347.jpg,"Zeus banishes Helios'' daughter to an island, where she must choose between living with gods or mortals.",151,5
+223,THE GREAT ALONE,https://storage.googleapis.com/du-prd/books/images/9781250165619.jpg,A former prisoner of war moves his family to Alaska.,152,83
+224,CONNECTIONS IN DEATH,https://storage.googleapis.com/du-prd/books/images/9781250201584.jpg,Eve Dallas scours tattoo parlors and strip joints for clues to the cause of Lyle Pickering’s mysterious death.,153,83
+225,WOMEN ROWING NORTH,https://storage.googleapis.com/du-prd/books/images/9781632869609.jpg,"Reflections on the ageism, misogyny and loss that women might encounter as they grow older.",141,95
+226,GRATEFUL AMERICAN,https://storage.googleapis.com/du-prd/books/images/9781400208128.jpg,The Oscar-nominated actor describes how he has entertained troops and helped veterans.,142,39
+227,SPEARHEAD,https://storage.googleapis.com/du-prd/books/images/9780804176729.jpg,"An American tank gunner faces enemies in Cologne, Germany, during World War II.",143,22
+228,THE SOURCE OF SELF-REGARD,https://storage.googleapis.com/du-prd/books/images/9780525521037.jpg,"A collection of essays and speeches written over four decades, including a eulogy for James Baldwin and the author''s Nobel lecture.",154,18
+229,THE FIRST CONSPIRACY,https://storage.googleapis.com/du-prd/books/images/9781250130334.jpg,The story of a secret plot to kill George Washington in 1776.,145,40
+477,THE ONE AND ONLY IVAN,https://storage.googleapis.com/du-prd/books/images/9780061992278.jpg,"",268,56
+230,IM,https://storage.googleapis.com/du-prd/books/images/9781250074089.jpg,The designer and witty television personality describes some of his lifelong struggles.,155,40
+231,LEADERSHIP,https://storage.googleapis.com/du-prd/books/images/9781476795928.jpg,The challenges that shaped the leadership abilities of four presidents.,156,4
+232,THE EMPIRE AND THE FIVE KINGS,https://storage.googleapis.com/du-prd/books/images/9781250203014.jpg,An analysis of the ways the United States has stepped back from global leadership.,157,67
+233,LESS,https://storage.googleapis.com/du-prd/books/images/9780316316132.jpg,"Winner of the 2018 Pulitzer Prize in fiction. To avoid an ex-boyfriend''s wedding, a failed novelist attends literary events around the world.",158,97
+234,AN AMERICAN MARRIAGE,https://storage.googleapis.com/du-prd/books/images/9781616207601.jpg,A newlywed couple's relationship is tested when the husband is sentenced to 12 years in prison.,159,138
+235,JUROR #3,https://storage.googleapis.com/du-prd/books/images/9780316474122.jpg,Ruby Bozarth defends a college football star charged in a felony case complicated by a second murder.,160,8
+236,THE OTHER WOMAN,https://storage.googleapis.com/du-prd/books/images/9780062835000.jpg,"Gabriel Allon, the art restorer and assassin, fights the Russians to decide the fate of postwar global order.",161,6
+237,THE POWER,https://storage.googleapis.com/du-prd/books/images/9780316547611.jpg,Young women around the world suddenly have the ability to generate harmful electric shocks.,162,97
+238,MILK AND HONEY,https://storage.googleapis.com/du-prd/books/images/9781449474256.jpg,"A collection of poetry about love, loss, trauma and healing.",163,139
+239,I WAS ANASTASIA,https://storage.googleapis.com/du-prd/books/images/9781101973318.jpg,A woman claiming to be the Russian Grand Duchess is pulled from a Berlin canal in 1920.,164,137
+240,PACHINKO,https://storage.googleapis.com/du-prd/books/images/9781455563920.jpg,"In the early 20th century, a Korean fisherman''s daughter has a wealthy stranger''s child, marries a pastor and moves to Japan.",165,8
+241,THE RADIUM GIRLS,https://storage.googleapis.com/du-prd/books/images/9781492649359.jpg,"A group of female factory workers get a nickname from the effects of radium paint used at their jobs. Years later, their illnesses are the grounds for a fight for workers'' rights.",166,364
+242,THE COLLECTED SCHIZOPHRENIAS,https://storage.googleapis.com/du-prd/books/images/9781555978273.jpg,Essays on the author's diagnosis of schizoaffective disorder and disagreements within the medical community.,167,185
+243,KID GLOVES,https://storage.googleapis.com/du-prd/books/images/9781626728080.jpg,A graphic book memoir by a woman who dealt with fertility problems and health issues during pregnancy.,168,365
+244,IT'S NOT SUPPOSED TO BE THIS WAY,https://storage.googleapis.com/du-prd/books/images/9780718039851.jpg,NaN,169,39
+245,SALT FAT ACID HEAT,https://storage.googleapis.com/du-prd/books/images/9781476753836.jpg,NaN,170,4
+246,DREYER'S ENGLISH,https://storage.googleapis.com/du-prd/books/images/9780812995701.jpg,NaN,171,12
+247,SPARK JOY,https://storage.googleapis.com/du-prd/books/images/9781607749721.jpg,NaN,67,45
+248,BLENDED,https://storage.googleapis.com/du-prd/books/images/9781442495005.jpg,Isabella lives between the two households of her divorced parents.,172,366
+249,LITTLE LEADERS,https://storage.googleapis.com/du-prd/books/images/9780316475112.jpg,The biographies of 40 African-American women who made a difference.,173,5
+250,WOMEN IN SCIENCE,https://storage.googleapis.com/du-prd/books/images/9781607749769.jpg,Fifty women who have transformed science and technology.,174,45
+251,THE CROSSOVER,https://storage.googleapis.com/du-prd/books/images/9780544289598.jpg,"A hoops prodigy’s family story, told in verse.",175,16
+252,GAME OF STARS,https://storage.googleapis.com/du-prd/books/images/9781338185737.jpg,Kiran returns to the Kingdom Beyond to do battle with the evil Serpent King.,176,50
+253,THE BAD SEED,https://storage.googleapis.com/du-prd/books/images/9780062467768.jpg,A sunflower seed learns to change his ways.,84,56
+254,HOW TO CATCH A LEPRECHAUN,https://storage.googleapis.com/du-prd/books/images/9781492632917.jpg,This is the year you'll finally catch a leprechaun.,177,128
+255,P IS FOR PTERODACTYL,https://storage.googleapis.com/du-prd/books/images/9781492674313.jpg,Exploring mischievous words that ignore the rules of phonetics and spelling.,178,128
+256,SAY SOMETHING!,https://storage.googleapis.com/du-prd/books/images/9780545865036.jpg,"Children express themselves through words, actions and creativity.",179,367
+257,THE DAY THE CRAYONS QUIT,https://storage.googleapis.com/du-prd/books/images/9780399255373.jpg,Problems arise when Duncan’s crayons revolt.,180,55
+258,THE BOOK WITH NO PICTURES,https://storage.googleapis.com/du-prd/books/images/9780803741713.jpg,Silly songs and sound effects.,181,57
+259,VEGA JANE,https://storage.googleapis.com/du-prd/books/images/9780545833172.jpg,"Trapped in a desolate village by a beast-filled forest, the title character and her cohort battle a vicious foe in the world beyond.",182,50
+260,DORK DIARIES,https://storage.googleapis.com/du-prd/books/images/9781442487673.jpg,Nikki Maxwell navigates the halls of middle school.,183,4
+261,FUNJUNGLE,https://storage.googleapis.com/du-prd/books/images/9781534424739.jpg,Teddy Fitzroy solves mysteries at the nation's largest zoo-theme park.,184,4
+262,GIRLS OF PAPER AND FIRE,https://storage.googleapis.com/du-prd/books/images/9780316561365.jpg,Lei is forced to be a concubine for the king in the Hidden Palace.,185,47
+263,THE WICKED KING,https://storage.googleapis.com/du-prd/books/images/9780316310352.jpg,In this sequel to “The Cruel Prince” Jude secretly controls King Cardan and runs his kingdom.,186,5
+264,KING OF SCARS,https://storage.googleapis.com/du-prd/books/images/9781250142283.jpg,King Nikolai struggles to maintain order in the kingdom of Ravka as a demon inside of him threatens to take control.,187,368
+265,NORSE MYTHOLOGY,https://storage.googleapis.com/du-prd/books/images/9780393609097.jpg,"A modern retelling of Norse folklore. 6 hours, 29 minutes unabridged. Read by the author.",188,72
+266,CONNECTIONS IN DEATH,https://storage.googleapis.com/du-prd/books/images/9781250201584.jpg,"Eve Dallas scours tattoo parlors and strip joints for clues to the cause of Lyle Pickering’s mysterious death. Read by Susan Ericksen. 12 hours, 18 minutes unabridged.",153,70
+267,A KILLER'S MIND,https://storage.googleapis.com/du-prd/books/images/9781543697438.jpg,"Zoe Bentley, a forensic psychologist, goes after a serial killer in Chicago. Read by Brittany Pressley. 10 hours, 15 minutes unabridged.",189,75
+338,OUTLIVE,https://storage.googleapis.com/du-prd/books/images/9780593236598.jpg,A look at recent scientific research on aging and longevity.,221,116
+268,MISSION CRITICAL,https://storage.googleapis.com/du-prd/books/images/9780451488961.jpg,"The eighth book in the Gray Man series. Court Gentry must track down assassins. Read by Jay Snyder. 17 hours, 1 minute unabridged.",190,78
+269,THE FIRST FIFTEEN LIVES OF HARRY AUGUST,https://storage.googleapis.com/du-prd/books/images/9781478952947.jpg,"An unexpected visitor disrupts one of the cycles of Harry’s ongoing reincarnation process. Read by Peter Kenny. 12 hours, 10 minutes unabridged.",191,80
+270,THE OTHERS,https://storage.googleapis.com/du-prd/books/images/2022660866.jpg,"A private investigator uncovers a child-trafficking ring in an area known as the U.F.O. Highway. Read by R.C. Bray. 10 hours, 15 minutes unabridged.",192,369
+271,A DISCOVERY OF WITCHES,https://storage.googleapis.com/du-prd/books/images/9781101475690.jpg,"The recovery of a lost ancient manuscript in a library at Oxford sets a fantastical underworld stirring. Read by Jennifer Ikeda. 23 hours, 59 minutes unabridged.",193,69
+272,THE WEDDING GUEST,https://storage.googleapis.com/du-prd/books/images/9780525618508.jpg,"Milo Sturgis and Alex Delaware investigate the death of a stranger at a wedding reception. Read by John Rubinstein. 12 hours, 20 minutes unabridged.",194,71
+273,NINE PERFECT STRANGERS,https://storage.googleapis.com/du-prd/books/images/9781250069849.jpg,A romance writer becomes fascinated by the owner and director of a health resort. Read by Caroline Lee. 19 hours unabridged.,147,70
+274,I OWE YOU ONE,https://storage.googleapis.com/du-prd/books/images/9781524799021.jpg,"A series of debts between Fixie Farr and a handsome stranger involves her childhood crush. Read by Fiona Hardingham. 12 hours, 22 minutes unabridged.",195,71
+275,THE GOOD NURSE,https://storage.googleapis.com/du-prd/books/images/9780446505291.jpg,"Charlie Cullen, the serial killer known as '"the Angel of Death,'" was implicated in the deaths of as many as 300 patients in a string of hospitals. Read by Will Collyer. 11 hours, 35 minutes unabridged.",196,80
+276,CRASHES AND CRISES,https://storage.googleapis.com/du-prd/books/images/9781682769720.jpg,"24 lectures covering four centuries of economic disasters. Read by the author. 11 hours, 16 minutes unabridged.",197,370
+277,21 LESSONS FOR THE 21ST CENTURY,https://storage.googleapis.com/du-prd/books/images/9780525512172.jpg,"Technological, political and social issues in the modern era. Read by Derek Perkins. 11 hours, 41 minutes unabridged.",46,71
+278,THE DICHOTOMY OF LEADERSHIP,https://storage.googleapis.com/du-prd/books/images/9781250195777.jpg,"Former Navy SEALs explain some opposing forces in leading others. Read by the authors. 10 hours, 34 minutes unabridged.",112,70
+279,HOW TO CHANGE YOUR MIND,https://storage.googleapis.com/du-prd/books/images/9781594204227.jpg,"A personal account of how psychedelics might help the mentally ill and people dealing with everyday challenges. Read by the author. 13 hours, 34 minutes unabridged.",198,69
+280,MAID,https://storage.googleapis.com/du-prd/books/images/9780316505116.jpg,NaN,199,17
+281,FROM THE GROUND UP,https://storage.googleapis.com/du-prd/books/images/9780525509448.jpg,NaN,200,12
+282,LEADERSHIP,https://storage.googleapis.com/du-prd/books/images/9781476795928.jpg,NaN,156,4
+283,ZUCKED,https://storage.googleapis.com/du-prd/books/images/9780525561354.jpg,NaN,201,119
+284,21 LESSONS FOR THE 21ST CENTURY,https://storage.googleapis.com/du-prd/books/images/9780525512172.jpg,NaN,46,20
+285,HOW TO CHANGE YOUR MIND,https://storage.googleapis.com/du-prd/books/images/9781594204227.jpg,NaN,198,119
+286,NEVER ENOUGH,https://storage.googleapis.com/du-prd/books/images/9780385542845.jpg,NaN,202,19
+287,TB12 METHOD,https://storage.googleapis.com/du-prd/books/images/9781501180736.jpg,NaN,203,4
+288,GOOD TO GO,https://storage.googleapis.com/du-prd/books/images/9780393254334.jpg,NaN,204,26
+289,THE BIG FELLA,https://storage.googleapis.com/du-prd/books/images/9780062380227.jpg,NaN,205,6
+290,RACING TO THE FINISH,https://storage.googleapis.com/du-prd/books/images/9780785221609.jpg,NaN,206,39
+291,UNBROKEN,https://storage.googleapis.com/du-prd/books/images/9781400064168.jpg,NaN,207,12
+292,THE BOYS IN THE BOAT,https://storage.googleapis.com/du-prd/books/images/9781101622742.jpg,NaN,208,3
+293,THE 23RD MIDNIGHT,https://storage.googleapis.com/du-prd/books/images/9780316402781.jpg,The 23rd book in the Women’s Murder Club series. Lindsay Boxer tracks a copycat killer.,209,5
+294,HAPPY PLACE,https://storage.googleapis.com/du-prd/books/images/9780593441275.jpg,A former couple pretend to be together for the sake of their friends during their annual getaway in Maine.,210,112
+295,MEET ME AT THE LAKE,https://storage.googleapis.com/du-prd/books/images/9780593438558.jpg,"A decade after a one-day adventure, Will appears again in Fern’s life at her mother’s lakeside resort.",211,112
+296,THE COVENANT OF WATER,https://storage.googleapis.com/du-prd/books/images/9780802162175.jpg,Three generations of a family living on South India’s Malabar Coast suffer the loss of a family member by drowning.,212,320
+297,FOURTH WING,https://storage.googleapis.com/du-prd/books/images/9781649374042.jpg,"Violet Sorrengail is urged by the commanding general, who also is her mother, to become a candidate for the elite dragon riders.",213,371
+298,THE WEDDING PLANNER,https://storage.googleapis.com/du-prd/books/images/9781984821775.jpg,"An unmarried wedding planner contends with problems, secrets and scandals.",214,68
+299,IT ENDS WITH US,https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg,A battered wife raised in a violent home attempts to halt the cycle of abuse.,215,27
+300,LESSONS IN CHEMISTRY,https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg,A scientist and single mother living in California in the 1960s becomes a star on a TV cooking show.,216,19
+301,SIMPLY LIES,https://storage.googleapis.com/du-prd/books/images/9781538750636.jpg,A former detective becomes the prime suspect in a murder case involving a man with mob ties who was in witness protection.,182,8
+302,IT STARTS WITH US,https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg,"In the sequel to “It Ends With Us,” Lily deals with her jealous ex-husband as she reconnects with her first boyfriend.",215,27
+303,THE LAST THING HE TOLD ME,https://storage.googleapis.com/du-prd/books/images/9781501171345.jpg,Hannah Hall discovers truths about her missing husband and bonds with his daughter from a previous relationship.,217,372
+304,VERITY,https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg,Lowen Ashleigh is hired by the husband of an injured writer to complete her popular series and uncovers a horrifying truth.,215,8
+414,SILVER IN THE BONE,https://storage.googleapis.com/du-prd/books/images/9780593705834.jpg,"Tamsin Lark is on a quest to retrieve a magic ring that may break a curse on her brother, Cabell.",286,18
+305,"GRANDMASTER OF DEMONIC CULTIVATION: MO DAO ZU SHI, VOL. 5",https://storage.googleapis.com/du-prd/books/images/9781685798406.jpg,The future of the entire cultivation world comes down to a showdown at Guanyin Temple.,218,373
+306,THE SEVEN HUSBANDS OF EVELYN HUGO,https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg,A movie icon recounts stories of her loves and career to a struggling magazine writer.,30,127
+307,HELLO BEAUTIFUL,https://storage.googleapis.com/du-prd/books/images/9780593243732.jpg,"In a homage to Louisa May Alcott’s “Little Women,” a young man’s dark past resurfaces as he gets to know the family of his college sweetheart.",219,57
+308,THE WAGER,https://storage.googleapis.com/du-prd/books/images/9780385534260.jpg,The survivors of a shipwrecked British vessel on a secret mission during an imperial war with Spain have different accounts of events.,57,19
+309,THE LIGHT WE CARRY,https://storage.googleapis.com/du-prd/books/images/9780593237465.jpg,The former first lady shares personal stories and the tools she uses to deal with difficult situations.,15,11
+310,LOOK FOR ME THERE,https://storage.googleapis.com/du-prd/books/images/9780785291817.jpg,The Emmy Award–winning journalist details how he grieved for his late father and sought to make his own way.,220,374
+311,OUTLIVE,https://storage.googleapis.com/du-prd/books/images/9780593236598.jpg,A look at recent scientific research on aging and longevity.,221,116
+312,SPARE,https://storage.googleapis.com/du-prd/books/images/9780593593806.jpg,"The Duke of Sussex details his struggles with the royal family, loss of his mother, service in the British Army and marriage to Meghan Markle.",222,12
+313,I'M GLAD MY MOM DIED,https://storage.googleapis.com/du-prd/books/images/9781982185824.jpg,The actress and filmmaker describes her eating disorders and difficult relationship with her mother.,223,4
+314,CRYING IN H MART,https://storage.googleapis.com/du-prd/books/images/9780525657743.jpg,"The daughter of a Korean mother and Jewish American father, and leader of the indie rock project Japanese Breakfast, describes creating her own identity after losing her mother to cancer.",224,36
+315,LESSONS LEARNED AND CHERISHED,https://storage.googleapis.com/du-prd/books/images/9781368095051.jpg,Essays by celebrities about the teachers who impacted their lives.,225,375
+316,THE ESCAPE ARTIST,https://storage.googleapis.com/du-prd/books/images/9780063112360.jpg,"Rudolf Vrba, who became one of the first Jews to escape from Auschwitz, warned others about the death camp.",226,6
+317,TELL ME EVERYTHING,https://storage.googleapis.com/du-prd/books/images/9781250852069.jpg,The actress and philanthropist shares stories of adversity on her way to career success.,227,67
+318,CASTE,https://storage.googleapis.com/du-prd/books/images/9780593230251.jpg,The Pulitzer Prize-winning journalist examines aspects of caste systems across civilizations and reveals a rigid hierarchy in America today.,228,12
+319,THE STORY OF ART WITHOUT MEN,https://storage.googleapis.com/du-prd/books/images/9780393881868.jpg,An overview of more than 300 works of art from the Renaissance to the present day by women artists.,229,26
+320,GREENLIGHTS,https://storage.googleapis.com/du-prd/books/images/9780593139134.jpg,The Academy Award-winning actor shares snippets from the diaries he kept over the last 35 years.,230,11
+321,HAPPY PLACE,https://storage.googleapis.com/du-prd/books/images/9780593441275.jpg,A former couple pretend to be together for the sake of their friends during their annual getaway in Maine.,210,112
+322,FOURTH WING,https://storage.googleapis.com/du-prd/books/images/9781649374042.jpg,"Violet Sorrengail is urged by the commanding general, who also is her mother, to become a candidate for the elite dragon riders.",213,371
+323,THE 23RD MIDNIGHT,https://storage.googleapis.com/du-prd/books/images/9780316402781.jpg,The 23rd book in the Women’s Murder Club series. Lindsay Boxer tracks a copycat killer.,209,5
+324,THE COVENANT OF WATER,https://storage.googleapis.com/du-prd/books/images/9780802162175.jpg,Three generations of a family living on South India’s Malabar Coast suffer the loss of a family member by drowning.,212,320
+325,LESSONS IN CHEMISTRY,https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg,A scientist and single mother living in California in the 1960s becomes a star on a TV cooking show.,216,19
+326,THE WEDDING PLANNER,https://storage.googleapis.com/du-prd/books/images/9781984821775.jpg,"An unmarried wedding planner contends with problems, secrets and scandals.",214,68
+327,SIMPLY LIES,https://storage.googleapis.com/du-prd/books/images/9781538750636.jpg,A former detective becomes the prime suspect in a murder case involving a man with mob ties who was in witness protection.,182,8
+328,THE SECRET BOOK OF FLORA LEA,https://storage.googleapis.com/du-prd/books/images/9781668011836.jpg,"When an illustrated book offering potential clues arrives years after World War II, a woman in London delves into her past.",231,27
+329,HELLO BEAUTIFUL,https://storage.googleapis.com/du-prd/books/images/9780593243732.jpg,"In a homage to Louisa May Alcott’s “Little Women,” a young man’s dark past resurfaces as he gets to know the family of his college sweetheart.",219,57
+330,"TOMORROW, AND TOMORROW, AND TOMORROW",https://storage.googleapis.com/du-prd/books/images/9780593321201.jpg,Two friends find their partnership challenged in the world of video game design.,232,18
+331,HANG THE MOON,https://storage.googleapis.com/du-prd/books/images/9781501117299.jpg,"Nine years after being cast out, a young woman returns to reclaim her place in her family and comes into her own as a bootlegger.",233,23
+332,THE FERRYMAN,https://storage.googleapis.com/du-prd/books/images/9780525619475.jpg,A man who shepherds retirees to an island where their bodies are renewed and memories wiped clean questions everything he once believed.,234,22
+333,IT ENDS WITH US,https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg,A battered wife raised in a violent home attempts to halt the cycle of abuse.,215,27
+334,SUMMER ON SAG HARBOR,https://storage.googleapis.com/du-prd/books/images/9780062994219.jpg,Olivia Jones delves into her family's past at a historically Black beachfront community on Long Island.,235,7
+335,REMARKABLY BRIGHT CREATURES,https://storage.googleapis.com/du-prd/books/images/9780063204157.jpg,A widow working the night shift at the Sowell Bay Aquarium is aided in solving a mystery by a giant Pacific octopus living there.,236,101
+336,THE WAGER,https://storage.googleapis.com/du-prd/books/images/9780385534260.jpg,The survivors of a shipwrecked British vessel on a secret mission during an imperial war with Spain have different accounts of events.,57,19
+337,THE LIGHT WE CARRY,https://storage.googleapis.com/du-prd/books/images/9780593237465.jpg,The former first lady shares personal stories and the tools she uses to deal with difficult situations.,15,11
+339,LOOK FOR ME THERE,https://storage.googleapis.com/du-prd/books/images/9780785291817.jpg,The Emmy Award–winning journalist details how he grieved for his late father and sought to make his own way.,220,374
+340,SPARE,https://storage.googleapis.com/du-prd/books/images/9780593593806.jpg,"The Duke of Sussex details his struggles with the royal family, loss of his mother, service in the British Army and marriage to Meghan Markle.",222,12
+341,LESSONS LEARNED AND CHERISHED,https://storage.googleapis.com/du-prd/books/images/9781368095051.jpg,Essays by celebrities about the teachers who impacted their lives.,225,375
+342,I'M GLAD MY MOM DIED,https://storage.googleapis.com/du-prd/books/images/9781982185824.jpg,The actress and filmmaker describes her eating disorders and difficult relationship with her mother.,223,4
+343,THE STORY OF ART WITHOUT MEN,https://storage.googleapis.com/du-prd/books/images/9780393881868.jpg,An overview of more than 300 works of art from the Renaissance to the present day by women artists.,229,26
+344,GREENLIGHTS,https://storage.googleapis.com/du-prd/books/images/9780593139134.jpg,The Academy Award-winning actor shares snippets from the diaries he kept over 35 years.,230,11
+345,"POVERTY, BY AMERICA",https://storage.googleapis.com/du-prd/books/images/9780593239919.jpg,The Pulitzer Prize-winning author of “Evicted” examines the ways in which affluent Americans keep poor people poor.,237,11
+346,THE 1998 YANKEES,https://storage.googleapis.com/du-prd/books/images/9781538722978.jpg,The sports journalist looks back 25 years at the successful New York Yankees team that played that season.,238,13
+347,TELL ME EVERYTHING,https://storage.googleapis.com/du-prd/books/images/9781250852069.jpg,The actress and philanthropist shares stories of adversity on her way to career success.,227,67
+348,YOU CAN'T JOKE ABOUT THAT,https://storage.googleapis.com/du-prd/books/images/9780063270428.jpg,The co-host of “Gutfeld!” and Fox News contributor gives her take on free speech and comedy.,239,14
+349,"HONEY, BABY, MINE",https://storage.googleapis.com/du-prd/books/images/9781538720370.jpg,Conversations on personal subjects from a mother and daughter who are also award-winning actresses.,240,8
+350,QUANTUM SUPREMACY,https://storage.googleapis.com/du-prd/books/images/9780385548366.jpg,The ways in which quantum computing might be a benefit to society.,241,19
+351,MEET ME AT THE LAKE,https://storage.googleapis.com/du-prd/books/images/9780593438558.jpg,"A decade after a one-day adventure, Will appears again in Fern’s life at her mother’s lakeside resort.",211,112
+352,IT ENDS WITH US,https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg,A battered wife raised in a violent home attempts to halt the cycle of abuse.,215,27
+353,IT STARTS WITH US,https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg,"In the sequel to “It Ends With Us,” Lily deals with her jealous ex-husband as she reconnects with her first boyfriend.",215,27
+354,"GRANDMASTER OF DEMONIC CULTIVATION: MO DAO ZU SHI, VOL. 5",https://storage.googleapis.com/du-prd/books/images/9781685798406.jpg,The future of the entire cultivation world comes down to a showdown at Guanyin Temple.,218,373
+355,THE LAST THING HE TOLD ME,https://storage.googleapis.com/du-prd/books/images/9781501171345.jpg,Hannah Hall discovers truths about her missing husband and bonds with his daughter from a previous relationship.,217,372
+356,THE SEVEN HUSBANDS OF EVELYN HUGO,https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg,A movie icon recounts stories of her loves and career to a struggling magazine writer.,30,127
+357,VERITY,https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg,Lowen Ashleigh is hired by the husband of an injured writer to complete her popular series and uncovers a horrifying truth.,215,8
+358,NEVER NEVER,https://storage.googleapis.com/du-prd/books/images/9781335004888.jpg,Questions arise when a pair of lovers try to uncover why they suddenly became strangers.,242,91
+359,THE HOUSEMAID,https://storage.googleapis.com/du-prd/books/images/9781538742570.jpg,Troubles surface when a woman looking to make a fresh start takes a job in the home of the Winchesters.,243,8
+360,UGLY LOVE,https://storage.googleapis.com/du-prd/books/images/9781476753195.jpg,A casual sexual relationship between Tate and Miles becomes more complicated than they expected.,215,27
+361,ICEBREAKER,https://storage.googleapis.com/du-prd/books/images/9781668026038.jpg,Anastasia might need the help of the captain of a college hockey team to get on the Olympic figure skating team.,244,27
+362,HEART BONES,https://storage.googleapis.com/du-prd/books/images/9781668021910.jpg,"After an unexpected death prevents her from going to Penn State and and forces her to move in with her absent father, Beyah Grim has a summer fling with the rich guy next door.",215,27
+363,PRACTICE MAKES PERFECT,https://storage.googleapis.com/du-prd/books/images/9780593500804.jpg,A bodyguard is tasked with helping a florist find the love of her life.,245,166
+364,THINGS WE NEVER GOT OVER,https://storage.googleapis.com/du-prd/books/images/9781945631832.jpg,A runaway bride becomes the guardian of her evil twin's daughter and gets some help from a bad-boy barber.,246,90
+365,CRYING IN H MART,https://storage.googleapis.com/du-prd/books/images/9780525657743.jpg,"The daughter of a Korean mother and Jewish American father, and leader of the indie rock project Japanese Breakfast, describes creating her own identity after losing her mother to cancer.",224,36
+366,THE ESCAPE ARTIST,https://storage.googleapis.com/du-prd/books/images/9780063112360.jpg,"Rudolf Vrba, who became one of the first Jews to escape from Auschwitz, warned others about the death camp.",226,6
+367,BRAIDING SWEETGRASS,https://storage.googleapis.com/du-prd/books/images/9781571313560.jpg,A botanist and member of the Citizen Potawatomi Nation espouses having an understanding and appreciation of plants and animals.,247,110
+368,ALL ABOUT LOVE,https://storage.googleapis.com/du-prd/books/images/9780060959470.jpg,The late feminist icon explores the causes of a polarized society and the meaning of love.,248,7
+369,FINDING ME,https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg,The multiple-award-winning actress describes the difficulties she encountered before claiming her sense of self and achieving professional success.,249,46
+370,EMPIRE OF THE SUMMER MOON,https://storage.googleapis.com/du-prd/books/images/9781416591061.jpg,"The story of Quanah Parker, the last chief of the Comanches.",250,23
+371,THE DAWN OF EVERYTHING,https://storage.googleapis.com/du-prd/books/images/9780374157357.jpg,A reinvestigation of social evolution and suggestions for new ways of organizing society.,251,32
+372,THE GLASS CASTLE,https://storage.googleapis.com/du-prd/books/images/9780743247542.jpg,The author recalls how she and her siblings were constantly moved from one bleak place to another.,233,23
+373,TALKING TO STRANGERS,https://storage.googleapis.com/du-prd/books/images/9780316478526.jpg,Famous examples of miscommunication serve as the backdrop to explain potential conflicts and misunderstandings.,252,97
+374,THE ANTHROPOCENE REVIEWED,https://storage.googleapis.com/du-prd/books/images/9780525555216.jpg,A collection of personal essays that review different facets of the human-centered planet.,253,86
+375,"MAGNOLIA TABLE, VOL. 3",https://storage.googleapis.com/du-prd/books/images/9780062820174.jpg,"",254,7
+376,THE GLUCOSE GODDESS METHOD,https://storage.googleapis.com/du-prd/books/images/9781668024522.jpg,"",255,376
+377,THE CREATIVE ACT,https://storage.googleapis.com/du-prd/books/images/9780593652886.jpg,"",256,119
+378,"THE BOY, THE MOLE, THE FOX AND THE HORSE",https://storage.googleapis.com/du-prd/books/images/9780062976581.jpg,"",257,46
+379,"I WILL TEACH YOU TO BE RICH, SECOND EDITION",https://storage.googleapis.com/du-prd/books/images/9781523507870.jpg,"",258,35
+380,Y'ALL EAT YET?,https://storage.googleapis.com/du-prd/books/images/9780063087781.jpg,"",259,100
+381,SERENITY IN THE STORM,https://storage.googleapis.com/du-prd/books/images/9781637587294.jpg,"",260,377
+382,THE WISDOM OF THE BULLFROG,https://storage.googleapis.com/du-prd/books/images/9781538707944.jpg,"",261,8
+383,SOUL BOOM,https://storage.googleapis.com/du-prd/books/images/9780306828270.jpg,"",262,378
+384,THE SUN AND THE STAR,https://storage.googleapis.com/du-prd/books/images/9781368081153.jpg,The demigods Will and Nico embark on a dangerous journey to the Underworld to rescue an old friend.,263,379
+385,SKANDAR AND THE PHANTOM RIDER,https://storage.googleapis.com/du-prd/books/images/9781665912761.jpg,Skandar and his friends investigate how immortal unicorns are being slain.,264,4
+386,IT'S NOT BRAGGING IF IT'S TRUE,https://storage.googleapis.com/du-prd/books/images/9780593568996.jpg,The author gives advice to young readers on how to achieve their dreams.,265,12
+387,THE COMPLETE COOKBOOK FOR YOUNG CHEFS,https://storage.googleapis.com/du-prd/books/images/9781492670025.jpg,Over 100 kid-tested recipes from America's Test Kitchen.,266,128
+388,FALL OF THE SCHOOL FOR GOOD AND EVIL,https://storage.googleapis.com/du-prd/books/images/9780063269538.jpg,Tensions rise between the twins Rhian and Rafal as Peter Pan makes a bid to take over the school.,267,56
+389,ODDER,https://storage.googleapis.com/du-prd/books/images/9781250147424.jpg,"After a shark attack, Odder recuperates at the aquarium with the scientists who raised her.",268,175
+390,THE GOLDEN FROG GAMES,https://storage.googleapis.com/du-prd/books/images/9781338745795.jpg,"Seven, Valley and Thorn must once again make their mark by competing in the Golden Frog Games.",269,50
+391,BIG TREE,https://storage.googleapis.com/du-prd/books/images/9781338180633.jpg,Two sycamore seeds seek solace in the Cretaceous Period after being forced from their mother tree.,270,50
+392,BECAUSE I HAD A TEACHER,https://storage.googleapis.com/du-prd/books/images/9781943200085.jpg,An ode to teachers.,271,380
+393,"THANK YOU, TEACHER FROM THE VERY HUNGRY CATERPILLAR",https://storage.googleapis.com/du-prd/books/images/9780593226186.jpg,The insatiable insect's pedagogue appreciation.,272,381
+394,LITTLE TROUBLEMAKER MAKES A MESS,https://storage.googleapis.com/du-prd/books/images/9780593526095.jpg,"Little Luvvie attempts to make a surprise meal for mom, but instead makes a big mess.",273,55
+395,WHY A SON NEEDS A MOM,https://storage.googleapis.com/du-prd/books/images/9781728235844.jpg,The special bond between mother and son.,274,129
+396,REPEAT AFTER ME,https://storage.googleapis.com/du-prd/books/images/9780593426975.jpg,Affirmations for young children.,275,12
+397,I LOVE MOM WITH THE VERY HUNGRY CATERPILLAR,https://storage.googleapis.com/du-prd/books/images/9780451533463.jpg,That ravenous insect is brimming with motherly love.,272,115
+398,BIG,https://storage.googleapis.com/du-prd/books/images/9780316353229.jpg,A young girl’s journey to self-acceptance.,173,5
+399,THE ONE AND ONLY,https://storage.googleapis.com/du-prd/books/images/9780063080089.jpg,"The stories of Ivan, Bob and Ruby.",276,56
+400,THE HUNGER GAMES,https://storage.googleapis.com/du-prd/books/images/9780545663267.jpg,"In a dystopia, a girl fights for survival on live TV.",277,50
+401,A GOOD GIRL'S GUIDE TO MURDER,https://storage.googleapis.com/du-prd/books/images/9780593379851.jpg,Pippa Fitz-Amobi solves murderous crimes.,278,68
+402,THE SUMMER I TURNED PRETTY TRILOGY,https://storage.googleapis.com/du-prd/books/images/9781416995586.jpg,"A beach house, summer love and enduring friendships.",97,4
+403,PERCY JACKSON & THE OLYMPIANS,https://storage.googleapis.com/du-prd/books/images/9781423131892.jpg,A boy battles mythological monsters.,93,61
+404,SHADOW AND BONE TRILOGY,https://storage.googleapis.com/du-prd/books/images/9781250027436.jpg,"The basis of the Netflix series; previously titled '"The Grisha Trilogy.'"",187,382
+405,THE INHERITANCE GAMES,https://storage.googleapis.com/du-prd/books/images/9780316370950.jpg,Avery Grambs tries to figure out why an inheritance from a stranger was bestowed upon her.,279,5
+406,SOLITAIRE,https://storage.googleapis.com/du-prd/books/images/9781339016238.jpg,"Tori Spring is determined to find out who''s behind the blog called Solitaire, which has caused serious pranks at her school.",280,50
+407,WARRIOR GIRL UNEARTHED,https://storage.googleapis.com/du-prd/books/images/9781250766588.jpg,Perry and Pauline Firekeeper-Birch discover that a local university is holding on to deceased Anishinaabe remains.,281,67
+408,"IMOGEN, OBVIOUSLY",https://storage.googleapis.com/du-prd/books/images/9780063045873.jpg,"Imogen Scott, who is straight, goes along with a tale told by her friend Lili that the two of them dated.",282,64
+409,MILES MORALES SUSPENDED,https://storage.googleapis.com/du-prd/books/images/9781665918466.jpg,Miles Morales encounters a termite with a secret that may destroy the world's history – particularly Black and brown history.,283,366
+410,FIVE SURVIVE,https://storage.googleapis.com/du-prd/books/images/9780593374160.jpg,Six friends on a spring break road trip in an R.V. are the target of a sniper.,278,68
+411,NICK AND CHARLIE,https://storage.googleapis.com/du-prd/books/images/9781338885101.jpg,Nick and Charlie question whether their love is strong enough to survive being apart when Nick leaves for university.,280,50
+412,THE FIRST TO DIE AT THE END,https://storage.googleapis.com/du-prd/books/images/9780063240803.jpg,"In this prequel to '"They Both Die at the End,'" Orion and Valentino attend the premiere of Death-Cast in Times Square.",284,105
+413,THE LITTLE MERMAID: AGAINST THE TIDE,https://storage.googleapis.com/du-prd/books/images/9781368077224.jpg,"Ariel and her siblings must find their abducted sister, Mala, before the Coral Moon approaches.",285,96
+415,LIGHTLARK,https://storage.googleapis.com/du-prd/books/images/9781419760860.jpg,Every 100 years the island of Lightlark appears and a deadly competition called the Centennial takes place.,287,60
+416,THE LAST THING HE TOLD ME,https://storage.googleapis.com/du-prd/books/images/9781501171345.jpg,"Hannah Hall discovers truths about her missing husband. Read by Rebecca Lowman. 8 hours, 49 minutes unabridged.",217,81
+417,LESSONS IN CHEMISTRY,https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg,"A scientist and single mother living in California in the 1960s becomes a star on a TV cooking show. Read by Miranda Raison, Pandora Sykes and the author. 11 hours, 55 minutes unabridged.",216,71
+418,REMARKABLY BRIGHT CREATURES,https://storage.googleapis.com/du-prd/books/images/9780063204157.jpg,"A widow working the night shift at the Sowell Bay Aquarium is aided in solving a mystery by a giant Pacific octopus living there. Read by Marin Ireland and Michael Urie. 11 hours, 16 minutes unabridged.",236,72
+419,HELLO BEAUTIFUL,https://storage.googleapis.com/du-prd/books/images/9780593243732.jpg,"In a homage to Louisa May Alcott’s “Little Women,” a young man’s dark past resurfaces as he gets to know the family of his college sweetheart. Read by Maura Tierney. 15 hours, 7 minutes unabridged.",219,71
+420,SIMPLY LIES,https://storage.googleapis.com/du-prd/books/images/9781538750636.jpg,"A former detective becomes the prime suspect in a murder case involving a man with mob ties who was in witness protection. Read by Lisa Flanagan and Corey Carthew. 11 hours, 45 minutes unabridged.",182,80
+421,THE SEVEN HUSBANDS OF EVELYN HUGO,https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg,"A movie icon recounts stories of her loves and career to a struggling magazine writer. Read by Alma Cuervo, Julia Whelan and Robin Miles. 12 hours, 10 minutes unabridged.",30,81
+422,HAPPY PLACE,https://storage.googleapis.com/du-prd/books/images/9780593441275.jpg,"A former couple pretend to be together for the sake of their friends during their annual getaway in Maine. Read by Julia Whelan. 11 hours, 4 minutes unabridged.",210,69
+423,DEMON COPPERHEAD,https://storage.googleapis.com/du-prd/books/images/9780063251922.jpg,"A reimagining of Charles Dickens’s “David Copperfield” set in the mountains of southern Appalachia. Read by Charlie Thurston. 21 hours, 3 minutes unabridged.",288,72
+424,IT ENDS WITH US,https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg,"A battered wife raised in a violent home attempts to halt the cycle of abuse. Read by Olivia Song. 11 hours, 11 minutes unabridged.",215,81
+425,VERITY,https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg,"Lowen Ashleigh is hired by the husband of an injured writer to complete her popular series and uncovers a horrifying truth. Read by Vanessa Johansson and Amy Landon. 8 hours, 10 minutes unabridged.",215,78
+426,I WILL FIND YOU,https://storage.googleapis.com/du-prd/books/images/9781538748367.jpg,"A man imprisoned for murdering his 3-year-old son becomes convinced his son is still alive and plans an escape. Read by Steven Weber. 10 hours, 16 minutes unabridged.",8,75
+427,IT STARTS WITH US,https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg,"In the sequel to “It Ends With Us,” Lily deals with her jealous ex-husband as she reconnects with her first boyfriend. Read by Colin Donnell and Olivia Song. 8 hours, 40 minutes unabridged.",215,81
+428,DARK ANGEL,https://storage.googleapis.com/du-prd/books/images/9780593422410.jpg,"The second book in the Letty Davenport series. Letty takes an undercover assignment that puts her in harm’s way with a group of hackers. Read by Robert Petkoff. 11 hours, 8 minutes unabridged.",289,69
+429,MAD HONEY,https://storage.googleapis.com/du-prd/books/images/9781984818386.jpg,"After returning to her hometown, Olivia McAfee’s son gets accused of killing his crush. Read by Carrie Coon, Key Taw and the authors. 15 hours, 13 minutes unabridged.",290,71
+430,OUTLIVE,https://storage.googleapis.com/du-prd/books/images/9780593236598.jpg,"A look at recent scientific research on aging and longevity. Read by Peter Attia. 17 hours, 8 minutes unabridged.",221,71
+431,GREENLIGHTS,https://storage.googleapis.com/du-prd/books/images/9780593139134.jpg,"The Academy Award-winning actor shares snippets from the diaries he kept over 35 years. Read by the author. 6 hours, 42 minutes unabridged.",230,71
+432,SPARE,https://storage.googleapis.com/du-prd/books/images/9780593593806.jpg,"The Duke of Sussex details his struggles with the royal family, loss of his mother, service in the British Army and marriage to Meghan Markle. Read by the author. 15 hours, 39 minutes unabridged.",222,71
+433,I'M GLAD MY MOM DIED,https://storage.googleapis.com/du-prd/books/images/9781982185824.jpg,"The actress and filmmaker describes her eating disorders and difficult relationship with her mother. Read by the author. 6 hours, 25 minutes unabridged.",223,81
+434,THE LIGHT WE CARRY,https://storage.googleapis.com/du-prd/books/images/9780593237465.jpg,The former first lady shares personal stories and the tools she uses to deal with difficult situations. Read by the author. 10 hours unabridged.,15,71
+435,THE WAGER,https://storage.googleapis.com/du-prd/books/images/9780385534260.jpg,"The survivors of a shipwrecked British vessel on a secret mission during an imperial war with Spain have different accounts of events. Read by Dion Graham and the author. 8 hours, 28 minutes unabridged.",57,71
+436,YOU CAN'T JOKE ABOUT THAT,https://storage.googleapis.com/du-prd/books/images/9780063270428.jpg,"The co-host of “Gutfeld!” and Fox News contributor gives her take on free speech and comedy. Read by the author. 7 hours, 34 minutes unabridged.",239,72
+437,FINDING ME,https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg,"The multiple award-winning actress describes the difficulties she encountered before claiming her sense of self and achieving professional success. Read by the author. 9 hours, 15 minutes unabridged.",249,72
+438,ALL MY KNOTTED-UP LIFE,https://storage.googleapis.com/du-prd/books/images/9781496472670.jpg,"The founder of Living Proof Ministries details key moments from her life and her 2018 break with the Southern Baptist movement. Read by the author. 8 hours, 29 minutes unabridged.",291,383
+439,PARIS,https://storage.googleapis.com/du-prd/books/images/9780063224629.jpg,"The entrepreneur and pop culture icon shares her personal and professional rise in the age of influencers. Read by the author. 8 hours, 22 minutes unabridged.",292,72
+440,WHAT HAPPENED TO YOU?,https://storage.googleapis.com/du-prd/books/images/9781250223180.jpg,"An approach to dealing with trauma that shifts an essential question used to investigate it. Read by the authors. 8 hours, 27 minutes unabridged.",293,70
+441,"FRIENDS, LOVERS, AND THE BIG TERRIBLE THING",https://storage.googleapis.com/du-prd/books/images/9781250866448.jpg,"The actor, known for playing Chandler Bing on “Friends,” shares stories from his childhood and his struggles with sobriety. Read by the author. 8 hours, 49 minutes unabridged.",294,70
+442,THE WISDOM OF THE BULLFROG,https://storage.googleapis.com/du-prd/books/images/9781538707944.jpg,"",261,8
+443,THE CREATIVE ACT,https://storage.googleapis.com/du-prd/books/images/9780593652886.jpg,"",256,119
+444,"POVERTY, BY AMERICA",https://storage.googleapis.com/du-prd/books/images/9780593239919.jpg,"",237,11
+445,"I WILL TEACH YOU TO BE RICH, SECOND EDITION",https://storage.googleapis.com/du-prd/books/images/9781523507870.jpg,"",258,35
+446,PARIS,https://storage.googleapis.com/du-prd/books/images/9780063224629.jpg,"",292,100
+447,TWENTY THOUSAND FLEAS UNDER THE SEA,https://storage.googleapis.com/du-prd/books/images/9781338801910.jpg,The 11th book in the Dog Man series. Piggy returns and the Supa Buddies are sabotaged.,89,50
+448,COLLABORATIONS,https://storage.googleapis.com/du-prd/books/images/9781338846621.jpg,"The fourth book in the Cat Kid Comic Club series. After doing their chores, baby frogs work together to create more mini-comics.",89,50
+449,MOTHERING HEIGHTS,https://storage.googleapis.com/du-prd/books/images/9781338680454.jpg,The 10th book in the Dog Man series. Can the power of love overcome the darkness and despair created by new villains?,89,50
+450,MOON RISING,https://storage.googleapis.com/du-prd/books/images/9781338730890.jpg,The sixth book in the Wings of Fire graphic novel series; adapted by Barry Deutsch and Rachel Swirsky.,295,50
+451,GRIME AND PUNISHMENT,https://storage.googleapis.com/du-prd/books/images/9781338535624.jpg,"The ninth book in the Dog Man series. After turning in his badge, the canine cop is determined not to just roll over.",89,50
+452,SCHOOL TRIP,https://storage.googleapis.com/du-prd/books/images/9780062885531.jpg,The gang from Riverdale Academy Day face the unexpected when their faculty guides on a trip to Paris are replaced at the last minute.,296,105
+453,"ONE PIECE, VOL. 102",https://storage.googleapis.com/du-prd/books/images/9781974736553.jpg,Monkey D. Luffy faces Kaido once again while searching for the greatest treasure in the world.,297,384
+454,"KAIJU NO. 8, VOL. 6",https://storage.googleapis.com/du-prd/books/images/9781974736331.jpg,Director General Shinomiya must take action while Kikoru comes to the rescue of Kafka.,298,384
+455,FOR WHOM THE BALL ROLLS,https://storage.googleapis.com/du-prd/books/images/9781338236590.jpg,The seventh book in the Dog Man series. A new villain has a bone to pick with Dog Man while Petey the Cat starts a new life.,89,50
+456,MARY ANNE'S BAD LUCK MYSTERY,https://storage.googleapis.com/du-prd/books/images/9781338616101.jpg,The 13th book in the Baby-sitters Club graphic novel series. Mary Anne receives a bad-luck charm in the mail with instructions to wear it.,299,50
+457,TEENAGE MUTANT NINJA TURTLES: THE LAST RONIN,https://storage.googleapis.com/du-prd/books/images/9781684058419.jpg,"A lone Turtle goes on a mission to get justice for his family in a post-apocalyptic New York. Illustrated by Esau Escorza, Isaac Escorza and Ben Bishop.",300,385
+458,FETCH-22,https://storage.googleapis.com/du-prd/books/images/9781338323214.jpg,The eighth book in the Dog Man series. Petey the Cat feels better after getting out of jail but Li’l Petey struggles to find good in the world.,89,50
+459,"SPY X FAMILY, VOL. 9",https://storage.googleapis.com/du-prd/books/images/9781974736287.jpg,"A gang of assassins and bombs planted throughout a luxury cruiser put Loid, Anya and Yor in harm’s way. ",301,384
+460,LORD OF THE FLEAS,https://storage.googleapis.com/du-prd/books/images/9780545935173.jpg,The fifth book in the Dog Man series. The villainous cat Petey becomes an unlikely ally.,89,50
+461,SPY CAMP,https://storage.googleapis.com/du-prd/books/images/9781534499379.jpg,"The second book in the Spy School graphic novel series. Ben Ripley, a middle schooler and aspiring spy, encounters an enemy spy organization at a wilderness camp.",302,4
+462,THE RUSSIAN,https://storage.googleapis.com/du-prd/books/images/9780316420389.jpg,The 13th book in the Michael Bennett series. An assassin killing a number of women might disrupt the detective’s wedding plans.,303,8
+463,SUSPECTS,https://storage.googleapis.com/du-prd/books/images/9781984821676.jpg,A C.I.A. agent on a covert mission develops a relationship with a woman who is considered fashion royalty and has a tragic past.,214,166
+464,TWO ALONE,https://storage.googleapis.com/du-prd/books/images/9780778334446.jpg,"After a plane crash, a businesswoman and a Vietnam veteran must rely on each other in the wilderness.",304,363
+465,LEGACY,https://storage.googleapis.com/du-prd/books/images/9781250272935.jpg,Threats put in rhymes and sent from shifting locations escalate as the daughter of a successful fitness celebrity’s own yoga business grows.,305,83
+466,DEATH OF THE BLACK WIDOW,https://storage.googleapis.com/du-prd/books/images/9781538753095.jpg,Detective Walter O’Brien is obsessed with an escape artist who bludgeoned her kidnapper and avoided police custody.,306,8
+467,MERCY,https://storage.googleapis.com/du-prd/books/images/9781538719725.jpg,The fourth book in the Atlee Pine series. Atlee discovers her twin sister survived an abduction at the age of 6.,182,8
+468,THE JENSENS OF COLORADO,https://storage.googleapis.com/du-prd/books/images/9780786050130.jpg,"Three western stories: “Those Jensen Boys,” “The Jensen Brand” and “Heart of the Mountain Man.”",307,386
+469,TOM CLANCY: ZERO HOUR,https://storage.googleapis.com/du-prd/books/images/9780593422724.jpg,Jack Ryan Jr. appears to be the only person who can stop a second Korean war.,308,112
+470,SAVE IT FOR SUNDAY,https://storage.googleapis.com/du-prd/books/images/9780786049578.jpg,"The second book in the Taylor Callahan, Circuit Rider series. Taylor’s trigger-happy past returns.",307,386
+471,THE LAST HOUSE GUEST,https://storage.googleapis.com/du-prd/books/images/9781501165375.jpg,Avery Greer must fight the clock to clear her name and uncover her friend’s real killer.,309,372
+472,ONE NIGHT,https://storage.googleapis.com/du-prd/books/images/9780061081859.jpg,A tale of two rival workaholic radio broadcasters who discover there is more to life than just their jobs.,310,141
+473,GETTING EVEN,https://storage.googleapis.com/du-prd/books/images/9781420155549.jpg,Two suspense stories: “Yesterday’s Lies” and “Zachary’s Law.”,135,359
+474,SOMEDAY WITH YOU,https://storage.googleapis.com/du-prd/books/images/9781335147530.jpg,Two romance stories: “Cordina’s Crown Jewel” and “Unfinished Business.”,305,271
+475,READY FOR MARRIAGE,https://storage.googleapis.com/du-prd/books/images/9781335498410.jpg,"When Mary Jo’s parents face legal troubles, she must go to the man she loved but whose heart she broke three years ago.",310,188
+476,THE JUDGE'S LIST,https://storage.googleapis.com/du-prd/books/images/9780385546027.jpg,The second book in the Whistler series. Investigator Lacy Stoltz goes after a serial killer and closes in on a sitting judge.,59,36
+478,THE WILD ROBOT,https://storage.googleapis.com/du-prd/books/images/9780316381994.jpg,"",311,5
+479,WISH,https://storage.googleapis.com/du-prd/books/images/9781250144058.jpg,"",312,382
+480,A LONG WALK TO WATER,https://storage.googleapis.com/du-prd/books/images/9780547577319.jpg,"",313,99
+481,RESTART,https://storage.googleapis.com/du-prd/books/images/9781338053807.jpg,"",314,50
+482,THE ONE AND ONLY BOB,https://storage.googleapis.com/du-prd/books/images/9780062991317.jpg,"",268,56
+483,FISH IN A TREE,https://storage.googleapis.com/du-prd/books/images/9780399162596.jpg,"",315,51
+484,A WOLF CALLED WANDER,https://storage.googleapis.com/du-prd/books/images/9780062895936.jpg,"",316,387
+485,OUT OF MY MIND,https://storage.googleapis.com/du-prd/books/images/9781416971719.jpg,"",172,388
+486,WHEN YOU TRAP A TIGER,https://storage.googleapis.com/du-prd/books/images/9781524715700.jpg,"",317,389
+487,IF HE HAD BEEN WITH ME,https://storage.googleapis.com/du-prd/books/images/9781402277832.jpg,"",318,390
+488,GIRL IN PIECES,https://storage.googleapis.com/du-prd/books/images/9781101934715.jpg,"",319,391
+489,BETTER THAN THE MOVIES,https://storage.googleapis.com/du-prd/books/images/9781534467637.jpg,"",320,4
+490,THE WAY I USED TO BE,https://storage.googleapis.com/du-prd/books/images/9781481449359.jpg,"",321,125
+491,THE ISLAND,https://storage.googleapis.com/du-prd/books/images/9780593481493.jpg,"",322,68
+492,THEY BOTH DIE AT THE END,https://storage.googleapis.com/du-prd/books/images/9780062457790.jpg,"",284,105
+493,SIX OF CROWS,https://storage.googleapis.com/du-prd/books/images/9781627792127.jpg,"",187,382
+494,THE BOOK THIEF,https://storage.googleapis.com/du-prd/books/images/9780375842207.jpg,"",323,18
+495,ONCE UPON A BROKEN HEART,https://storage.googleapis.com/du-prd/books/images/9781250268396.jpg,"",324,40
+496,LOYALTY,https://storage.googleapis.com/du-prd/books/images/9780525539803.jpg,"The lives of a lemon grower, a young lawyer, a new mother and a reclusive goatherd collide in Sicily during the rise of the Mafia.",325,1
+497,SAVED,https://storage.googleapis.com/du-prd/books/images/9780063309661.jpg,The Fox News journalist gives his account of the injuries he sustained from a Russian attack while covering the war in Ukraine.,326,6
+498,THE COURAGE TO BE FREE,https://storage.googleapis.com/du-prd/books/images/9780063276000.jpg,The Florida governor gives his account of his achievements and shares his opinions about the political left.,327,14
+499,THE UNDERTOW,https://storage.googleapis.com/du-prd/books/images/9781324006503.jpg,A look at the religious dimensions of American politics.,328,26
+500,LOYALTY,https://storage.googleapis.com/du-prd/books/images/9780525539803.jpg,"The lives of a lemon grower, a young lawyer, a new mother and a reclusive goatherd collide in Sicily during the rise of the Mafia.",325,1
+501,COUNTDOWN,https://storage.googleapis.com/du-prd/books/images/9780316457378.jpg,A botched field operation and a terrorist plot endanger Amy Cornwall and her family.,5,5
+502,PINEAPPLE STREET,https://storage.googleapis.com/du-prd/books/images/9780593490693.jpg,Three women navigate their roles in a well-to-do family living in Brooklyn Heights.,329,118
+503,SOMEONE ELSE'S SHOES,https://storage.googleapis.com/du-prd/books/images/9781984879295.jpg,Drastic changes and a pair of six-inch high Christian Louboutin red crocodile shoes shake up the lives of two women.,330,118
+504,STORM WATCH,https://storage.googleapis.com/du-prd/books/images/9780593331309.jpg,The 23rd book in the Joe Pickett series. Joe and Nate might be on opposite sides for the first time.,331,1
+505,ABOVE GROUND,https://storage.googleapis.com/du-prd/books/images/9780316543033.jpg,A collection of poems by the author of “How the Word Is Passed.”,332,5
+506,I HAVE SOME QUESTIONS FOR YOU,https://storage.googleapis.com/du-prd/books/images/9780593490143.jpg,A film professor and podcaster is invited back to teach a course at the boarding school where her roommate was murdered.,333,25
+507,SAVED,https://storage.googleapis.com/du-prd/books/images/9780063309661.jpg,The Fox News journalist gives his account of the injuries he sustained from a Russian attack while covering the war in Ukraine.,326,6
+508,THE COURAGE TO BE FREE,https://storage.googleapis.com/du-prd/books/images/9780063276000.jpg,The Florida governor gives his account of his achievements and shares his opinions about the political left.,327,14
+509,HUMANLY POSSIBLE,https://storage.googleapis.com/du-prd/books/images/9780735223370.jpg,The author of “At the Existentialist Café” explores 700 years of humanism.,334,119
+510,IT'S OK TO BE ANGRY ABOUT CAPITALISM,https://storage.googleapis.com/du-prd/books/images/9780593238714.jpg,The Vermont senator depicts the impact capitalism has on key areas of our lives and ways to address this.,335,11
+511,RINGMASTER,https://storage.googleapis.com/du-prd/books/images/9781982169442.jpg,A biography of the former World Wrestling Entertainment chairman and chief executive Vince McMahon.,336,27
+512,THE MYTH OF NORMAL,https://storage.googleapis.com/du-prd/books/images/9780593083888.jpg,The potential ways in which trauma and stress from modern-day living can affect our physical health.,337,82
+513,THE FOUR WINDS,https://storage.googleapis.com/du-prd/books/images/9781250178602.jpg,"As dust storms roll during the Great Depression, Elsa must choose between saving the family and farm or heading west.",152,109
+514,THINGS WE HIDE FROM THE LIGHT,https://storage.googleapis.com/du-prd/books/images/9781728276113.jpg,The second book in the Knockemout series. A woman with some secrets and the chief of police have different ideas about where things are headed.,246,90
+515,ONE ITALIAN SUMMER,https://storage.googleapis.com/du-prd/books/images/9781982166793.jpg,"During a summer trip in Italy, Katy’s late mother reappears as a 30-year-old woman.",338,27
+516,DOPAMINE NATION,https://storage.googleapis.com/du-prd/books/images/9781524746728.jpg,The medical director of Stanford Addiction Medicine explores the neuroscience and behaviors that inform the relationship between pleasure and pain.,339,86
+517,EVERYTHING I KNOW ABOUT LOVE,https://storage.googleapis.com/du-prd/books/images/9780062968791.jpg,The British journalist shares stories and observations; the basis of the TV series.,340,30
+518,THE NINETIES,https://storage.googleapis.com/du-prd/books/images/9780735217959.jpg,An overview of the cultural and historical impact of the 1990s.,341,3
+519,THE LOVE STORIES OF THE BIBLE SPEAK,https://storage.googleapis.com/du-prd/books/images/9780063226050.jpg,"",342,14
+520,SWEET ENOUGH,https://storage.googleapis.com/du-prd/books/images/9781984826398.jpg,"",343,114
+521,EAT TO BEAT YOUR DIET,https://storage.googleapis.com/du-prd/books/images/9781538753903.jpg,"",344,392
+522,LIFE WORTH LIVING,https://storage.googleapis.com/du-prd/books/images/9780593489307.jpg,"",345,393
+523,YOUNG FOREVER,https://storage.googleapis.com/du-prd/books/images/9780316453189.jpg,"",346,98
+524,RECIPETIN EATS DINNER,https://storage.googleapis.com/du-prd/books/images/9781682688427.jpg,"",347,394
+525,TWO DEGREES,https://storage.googleapis.com/du-prd/books/images/9781338735673.jpg,Four kids simultaneously experience three natural catastrophes due to climate change.,74,50
+526,FREEWATER,https://storage.googleapis.com/du-prd/books/images/9780316056618.jpg,Homer and Ada run away from Southerland Plantation and discover a community created by formerly enslaved people.,348,5
+527,ICEBERG,https://storage.googleapis.com/du-prd/books/images/9781338795028.jpg,Hazel Rothbury stows away on the Titanic.,349,50
+528,THE SWIFTS,https://storage.googleapis.com/du-prd/books/images/9780593533239.jpg,Shenanigan Swift investigates murders during a family reunion treasure hunt.,350,86
+529,ON AIR WITH ZOE WASHINGTON,https://storage.googleapis.com/du-prd/books/images/9780063212312.jpg,"After clearing her father''s name for a crime he didn''t commit, Zoe now wants to help him open his own restaurant.",351,326
+530,FINALLY SEEN,https://storage.googleapis.com/du-prd/books/images/9781534488335.jpg,A young girl moves from China to America to be reunited with her family after five years apart.,352,4
+531,HOW TO CATCH THE EASTER BUNNY,https://storage.googleapis.com/du-prd/books/images/9781492638179.jpg,The Easter Bunny avoids traps in order to deliver eggs and candy.,353,128
+532,THE GOOD EGG PRESENTS: THE GREAT EGGSCAPE!,https://storage.googleapis.com/du-prd/books/images/9780062975676.jpg,Good Egg and his pals escape their carton!,84,56
+533,WE DON'T LOSE OUR CLASS GOLDFISH,https://storage.googleapis.com/du-prd/books/images/9781368076982.jpg,Penelope Rex takes her turn watching the class pet for the weekend.,354,379
+534,HAPPY EASTER FROM THE CRAYONS,https://storage.googleapis.com/du-prd/books/images/9780593621059.jpg,The crayons decorate one giant egg together.,180,55
+535,LITTLE DAYMOND LEARNS TO EARN,https://storage.googleapis.com/du-prd/books/images/9780593567272.jpg,Daymond and his friends start a T-shirt business.,355,12
+536,A DOOR IN THE DARK,https://storage.googleapis.com/du-prd/books/images/9781665918688.jpg,"After a portal spell goes awry, five teenage wizards are stranded in the wilderness.",356,125
+537,STARS AND SMOKE,https://storage.googleapis.com/du-prd/books/images/9781250852816.jpg,A secret agent teams up with a pop star to bring down a powerful crime boss.,357,395
+538,THE STOLEN HEIR,https://storage.googleapis.com/du-prd/books/images/9780316519045.jpg,Runaway Queen Suren and Prince Oak embark on a deadly and dangerous mission to the north.,186,5
+539,SHE IS A HAUNTING,https://storage.googleapis.com/du-prd/books/images/9781547613212.jpg,"Jade Nguyen travels to Vietnam with her younger sister, Lily, to visit their father who’s restoring an old French colonial house which is haunted.",358,95
+540,A THOUSAND HEARTBEATS,https://storage.googleapis.com/du-prd/books/images/9780062665782.jpg,Annika and Lennox are lovers on opposing sides of an impending war.,359,104
+541,THE DAVENPORTS,https://storage.googleapis.com/du-prd/books/images/9780593463338.jpg,"The children of a wealthy Black family navigate romance, classism and racism in 1910 Chicago.",360,57
+542,SOMEONE ELSE'S SHOES,https://storage.googleapis.com/du-prd/books/images/9781984879295.jpg,"Drastic changes and a pair of six-inch high Christian Louboutin red crocodile shoes shake up the lives of two women. Read by Daisy Ridley. 12 hours, 22 minutes unabridged.",330,69
+543,FAIRY TALE,https://storage.googleapis.com/du-prd/books/images/9781668002179.jpg,"A high school kid inherits a shed that is a portal to another world where good and evil are at war. Read by Seth Numrich and the author. 24 hours, 4 minutes unabridged.",361,81
+544,BURNER,https://storage.googleapis.com/du-prd/books/images/9780593548103.jpg,"The 12th book in the Gray Man series. Stolen records, the Russian mafia and the C.I.A. complicate things for Court Gentry and his lover. Read by Jay Snyder. 16 hours, 38 minutes unabridged.",190,78
+545,STORM WATCH,https://storage.googleapis.com/du-prd/books/images/9780593331309.jpg,"The 23rd book in the Joe Pickett series. Joe and Nate might be on opposite sides for the first time. Read by David Chandler. 9 hours, 4 minutes unabridged.",331,73
+546,THE COURAGE TO BE FREE,https://storage.googleapis.com/du-prd/books/images/9780063276000.jpg,"The Florida governor gives his account of his achievements and shares his opinions about the political left. Read by John Pruden and the author. 8 hours, 59 minutes unabridged.",327,72
+547,SAVED,https://storage.googleapis.com/du-prd/books/images/9780063309661.jpg,"The Fox News journalist gives his account of the injuries he sustained from a Russian attack while covering the war in Ukraine. Read by the author. 8 hours, 23 minutes unabridged.",326,72
+548,THE END OF THE WORLD IS JUST THE BEGINNING,https://storage.googleapis.com/du-prd/books/images/9780063230477.jpg,"A look at potential changes in globalization. Read by the author. 16 hours, 44 minutes unabridged.",362,72
+549,WIN EVERY ARGUMENT,https://storage.googleapis.com/du-prd/books/images/9781250853479.jpg,"",363,67
+550,IT'S OK TO BE ANGRY ABOUT CAPITALISM,https://storage.googleapis.com/du-prd/books/images/9780593238714.jpg,"",335,11
+551,THE GREATNESS MINDSET,https://storage.googleapis.com/du-prd/books/images/9781401971908.jpg,"",364,107
+552,"JUJUTSU KAISEN, VOL. 19",https://storage.googleapis.com/du-prd/books/images/9781974736270.jpg,Itadori and Fushiguro get separated as they go after a player named Hiromi Higuruma. ,365,384
+553,"MY HERO ACADEMIA, VOL. 33",https://storage.googleapis.com/du-prd/books/images/9781974734740.jpg,Midoriya goes off on his own to draw the villains away and heroes outside Japan seek to join the fight.,366,384
+554,KAREN'S BIRTHDAY,https://storage.googleapis.com/du-prd/books/images/9781338762587.jpg,The sixth book in the Baby-sitters Little Sister graphic novel series. Karen hopes to have one big party to bring the whole family together.,299,50
+555,"CHAINSAW MAN, VOL. 1",https://storage.googleapis.com/du-prd/books/images/9781974709939.jpg,A poor young man who was betrayed by someone he once trusted discovers he has the power of a devil inside him.,367,384
+556,"THE BOY, THE MOLE, THE FOX AND THE HORSE: THE ANIMATED STORY",https://storage.googleapis.com/du-prd/books/images/9780063256194.jpg,A celebration of the work of more than 100 animators across two years of production in creating the film adaptation of the book.,257,46
+592,THE PARIS APARTMENT,https://storage.googleapis.com/du-prd/books/images/9780063003057.jpg,Jess has suspicions about her half-brother’s neighbors when he goes missing.,373,7
+557,INVESTIGATORS: AGENTS OF S.U.I.T.,https://storage.googleapis.com/du-prd/books/images/9781250852564.jpg,Cilantro the Chameleon's first field assignment brings her into close contact with a sheep-led workers' rights revolt and an alien invasion conspiracy.,368,365
+558,"DEMON SLAYER: KIMETSU NO YAIBA, VOL. 1",https://storage.googleapis.com/du-prd/books/images/9781974700523.jpg,A young charcoal seller must avenge his family by destroying the demon that slaughtered them.,369,384
+559,BEAUTIFUL,https://storage.googleapis.com/du-prd/books/images/9781984821645.jpg,A supermodel deals with the effects of a terror attack at an airport in Brussels on her life and appearance.,214,166
+560,THEN YOU CAME ALONG,https://storage.googleapis.com/du-prd/books/images/9780778386131.jpg,"Two romance stories: “Father’s Day” and “Same Time, Next Year.”",310,363
+561,A PLACE TO CALL HOME,https://storage.googleapis.com/du-prd/books/images/9781335426017.jpg,Two romance stories: “Megan’s Mate” and “Best Laid Plans.”,305,271
+562,A BRIGHT NEW DAY,https://storage.googleapis.com/du-prd/books/images/9780593359884.jpg,Two romance stories: “Borrowed Dreams” and “The Trouble With Caasi.”,310,22
+563,SHADOWS REEL,https://storage.googleapis.com/du-prd/books/images/9780593331262.jpg,"The 22nd book in the Joe Pickett series. A fishing guide’s murder, stolen falcons and a Nazi official’s photo album heighten the danger.",331,1
+564,THE RED BOOK,https://storage.googleapis.com/du-prd/books/images/9780316499408.jpg,The second book in the Billy Harney thriller series. The Chicago detective investigates his own past.,370,8
+565,GAME ON,https://storage.googleapis.com/du-prd/books/images/9781982154875.jpg,The 28th book in the Stephanie Plum series. Diesel and Stephanie track the international computer hacker Oswald Wednesday.,371,396
+566,ABSOLUTE FEAR,https://storage.googleapis.com/du-prd/books/images/9781420154931.jpg,The fourth book in the Rick Bentz/Reuben Montoy series. The detectives track a serial killer in New Orleans.,135,359
+567,HIGH STAKES,https://storage.googleapis.com/du-prd/books/images/9781984821713.jpg,A new assistant seeks to shake things up at a boutique literary and talent agency where damaging secrets have been kept hidden.,214,166
+568,HERE'S TO US,https://storage.googleapis.com/du-prd/books/images/9781250875051.jpg,Two romance stories: “Temptation” and “Second Nature.”,305,83
+569,BROWN GIRL DREAMING,https://storage.googleapis.com/du-prd/books/images/9780399252518.jpg,"",75,51
+570,IRON WIDOW,https://storage.googleapis.com/du-prd/books/images/9780735269934.jpg,"",372,397
+571,A DAY OF FALLEN NIGHT,https://storage.googleapis.com/du-prd/books/images/9781635577921.jpg,"A prequel to “The Priory of the Orange Tree.” When the Dreadmount erupts, several women must protect humankind.",149,95
+572,THE PARIS APARTMENT,https://storage.googleapis.com/du-prd/books/images/9780063003057.jpg,Jess has suspicions about her half-brother’s neighbors when he goes missing.,373,7
+573,ENCHANTMENT,https://storage.googleapis.com/du-prd/books/images/9780593329993.jpg,The author of “Wintering” shares her journey to reconnect with her sense of wonder and awe.,374,121
+574,WAKE UP WITH PURPOSE!,https://storage.googleapis.com/du-prd/books/images/9781400333516.jpg,The team chaplain for Loyola’s men’s basketball team recounts experiences from her more than 100 years of existence.,375,102
+575,WALK THE BLUE LINE,https://storage.googleapis.com/du-prd/books/images/9780316406604.jpg,A collection of stories about police officers.,376,5
+576,THE NAZI CONSPIRACY,https://storage.googleapis.com/du-prd/books/images/9781250777263.jpg,"The story of a Nazi plot to kill President Roosevelt, Joseph Stalin and Winston Churchill.",145,40
+577,THE 1619 PROJECT,https://storage.googleapis.com/du-prd/books/images/9780593230572.jpg,"Viewing America’s entanglement with slavery and its legacy, in essays adapted and expanded from The New York Times Magazine.",377,111
+578,A DAY OF FALLEN NIGHT,https://storage.googleapis.com/du-prd/books/images/9781635577921.jpg,"A prequel to “The Priory of the Orange Tree.” When the Dreadmount erupts, several women must protect humankind.",149,95
+579,THE ADVENTURES OF AMINA AL-SIRAFI,https://storage.googleapis.com/du-prd/books/images/9780062963505.jpg,A former pirate on the Indian Ocean is asked to retrieve her comrade’s kidnapped daughter.,378,103
+580,THE BOYS FROM BILOXI,https://storage.googleapis.com/du-prd/books/images/9780385548922.jpg,"Two childhood friends follow in their fathers’ footsteps, which puts them on opposite sides of the law.",59,19
+581,THE MIDNIGHT LIBRARY,https://storage.googleapis.com/du-prd/books/images/9780525559474.jpg,Nora Seed finds a library beyond the edge of the universe that contains books with multiple possibilities of the lives one could have lived.,379,25
+582,THE HOUSE IN THE PINES,https://storage.googleapis.com/du-prd/books/images/9780593186718.jpg,"Seven years after witnessing her best friend drop dead, Maya returns to her Berkshires hometown to piece together what happened.",380,86
+583,MURDER YOUR EMPLOYER,https://storage.googleapis.com/du-prd/books/images/9781668024485.jpg,"At the McMasters Conservatory for the Applied Arts, students learn how to “delete” someone.",381,123
+584,ENCHANTMENT,https://storage.googleapis.com/du-prd/books/images/9780593329993.jpg,The author of “Wintering” shares her journey to reconnect with her sense of wonder and awe.,374,121
+585,WAKE UP WITH PURPOSE!,https://storage.googleapis.com/du-prd/books/images/9781400333516.jpg,The team chaplain for Loyola’s men’s basketball team recounts experiences from her more than 100 years of existence.,375,102
+586,WALK THE BLUE LINE,https://storage.googleapis.com/du-prd/books/images/9780316406604.jpg,A collection of stories about police officers.,376,5
+587,THE NAZI CONSPIRACY,https://storage.googleapis.com/du-prd/books/images/9781250777263.jpg,"The story of a Nazi plot to kill President Roosevelt, Joseph Stalin and Winston Churchill.",145,40
+588,THE 1619 PROJECT,https://storage.googleapis.com/du-prd/books/images/9780593230572.jpg,"Viewing America’s entanglement with slavery and its legacy, in essays adapted and expanded from The New York Times Magazine.",377,111
+589,NEVER GIVE AN INCH,https://storage.googleapis.com/du-prd/books/images/9780063247444.jpg,"The former secretary of state gives his account of his time serving under President Trump, with a focus on an America First approach.",382,14
+590,"LOVE, PAMELA",https://storage.googleapis.com/du-prd/books/images/9780063226562.jpg,"The actress and activist details her childhood, rise to fame and the ways she is reclaiming the narrative of her life.",383,100
+591,THE HUMANITY ARCHIVE,https://storage.googleapis.com/du-prd/books/images/9781955905145.jpg,Overlooked stories in Black history.,384,93
+702,DESERT STAR,https://storage.googleapis.com/du-prd/books/images/9780316485654.jpg,Ballard and Bosch bury old resentments as they go after two killers.,451,5
+593,NOVEMBER 9,https://storage.googleapis.com/du-prd/books/images/9781501110351.jpg,Ben and Fallon meet on the same day each year but a possible untruth might spoil their relationship.,215,27
+594,THE MAID,https://storage.googleapis.com/du-prd/books/images/9780593356159.jpg,"When a wealthy man is found dead in his room, a maid at the Regency Grand Hotel becomes a lead suspect.",385,22
+595,STOLEN FOCUS,https://storage.googleapis.com/du-prd/books/images/9780593138519.jpg,Potential causes for diminishing attention spans and how corporations might raid our attention for profit.,386,11
+596,LUCK OF THE DRAW,https://storage.googleapis.com/du-prd/books/images/9781250866899.jpg,A member of the 100th Bombardment Group survived a German prisoner of war camp during World War II.,387,109
+597,QUIET,https://storage.googleapis.com/du-prd/books/images/9780307452207.jpg,Introverts — approximately one-third of the population — are undervalued in American society.,388,113
+598,SOUTH TO AMERICA,https://storage.googleapis.com/du-prd/books/images/9780062977403.jpg,A wide-ranging collection of stories and histories based in the American South that also illuminate the country as a whole.,389,101
+599,THE JANUARY 6TH REPORT,https://storage.googleapis.com/du-prd/books/images/9781250877529.jpg,The final report of the Select Committee to Investigate the Jan. 6. Attack on the United States Capitol; with a preface by David Remnick and epilogue by Representative Jamie Raskin.,390,9
+600,THE BOMBER MAFIA,https://storage.googleapis.com/du-prd/books/images/9780316296618.jpg,A look at the key players and outcomes of precision bombing during World War II.,252,97
+601,HOW TO BE AN ANTIRACIST,https://storage.googleapis.com/du-prd/books/images/9780525509288.jpg,A primer for creating a more just and equitable society through identifying and opposing racism.,391,111
+602,DRAMA FREE,https://storage.googleapis.com/du-prd/books/images/9780593539279.jpg,"",392,122
+603,8 RULES OF LOVE,https://storage.googleapis.com/du-prd/books/images/9781982183066.jpg,"",393,4
+604,CAN'T HURT ME,https://storage.googleapis.com/du-prd/books/images/9781544512280.jpg,"",394,92
+605,TWO WEEKS NOTICE,https://storage.googleapis.com/du-prd/books/images/9781401969875.jpg,"",395,107
+606,THE HUMAN KABOOM,https://storage.googleapis.com/du-prd/books/images/9780593462393.jpg,"Six humorous tales, all with the same explosive title.",396,1
+607,GROUND ZERO,https://storage.googleapis.com/du-prd/books/images/9781338245752.jpg,"Parallel storylines of Brandon and Reshmina take place on Sept. 11th, in 2001 and 2019.",74,50
+608,PETE THE CAT: THE GREAT LEPRECHAUN CHASE,https://storage.googleapis.com/du-prd/books/images/9780062404503.jpg,Pete opens a leprechaun catching business.,397,56
+609,HOT DOG,https://storage.googleapis.com/du-prd/books/images/9780593308431.jpg,A dachshund escapes the city's summer heat at the beach.,398,18
+610,FOLK OF THE AIR,https://storage.googleapis.com/du-prd/books/images/9780316310406.jpg,Jude’s quest to become the first mortal queen of the High Court of Faerie.,186,5
+611,IMMORTALITY,https://storage.googleapis.com/du-prd/books/images/9781250861016.jpg,"Hazel Sinnett is requested to be the personal physician of Princess Charlotte, the sickly granddaughter of King George III.",399,65
+612,THESE INFINITE THREADS,https://storage.googleapis.com/du-prd/books/images/9780062972477.jpg,"In this sequel to '"This Woven Kingdom,'" Alizeh and Kamran''s love is at stake when Cyrus abducts Alizeh and attempts to wed her.",91,56
+613,ENCORE IN DEATH,https://storage.googleapis.com/du-prd/books/images/9781250284310.jpg,"The 56th book of the In Death series. Eve Dallas investigates the mysterious death of a well-loved star of stage and screen. Read by Susan Ericksen. 13 hours, 47 minutes unabridged.",400,70
+614,THE LAST ORPHAN,https://storage.googleapis.com/du-prd/books/images/9781250252326.jpg,"The eighth book in the Orphan X series. Evan Smoak must choose between his principles or his life. Read by Scott Brick. 11 hours, 46 minutes unabridged.",401,70
+615,LOCAL WOMAN MISSING,https://storage.googleapis.com/du-prd/books/images/9781488211690.jpg,"Eleven years after several missing persons cases go cold, one person who disappeared returns. Read by Brittany Pressley, Gary Tiedemann et al. 11 hours, 40 minutes unabridged.",402,398
+616,"LOVE, PAMELA",https://storage.googleapis.com/du-prd/books/images/9780063226562.jpg,"The actress and activist details her childhood, rise to fame and the ways she is reclaiming the narrative of her life. Read by the author. 5 hours, 28 minutes unabridged.",383,72
+617,BAD MORMON,https://storage.googleapis.com/du-prd/books/images/9781982199531.jpg,"A star of “The Real Housewives of Salt Lake City” describes leaving the Mormon Church and finding success as a businesswoman and single mother. Read by the author. 7 hours, 46 minutes unabridged.",403,81
+618,STRAIGHT SHOOTER,https://storage.googleapis.com/du-prd/books/images/9781982189495.jpg,"The ESPN analyst recounts the highs and lows of his life and career. Read by the author. 7 hours, 55 minutes unabridged.",404,81
+619,THE 1619 PROJECT,https://storage.googleapis.com/du-prd/books/images/9780593230572.jpg,"Viewing America’s entanglement with slavery and its legacy, in essays adapted and expanded from The New York Times Magazine. Read by Nikole Hannah-Jones and a full cast. 18 hours, 57 minutes unabridged.",377,71
+620,UNSCRIPTED,https://storage.googleapis.com/du-prd/books/images/9781984879424.jpg,"",405,119
+621,THE CLIMATE BOOK,https://storage.googleapis.com/du-prd/books/images/9780593492307.jpg,"",406,119
+622,BAD MORMON,https://storage.googleapis.com/du-prd/books/images/9781982199531.jpg,"",403,2
+623,COBALT RED,https://storage.googleapis.com/du-prd/books/images/9781250284303.jpg,"",407,83
+624,THE ADVENTURE ZONE: THE ELEVENTH HOUR,https://storage.googleapis.com/du-prd/books/images/9781250793782.jpg,"The fifth installment of the series that is based on the podcast from the McElroy family. Taako, Magnus and Merle are trapped in a time loop in a small mining town.",408,365
+625,MY DRESS-UP DARLING 07,https://storage.googleapis.com/du-prd/books/images/9781646091645.jpg,"When their relationship status is questioned at karaoke, Marin and Wakana focus more on cosplay.",409,400
+626,"SPY X FAMILY, VOL. 1",https://storage.googleapis.com/du-prd/books/images/9781974715466.jpg,"A master spy must pass himself off as a family man to infiltrate a private school, but his new wife is an assassin and adopted child is a telepath.",301,384
+627,"HEARTSTOPPER, VOL. 1",https://storage.googleapis.com/du-prd/books/images/9781338617436.jpg,Charlie and Nick deal with the ups and downs of high school at the same time they grow closer together.,280,50
+665,THE DOOR OF NO RETURN,https://storage.googleapis.com/du-prd/books/images/9780316441865.jpg,Kofi's life is turned upside down after his brother accidentally kills a prince in a wresting match.,175,5
+628,RECOVERY ROAD,https://storage.googleapis.com/du-prd/books/images/9780593439210.jpg,The eighth book in the Torpedo Ink series. A member of the motorcycle club helps an investment banker deal with thugs attempting to coerce her into marriage.,410,112
+629,21ST BIRTHDAY,https://storage.googleapis.com/du-prd/books/images/9780316499347.jpg,The 21st book in the Women’s Murder Club series. New evidence changes the investigation of a missing mother.,209,8
+630,IN HER HIGHLANDER'S BED,https://storage.googleapis.com/du-prd/books/images/9780063135314.jpg,"The 11th book in the Highland Brides series. Allissaid MacFarlane starts to fall for Calan Campbell, Laird of Kilcairn.",411,141
+631,CITY OF THE DEAD,https://storage.googleapis.com/du-prd/books/images/9780525618584.jpg,The 37th book in the Alex Delaware series. Delaware and Sturgis investigate a double homicide.,194,22
+632,DESPERATION IN DEATH,https://storage.googleapis.com/du-prd/books/images/9781250278234.jpg,The 55th book of the In Death series. Eve Dallas is reminded of her past as she investigates a possible sex trafficking ring.,400,83
+633,A GAMBLING MAN,https://storage.googleapis.com/du-prd/books/images/9781538719671.jpg,"Aloysius Archer, a World War II veteran, seeks to apprentice with Willie Dash, a private eye, in a corrupt California town.",182,8
+634,FORT MISERY,https://storage.googleapis.com/du-prd/books/images/9780786049615.jpg,"In Arizona Territory’s Mohawk Valley, Captain Kellerman commands killers, thieves and ravagers.",307,386
+635,MACGREGOR EVER AFTER,https://storage.googleapis.com/du-prd/books/images/9781335426000.jpg,Two romance stories; “The Winning Hand” and “The Perfect Neighbor.”,305,271
+636,AMARI AND THE NIGHT BROTHERS,https://storage.googleapis.com/du-prd/books/images/9780062975164.jpg,"",412,64
+637,PAX,https://storage.googleapis.com/du-prd/books/images/9780062377012.jpg,"",413,64
+638,WE WERE LIARS,https://storage.googleapis.com/du-prd/books/images/9780375984402.jpg,"",414,391
+639,YOU'D BE HOME NOW,https://storage.googleapis.com/du-prd/books/images/9780525708070.jpg,"",319,391
+640,HIGHLY SUSPICIOUS AND UNFAIRLY CUTE,https://storage.googleapis.com/du-prd/books/images/9780593482353.jpg,"",415,401
+641,LORE,https://storage.googleapis.com/du-prd/books/images/9781368075688.jpg,"",286,61
+642,EXILES,https://storage.googleapis.com/du-prd/books/images/9781250874863.jpg,"Questions surrounding the case of a missing woman, which have weighed on Aaron Falk for the past year, emerge at a gathering in the southern Australian wine country.",416,40
+643,AND THERE WAS LIGHT,https://storage.googleapis.com/du-prd/books/images/9780553393965.jpg,The Pulitzer Prize-winning biographer portrays the life of Abraham Lincoln.,417,12
+644,MASTER SLAVE HUSBAND WIFE,https://storage.googleapis.com/du-prd/books/images/9781501191053.jpg,"In 1848, Ellen Craft, disguised as a disabled white man, and her husband, William, posing as that man’s slave, achieved freedom only to have to flee again.",418,4
+645,MAAME,https://storage.googleapis.com/du-prd/books/images/9781250282521.jpg,"Maddie, the daughter of an overbearing mother recently returned from Ghana and a father suffering from Parkinson’s, begins to build a life for herself in London.",419,83
+646,THE HOUSE OF WOLVES,https://storage.googleapis.com/du-prd/books/images/9780316404297.jpg,"After her father is murdered, Jenny Wolf becomes the head of a powerful family in California.",420,5
+647,EXILES,https://storage.googleapis.com/du-prd/books/images/9781250874863.jpg,"Questions surrounding the case of a missing woman, which have weighed on Aaron Falk for the past year, emerge at a gathering in the southern Australian wine country.",416,40
+648,HOW TO SELL A HAUNTED HOUSE,https://storage.googleapis.com/du-prd/books/images/9780593201268.jpg,"After her parents die, Louise encounters more than she expected in dealing with the family home.",421,112
+649,HORSE,https://storage.googleapis.com/du-prd/books/images/9780399562969.jpg,"The story of a racehorse, an enslaved groom and an itinerant painter reverberates in three different eras.",422,25
+650,FINLAY DONOVAN JUMPS THE GUN,https://storage.googleapis.com/du-prd/books/images/9781250846037.jpg,"The third book in the Finlay Donovan series. A mob boss, a contract killer and parenthood complicate things for Finlay and Vero.",423,108
+651,MASTER SLAVE HUSBAND WIFE,https://storage.googleapis.com/du-prd/books/images/9781501191053.jpg,"In 1848, Ellen Craft, disguised as a disabled white man, and her husband, William, posing as that man’s slave, achieved freedom only to have to flee again.",418,4
+652,SURRENDER,https://storage.googleapis.com/du-prd/books/images/9780525521044.jpg,"The lead singer of the Irish rock band U2 offers details of his life, career and activism.",424,18
+653,AND THERE WAS LIGHT,https://storage.googleapis.com/du-prd/books/images/9780553393965.jpg,The Pulitzer Prize-winning biographer portrays the life of Abraham Lincoln.,417,12
+654,MAYBE SOMEDAY,https://storage.googleapis.com/du-prd/books/images/9781476753171.jpg,"When a college student finds out her boyfriend is cheating on her, she turns her attention to her guitar-playing neighbor.",215,27
+655,A MAN CALLED OVE,https://storage.googleapis.com/du-prd/books/images/9781476738024.jpg,A curmudgeon's gruff exterior masks a generosity of spirit; the basis of the film “A Man Called Otto.”,425,126
+656,MAYBE NOW,https://storage.googleapis.com/du-prd/books/images/9781668013342.jpg,"The third book in the Maybe Someday series. Maggie, Ridge and Sydney are forced to deal with the dynamics of their relationships.",215,27
+657,HOW THE WORD IS PASSED,https://storage.googleapis.com/du-prd/books/images/9780316492935.jpg,A staff writer at The Atlantic explores the legacy of slavery and its imprint on centuries of American history.,332,97
+658,BETWEEN TWO KINGDOMS,https://storage.googleapis.com/du-prd/books/images/9780399588587.jpg,"The writer of the New York Times column “Life, Interrupted” chronicles her fight with cancer and an impactful road trip.",426,12
+659,THESE PRECIOUS DAYS,https://storage.googleapis.com/du-prd/books/images/9780063092785.jpg,"Essays on friendships, influences and the connection between life and art.",427,30
+660,BECOMING FREE INDEED,https://storage.googleapis.com/du-prd/books/images/9781400335817.jpg,"",428,39
+661,THE GOOD LIFE,https://storage.googleapis.com/du-prd/books/images/9781982166694.jpg,"",429,4
+662,GO-TO DINNERS,https://storage.googleapis.com/du-prd/books/images/9781984822789.jpg,"",430,114
+663,ATLAS OF THE HEART,https://storage.googleapis.com/du-prd/books/images/9780399592553.jpg,"",66,12
+664,LITTLE LEGENDS: EXCEPTIONAL MEN IN BLACK HISTORY,https://storage.googleapis.com/du-prd/books/images/9780316475143.jpg,Biographies of trailblazing Black men.,431,5
+666,"STUNTBOY, IN THE MEANTIME",https://storage.googleapis.com/du-prd/books/images/9781534418165.jpg,"As a coping mechanism for his “frets,” a young boy creates a superhero alter ego.",283,366
+667,THE LAST CUENTISTA,https://storage.googleapis.com/du-prd/books/images/9781646140893.jpg,Petra is one of the last people who have memories of the planet Earth.,432,402
+668,LITTLE BLUE TRUCK'S VALENTINE,https://storage.googleapis.com/du-prd/books/images/9780358272441.jpg,Little Blue Truck delivers Valentine's Day cards to all his farm animal friends.,433,99
+669,LOVE FROM THE VERY HUNGRY CATERPILLAR,https://storage.googleapis.com/du-prd/books/images/9780448489322.jpg,A ravenous insect returns with its appetite intact.,272,115
+670,HOW TO CATCH A LOVEOSAURUS,https://storage.googleapis.com/du-prd/books/images/9781728239484.jpg,The Catch Club Kids attempt to catch a dinosaur that wants to spread love and kindness.,434,129
+671,GRUMPY MONKEY VALENTINE GROSS-OUT,https://storage.googleapis.com/du-prd/books/images/9780593486924.jpg,"Jim Panzee believes that Valentine''s Day is gross, especially kissing!",435,120
+672,LOVE FROM THE CRAYONS,https://storage.googleapis.com/du-prd/books/images/9781524792688.jpg,The Crayons show the colors of love.,436,63
+673,IN MY HEART,https://storage.googleapis.com/du-prd/books/images/9781419713101.jpg,An exploration of feelings.,437,94
+674,PETE THE CAT: VALENTINE'S DAY IS COOL,https://storage.googleapis.com/du-prd/books/images/9780062198655.jpg,"Pete’s passing out valentines, but what happens when someone is overlooked?",81,54
+675,THE SMALLEST SPOT OF A DOT,https://storage.googleapis.com/du-prd/books/images/9780310748809.jpg,"An exploration of genetics, DNA and individuality.",438,106
+676,THE ABCS OF BLACK HISTORY,https://storage.googleapis.com/du-prd/books/images/9781523507498.jpg,An informative ode to Black history.,439,35
+677,THE LAST HOURS,https://storage.googleapis.com/du-prd/books/images/9781481431934.jpg,The adventures of Shadowhunter Cordelia Carstairs as she battles evil forces in Edwardian London.,440,125
+678,THRONE OF GLASS,https://storage.googleapis.com/du-prd/books/images/9781619630666.jpg,Celaena must battle evil forces threatening her realm.,441,95
+679,HOW TO BE A (YOUNG) ANTIRACIST,https://storage.googleapis.com/du-prd/books/images/9780593461600.jpg,Shaping the way a generation thinks about race and racism.,442,117
+680,LOVELESS,https://storage.googleapis.com/du-prd/books/images/9781338840292.jpg,"Georgia, a British teenager, works on accepting her aro-ace identity.",280,50
+681,A MAN CALLED OVE,https://storage.googleapis.com/du-prd/books/images/9781476738024.jpg,"A curmudgeon''s gruff exterior masks a generosity of spirit; the basis of the film “A Man Called Otto.” Read by J.K. Simmons. 9 hours, 12 minutes unabridged.",425,81
+682,THE CABINET OF DR. LENG,https://storage.googleapis.com/du-prd/books/images/9781538736777.jpg,"The 21st book in the Pendergast series. Constance Greene travels back in time to prevent the deaths of her siblings. Read by Jefferson Mays. 14 hours, 24 minutes unabridged.",443,80
+683,SURRENDER,https://storage.googleapis.com/du-prd/books/images/9780525521044.jpg,"The lead singer of the Irish rock band U2 offers details of his life, career and activism. Read by the author. 20 hours, 26 minutes unabridged.",424,71
+684,FINANCIAL FEMINIST,https://storage.googleapis.com/du-prd/books/images/9780063260269.jpg,"",444,100
+685,FROM STRENGTH TO STRENGTH,https://storage.googleapis.com/du-prd/books/images/9780593191484.jpg,"",445,253
+686,JESSI'S SECRET LANGUAGE,https://storage.googleapis.com/du-prd/books/images/9781338616071.jpg,The 12th book in the Baby-sitters Club graphic novel series. Jessi uses sign language with her charge.,299,50
+687,THE DRAGONET PROPHECY,https://storage.googleapis.com/du-prd/books/images/9780545942157.jpg,The first book in the Wings of Fire graphic book series. Five dragonets spring into action to fulfill their destiny.,295,50
+688,"KAIJU NO. 8, VOL. 5",https://storage.googleapis.com/du-prd/books/images/9781974734184.jpg,"When the Defense Force takes Kafka Hibino into custody, he pleads his case with Director General Shinomiya.",298,384
+689,"CHAINSAW MAN, VOL. 2",https://storage.googleapis.com/du-prd/books/images/9781974709946.jpg,Denji fights the Bat Devil in pursuit of something he isn’t sure will bring him happiness.,367,384
+690,"CHAINSAW MAN, VOL. 3",https://storage.googleapis.com/du-prd/books/images/9781974709953.jpg,"If devil hunters don’t agree to a deal, Denji may need to carve up everything in his way.",367,384
+691,"HEARTSTOPPER, VOL. 2",https://storage.googleapis.com/du-prd/books/images/9781338617474.jpg,"The second book in the Heartstopper series. Nick discovers things about the people around him, and about himself.",280,50
+692,"JUJUTSU KAISEN, VOL. 18",https://storage.googleapis.com/du-prd/books/images/9781974734399.jpg,The action moves to an underground fight club where a suspended third-year student at Jujutsu High works as a bookie.,365,384
+693,BAD LUCK AND TROUBLE,https://storage.googleapis.com/du-prd/books/images/9780440243663.jpg,The 11th book in the Jack Reacher series. Reacher must discover who is hunting members of a team of former military investigators.,446,166
+694,TICK TOCK,https://storage.googleapis.com/du-prd/books/images/9781420154245.jpg,"The 34th book in the Sisterhood series. As a vicious felon seeks to settle some scores, Myra and Charles call for reinforcements.",447,359
+695,SMOKE SCREEN,https://storage.googleapis.com/du-prd/books/images/9781416563068.jpg,"Scandalous deaths thwart the investigation of a fatal fire at the police headquarters in Charleston, S.C.",304,396
+696,PREACHER'S PURGE,https://storage.googleapis.com/du-prd/books/images/9780786049868.jpg,Preacher takes on Albion Shaw and his band of cutthroat killers.,307,386
+697,STEAL,https://storage.googleapis.com/du-prd/books/images/9781538703533.jpg,"An N.Y.P.D. detective, a hedge fund chief executive and a psychology professor are wrapped up in the disappearance of a college student.",448,8
+698,THE APPEAL,https://storage.googleapis.com/du-prd/books/images/9780385342926.jpg,Political and legal intrigue ensue when a Mississippi court rules against a company accused of dumping toxic waste.,59,166
+699,INVISIBLE,https://storage.googleapis.com/du-prd/books/images/9781984821584.jpg,The daughter of a couple in a loveless marriage is discovered by a British filmmaker and thrust into the public eye.,214,166
+700,A SLOW FIRE BURNING,https://storage.googleapis.com/du-prd/books/images/9780735211230.jpg,Three women come under scrutiny when a young man is found gruesomely murdered in a London houseboat.,449,121
+701,REMEMBER LOVE,https://storage.googleapis.com/du-prd/books/images/9780593438145.jpg,"Devlin Ware returns to his family''s estate, Ravenswood, after being banished as a traitor for calling his family to account.",450,112
+703,DREAMLAND,https://storage.googleapis.com/du-prd/books/images/9780593449554.jpg,Musicians from different backgrounds are attracted to each other and a mother flees with her son from an abusive husband.,452,12
+704,BABEL,https://storage.googleapis.com/du-prd/books/images/9780063021426.jpg,"In 1828, Robin Swift studies at Oxford University’s Royal Institute of Translation and faces a choice when Britain pursues a war with China.",453,103
+705,THE JANUARY 6 REPORT,https://storage.googleapis.com/du-prd/books/images/9780063315501.jpg,The final report of the Select Committee to Investigate the Jan. 6. Attack on the United States Capitol; with a foreword by Ari Melber.,454,6
+706,THE SONG OF THE CELL,https://storage.googleapis.com/du-prd/books/images/9781982117351.jpg,The Pulitzer Prize-winning author chronicles the discovery of cells and describes how modern medicine uses them.,455,23
+707,THE REVOLUTIONARY,https://storage.googleapis.com/du-prd/books/images/9780316441117.jpg,The Pulitzer Prize-winning biographer details Samuel Adams’s contributions to the American Revolution.,456,5
+708,AN IMMENSE WORLD,https://storage.googleapis.com/du-prd/books/images/9780593133231.jpg,The Pulitzer Prize–winning science writer explains the sensory perceptions and ways of communication used by a variety of animals.,457,12
+709,THE PHILOSOPHY OF MODERN SONG,https://storage.googleapis.com/du-prd/books/images/9781451648706.jpg,"In a collection of more than 60 essays, the musician and winner of the Nobel Prize in Literature explores the nature of popular music.",458,4
+710,BABEL,https://storage.googleapis.com/du-prd/books/images/9780063021426.jpg,"In 1828, Robin Swift studies at Oxford University’s Royal Institute of Translation and faces a choice when Britain pursues a war with China.",453,103
+711,DREAMLAND,https://storage.googleapis.com/du-prd/books/images/9780593449554.jpg,Musicians from different backgrounds are attracted to each other and a mother flees with her son from an abusive husband.,452,12
+712,A WORLD OF CURIOSITIES,https://storage.googleapis.com/du-prd/books/images/9781250145291.jpg,"The 18th book in the Chief Inspector Gamache series. When an attic room that was sealed off 160 years ago is opened, an old enemy returns.",459,108
+713,TRIPLE CROSS,https://storage.googleapis.com/du-prd/books/images/9780316499187.jpg,Detective Alex Cross and the true-crime author Thomas Tull search for a serial killer known as the Family Man.,460,5
+714,THE MARRIAGE PORTRAIT,https://storage.googleapis.com/du-prd/books/images/9780593320624.jpg,"In 1550s Florence, the future of the third daughter of the grand duke seems uncertain after she is thrust into a marriage.",461,18
+715,GOING ROGUE,https://storage.googleapis.com/du-prd/books/images/9781668003053.jpg,The 29th book in the Stephanie Plum series. The man who abducted the office manager at Vinnie's Bail Bonds demands a mysterious coin in exchange for her.,371,27
+716,TOM CLANCY: RED WINTER,https://storage.googleapis.com/du-prd/books/images/9780593422755.jpg,The 22nd book in the Jack Ryan series. Ryan goes behind the Berlin Wall in 1985 to investigate an East German defector.,462,1
+717,THE REVOLUTIONARY,https://storage.googleapis.com/du-prd/books/images/9780316441117.jpg,The Pulitzer Prize-winning biographer details Samuel Adams’s contributions to the American Revolution.,456,5
+718,THE SONG OF THE CELL,https://storage.googleapis.com/du-prd/books/images/9781982117351.jpg,The Pulitzer Prize-winning author chronicles the discovery of cells and describes how modern medicine uses them.,455,23
+719,THE PHILOSOPHY OF MODERN SONG,https://storage.googleapis.com/du-prd/books/images/9781451648706.jpg,"In a collection of more than 60 essays, the musician and winner of the Nobel Prize in Literature explores the nature of popular music.",458,4
+720,AN IMMENSE WORLD,https://storage.googleapis.com/du-prd/books/images/9780593133231.jpg,The Pulitzer Prize–winning science writer explains the sensory perceptions and ways of communication used by a variety of animals.,457,12
+721,CINEMA SPECULATION,https://storage.googleapis.com/du-prd/books/images/9780063112582.jpg,The filmmaker shares his love of cinema with special attention given to key American films of the 1970s.,463,6
+722,WHAT IF? 2,https://storage.googleapis.com/du-prd/books/images/9780525537113.jpg,The creator of the web comic “xkcd” and former NASA roboticist looks into hypothetical and oddball scenarios.,464,121
+723,STARRY MESSENGER,https://storage.googleapis.com/du-prd/books/images/9781250861504.jpg,"The astrophysicist and director of the Hayden Planetarium delves into subjects including politics, religion, gender and race.",121,67
+724,THE SONG OF ACHILLES,https://storage.googleapis.com/du-prd/books/images/9780062060624.jpg,A reimagining of Homer’s “Iliad” that is narrated by Achilles' companion Patroclus.,151,101
+725,ALL YOUR PERFECTS,https://storage.googleapis.com/du-prd/books/images/9781501171604.jpg,Quinn and Graham’s marriage depends on past promises.,215,27
+726,THE LOVE HYPOTHESIS,https://storage.googleapis.com/du-prd/books/images/9780593336823.jpg,A young professor agrees to pretend to be a third-year Ph.D. candidate’s boyfriend.,465,112
+727,CONFESS,https://storage.googleapis.com/du-prd/books/images/9781476791463.jpg,Auburn Reed falls for an artist with a troubled past.,215,27
+728,THE JANUARY 6 REPORT,https://storage.googleapis.com/du-prd/books/images/9780063315501.jpg,The final report of the Select Committee to Investigate the Jan. 6. Attack on the United States Capitol; with a foreword by Ari Melber.,454,6
+729,THE JANUARY 6 REPORT,https://storage.googleapis.com/du-prd/books/images/9781538742150.jpg,The final report of the Select Committee to Investigate the Jan. 6. Attack on the United States Capitol; with analysis and visuals by the staff of The New York Times.,466,13
+730,ALL ABOUT ME!,https://storage.googleapis.com/du-prd/books/images/9780593159118.jpg,"The EGOT and Kennedy Center honoree shares stories about making comedy for the stage, film and television.",467,22
+731,NEVER FINISHED,https://storage.googleapis.com/du-prd/books/images/9781544534077.jpg,"",394,92
+732,LIGHTER,https://storage.googleapis.com/du-prd/books/images/9780593233177.jpg,"",468,116
+733,FAITH STILL MOVES MOUNTAINS,https://storage.googleapis.com/du-prd/books/images/9780063225930.jpg,"",469,14
+734,HALF BAKED HARVEST EVERY DAY,https://storage.googleapis.com/du-prd/books/images/9780593232552.jpg,"",470,114
+735,"UNSTOPPABLE US, VOL. 1",https://storage.googleapis.com/du-prd/books/images/9780593643464.jpg,A look at the early history of humankind.,471,403
+736,THE COMPLETE BAKING BOOK FOR YOUNG CHEFS,https://storage.googleapis.com/du-prd/books/images/9781492677697.jpg,One hundred plus kid-tested baking recipes.,266,404
+737,THE CHRISTMAS PIG,https://storage.googleapis.com/du-prd/books/images/9781338790238.jpg,"When a young boy''s favorite toy goes missing, it''s Christmas Pig to the rescue!",472,50
+738,WARRIORS: A STARLESS CLAN: SKY,https://storage.googleapis.com/du-prd/books/images/9780063050150.jpg,"Disaster strikes at the heart of RiverClan, and its survival depends on the young medicine cat apprentice Frostpaw.",473,56
+739,A ROVER'S STORY,https://storage.googleapis.com/du-prd/books/images/9780063113923.jpg,A Mars rover named Resilience develops emotions.,474,64
+740,THE SOUR GRAPE,https://storage.googleapis.com/du-prd/books/images/9780063045415.jpg,"A grape hold grudges against everyone, then re-evaluates life when one is held against him.",475,56
+741,GRUMPY MONKEY,https://storage.googleapis.com/du-prd/books/images/9780553537864.jpg,Jim Panzee is having a bad day.,435,12
+742,AN ELEPHANT & PIGGIE BIGGIE! VOL. 5,https://storage.googleapis.com/du-prd/books/images/9781368072243.jpg,This fifth installment includes five stories.,476,207
+743,KNIGHT OWL,https://storage.googleapis.com/du-prd/books/images/9780316310628.jpg,A young owl must prove himself when an intruder comes to the castle.,477,405
+744,THE SMART COOKIE,https://storage.googleapis.com/du-prd/books/images/9780063045408.jpg,Cookie builds up her self-confidence.,84,6
+745,I'M SO GLAD YOU WERE BORN,https://storage.googleapis.com/du-prd/books/images/9780310777021.jpg,A celebration of who you are.,478,106
+746,LITTLE BLUE TRUCK MAKES A FRIEND,https://storage.googleapis.com/du-prd/books/images/9780358722823.jpg,Blue and friends meet Chuck the woodchuck.,479,99
+747,KINGDOM OF THE WICKED,https://storage.googleapis.com/du-prd/books/images/9780316341882.jpg,Emilia's quest to seek out her sister's killer and exact vengeance.,480,5
+748,A TWISTED TALE,https://storage.googleapis.com/du-prd/books/images/9781484781302.jpg,A twist on Disney's greatest tales.,481,61
+749,CRAVE,https://storage.googleapis.com/du-prd/books/images/9781682816158.jpg,Grace attends Katmere Academy among supernatural beings.,482,406
+750,BLOODMARKED,https://storage.googleapis.com/du-prd/books/images/9781534441637.jpg,"Bree and her friends go on the run to save her love, Nick.",483,4
+751,THE BALLAD OF NEVER AFTER,https://storage.googleapis.com/du-prd/books/images/9781250268426.jpg,"After vowing to never trust the Prince of Hearts again, Evangeline finds that he may be the only one she can trust.",324,40
+752,LONG LIVE THE PUMPKIN QUEEN,https://storage.googleapis.com/du-prd/books/images/9781368084383.jpg,"Sally, the new Queen of Halloween Town, must save her town from a sleeping curse.",484,96
+753,FOUL LADY FORTUNE,https://storage.googleapis.com/du-prd/books/images/9781665905589.jpg,"After a string of murders in Shanghai, Rosalind and Orion infiltrate the Japanese government-funded Seagreen Press.",485,125
+754,THE LUMINARIES,https://storage.googleapis.com/du-prd/books/images/9781250896155.jpg,Winnie Wednesday trains to become one of the Luminaries who protect Hemlock Falls from the monsters and nightmares of its forest.,486,281
+755,FAMILY OF LIARS,https://storage.googleapis.com/du-prd/books/images/9780593485859.jpg,This prequel to “We Were Liars” focuses on Cady's mother and aunts as teenagers in 1987.,414,68
+756,DESERT STAR,https://storage.googleapis.com/du-prd/books/images/9781668602676.jpg,"Ballard and Bosch bury old resentments as they go after two killers. Read by Titus Welliver, Christine Lakin and Peter Giles. 9 hours, 37 minutes unabridged.",451,80
+757,TOM CLANCY: RED WINTER,https://storage.googleapis.com/du-prd/books/images/9780593422755.jpg,"The 22nd book in the Jack Ryan series. Ryan goes behind the Berlin Wall in 1985 to investigate an East German defector. Read by Scott Brick. 12 hours, 38 minutes unabridged.",462,71
+758,FAILURE MODE,https://storage.googleapis.com/du-prd/books/images/9781039413108.jpg,"The 15th book in the Expeditionary Force series. Read by R.C. Bray. 19 hours, 22 minutes unabridged.",108,407
+759,A WORLD OF CURIOSITIES,https://storage.googleapis.com/du-prd/books/images/9781250145291.jpg,"The 18th book in the Chief Inspector Gamache series. When an attic room that was sealed off 160 years ago is opened, an old enemy returns. Read by Robert Bathurst. 13 hours, 15 minutes unabridged.",459,70
+760,STARRY MESSENGER,https://storage.googleapis.com/du-prd/books/images/9781250861504.jpg,"The astrophysicist and director of the Hayden Planetarium delves into subjects including politics, religion, gender and race. Read by the author. 7 hours, 17 minutes unabridged.",121,70
+761,AN IMMENSE WORLD,https://storage.googleapis.com/du-prd/books/images/9780593133231.jpg,"The Pulitzer Prize–winning science writer explains the sensory perceptions and ways of communication used by a variety of animals. Read by the author. 14 hours, 18 minutes unabridged.",457,71
+762,CHIP WAR,https://storage.googleapis.com/du-prd/books/images/9781982172008.jpg,"",487,23
+763,VANDERBILT,https://storage.googleapis.com/du-prd/books/images/9780062964618.jpg,"",488,6
+764,THE BOOK OF BOUNDARIES,https://storage.googleapis.com/du-prd/books/images/9780593448700.jpg,"",489,57
+765,OUTLIERS,https://storage.googleapis.com/du-prd/books/images/9780316017930.jpg,"",252,143
+766,EMPIRE OF PAIN,https://storage.googleapis.com/du-prd/books/images/9780385545686.jpg,"",24,19
+767,ON PURPOSE,https://storage.googleapis.com/du-prd/books/images/9781338801941.jpg,"The third book in the Cat Kid Comic Club series. Fame, fortune and creativity pull the members of the comic club in different directions.",89,50
+768,THE BAD GUYS IN THE OTHERS?!,https://storage.googleapis.com/du-prd/books/images/9781338820539.jpg,The 16th book in the Bad Guys series. An oversharing bat and a guy with a mullet add to the weirdness.,490,50
+769,NUMBER ONE IS WALKING,https://storage.googleapis.com/du-prd/books/images/9781250815293.jpg,"An illustrated memoir detailing Martin’s time as an actor, comedian, banjo player and more.",491,9
+770,PERSPECTIVES,https://storage.googleapis.com/du-prd/books/images/9781338784855.jpg,The second book in the Cat Kid Comic Club series. Can this cast of characters understand and appreciate one another’s point of view?,89,50
+771,THE AWAKENING,https://storage.googleapis.com/du-prd/books/images/9781250272614.jpg,The first book in the Dragon Heart Legacy series. Breen Kelly travels through a portal in Ireland to a land of faeries and mermaids.,305,83
+772,ONE STEP TOO FAR,https://storage.googleapis.com/du-prd/books/images/9780593185414.jpg,The second book in the Frankie Elkin series. Frankie searches for a young man who went missing during a bachelor party camping trip.,138,86
+773,BEFORE WE WERE YOURS,https://storage.googleapis.com/du-prd/books/images/9780425284681.jpg,A South Carolina lawyer learns about the questionable practices of a Tennessee orphanage.,492,22
+774,CRUEL WINTER OF THE MOUNTAIN MAN,https://storage.googleapis.com/du-prd/books/images/9780786048946.jpg,"The 50th book in the Mountain Man series. Smoke Jensen enlists the townspeople of Salt Lick, Texas, to protect their town from a blizzard and bandits.",307,386
+775,LEOPARD'S SCAR,https://storage.googleapis.com/du-prd/books/images/9780593439203.jpg,The 14th book in the Leopard series. Desire arises when Meiling uses her strength to save a leopard shifter.,410,112
+776,WRITTEN IN THE STARS,https://storage.googleapis.com/du-prd/books/images/9781335426024.jpg,Two romance stories: “Loving Jack” and “Lawless.”,305,271
+777,A BEND IN THE ROAD,https://storage.googleapis.com/du-prd/books/images/9781455574063.jpg,A widower in North Carolina and his son's second-grade teacher discover that they are linked by a shocking secret.,452,8
+778,BLIND TIGER,https://storage.googleapis.com/du-prd/books/images/9781538751961.jpg,"During Prohibition, Thatcher Hutton and Laurel Plummer wind up on opposite sides of a moonshine war in Texas.",304,8
+779,TOM CLANCY: CHAIN OF COMMAND,https://storage.googleapis.com/du-prd/books/images/9780593188163.jpg,The 21st book in the Jack Ryan series. A shadowy billionaire plans to kidnap the first lady to get President Jack Ryan out of his way.,462,112
+780,IN THE BLOOD,https://storage.googleapis.com/du-prd/books/images/9781982181659.jpg,The fifth book in the Terminal List series. James Reece goes after the killer of a Mossad operative attached to the C.I.A.,493,396
+781,KINGDOM OF BONES,https://storage.googleapis.com/du-prd/books/images/9780062892980.jpg,The 16th book in the Sigma Force series. An unknown force is putting people in a catatonic state in a village in the Congo.,494,7
+782,MAP OF FLAMES,https://storage.googleapis.com/du-prd/books/images/9780593325407.jpg,"",495,1
+783,A WHALE OF THE WILD,https://storage.googleapis.com/du-prd/books/images/9780062995933.jpg,"",316,387
+784,SHE'S GONE,https://storage.googleapis.com/du-prd/books/images/9781728254203.jpg,"",496,390
+785,DEMON SLAYER: KIMETSU NO YAIBA--THE FLOWER OF HAPPINESS,https://storage.googleapis.com/du-prd/books/images/9781974732524.jpg,"",497,408
+786,LEGENDBORN,https://storage.googleapis.com/du-prd/books/images/9781534441606.jpg,"",483,125
