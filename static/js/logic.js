@@ -1,5 +1,6 @@
-d3.json('http://127.0.0.1:5000/api/v1.0/books') 
-  .then(function(data) {
+fetch('http://127.0.0.1:5000/api/v1.0/books') 
+  .then(response => response.json())
+  .then(data => {
     console.log(data);
   });
 
