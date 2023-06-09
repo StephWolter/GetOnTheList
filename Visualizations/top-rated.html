@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Project 3 Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-purple.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Impact">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="import" href="common.html">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Copperplate", sans-serif;}
+</style>
+
+</head>
+<body>
+
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./index.html">Homepage</a>
+    <a href="./about.html">About</a>
+    <a href="./charts.html">Charts/Map</a>
+    <a href="./top-rated.html">Top Stats</a>
+    <a href="./team.html">Who We Are</a>
+    <a href="./genrestats.html">Stats By Genre</a>
+  </div>
+  
+  <<div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>  
+  </div>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="content">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Top Rated Publisher</h1>
+      <p>Publisher Info</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">IMAGES</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Top Rated Author</h1>
+      <p>Author Info</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">IMAGES</p>
+    </div>
+    </div>
+  
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-blue">Highest Ranking Book</h1>
+      <p>Book/series Info.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">IMAGES</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMAGES</p>
+    </div>
+  </div>
+
+</div> 
+  </div>
+<!-- Pagination -->
+<div class="container">
+  <div class="w3-bar">
+    <a class="w3-button w3-hover-black" href="index.html">1</a>
+    <a class="w3-button w3-hover-black" href="./about.html">2</a>
+    <a class="w3-button w3-hover-black" href="./charts.html">3</a>
+    <a class="w3-button w3-black current" href="./top-rated.html">4</a>
+    <a class="w3-button w3-hover-black" href="./genrestats.html">5</a>
+    <a class="w3-button w3-hover-black" href="./team.html">6</a>
+
+  </div>
+  <div class="book-container">
+    <div class="book">
+      <div class="front-page"></div>
+      <div class="back-page"></div>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://github.com/StephWolter/GetOnTheList" target="_blank">OurGroupName</a></p>
+    </div> 
+  </footer>
+
+<!-- END MAIN -->
+</div>
+<!-- JavaScript file -->
+<script src="data.js"></script>
+<script type="text/javascript" src="logic.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
