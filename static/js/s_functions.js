@@ -1,4 +1,73 @@
 
+// let groupedPublishers = {};
+
+// // Iterate over the dataset
+// for (const data of booksData) {
+//   let publisherName = booksData.publisher_name;
+//   let weeksOnList = booksData.weeks_on_list;
+
+//   // Check if the publisher_name already exists in the groupedData object
+//   if (groupedPublishers[publisherName]) {
+//     groupedPublishers[publisherName] += weeksOnList;
+//   } else {
+//     groupedData[publisherName] = weeksOnList;
+//   }
+// }
+
+// console.log(groupedData);
+// // top longest publishers chart = chart-pub
+// // having trouble showing the actual top ones
+// fetch('http://127.0.0.1:5000/api/v1.0/books') 
+// .then(response => response.json())
+// .then(bookData => {
+//   console.log(bookData);
+
+// const rankedPublishers = bookData.reduce((acc, publisher) => {
+// if (publisher.publisher_name !== "publisher_name") {
+//     acc[publisher.publisher_name] = publisher.weeks_on_list;
+//   }
+//   return acc;
+// }, {});
+// const sortedRankedPublishers = Object.fromEntries(
+// Object.entries(rankedPublishers).sort((a, b) => b[1] - a[1])
+// );
+// console.log(sortedRankedPublishers)
+
+
+// let publishersLongest = Object.keys(sortedRankedPublishers)
+// let publishersLength = Object.values(sortedRankedPublishers)
+
+
+
+// function rankedPublishersBar() {
+// let topPublishersLongest = publishersLongest.slice(0,5)
+// let topPublishersLength = publishersLength.slice(0,5)
+// // console.log(topPublishersLongest)
+// let trace = {
+//   x: topPublishersLength,
+//   y: topPublishersLongest,
+//   type: 'bar',
+//   orientation: 'h',
+//   marker: {
+//     color: ['red', 'orange', 'yellow', 'green', 'blue'],
+//     line: {
+//       width: 1,
+//       color: 'black'
+//     }
+// }}
+// let layout = {
+//   title: 'Publishers by Weeks on List',
+//   bargap: 0.1,
+//   height: 400,
+//   yaxis: {
+//     automargin: true
+//   }
+// }
+// Plotly.newPlot('chart-pub', [trace], layout);
+// }
+// rankedPublishersBar();
+// })
+
 
 // // testing to see if I can call the list I want; pulls titles and rank
 // const rankedBooks = data.reduce((acc, book) => {
@@ -97,56 +166,56 @@
 
 
 
-// top longest publishers
-fetch('http://127.0.0.1:5000/api/v1.0/books') 
-  .then(response => response.json())
-  .then(bookData => {
-    console.log(bookData);
+// // top longest publishers
+// fetch('http://127.0.0.1:5000/api/v1.0/books') 
+//   .then(response => response.json())
+//   .then(bookData => {
+//     console.log(bookData);
 
-const rankedPublishers = bookData.reduce((acc, publisher) => {
-  if (publisher.publisher_name !== "publisher_name") {
-      acc[publisher.publisher_name] = publisher.weeks_on_list;
-    }
-    return acc;
-  }, {});
-const sortedRankedPublishers = Object.fromEntries(
-  Object.entries(rankedPublishers).sort((a, b) => b[1] - a[1])
-);
-console.log(sortedRankedPublishers)
-
-
-let publishersLongest = Object.keys(rankedPublishers)
-let publishersLength = Object.values(rankedPublishers)
+// const rankedPublishers = bookData.reduce((acc, publisher) => {
+//   if (publisher.publisher_name !== "publisher_name") {
+//       acc[publisher.publisher_name] = publisher.weeks_on_list;
+//     }
+//     return acc;
+//   }, {});
+// const sortedRankedPublishers = Object.fromEntries(
+//   Object.entries(rankedPublishers).sort((a, b) => b[1] - a[1])
+// );
+// console.log(sortedRankedPublishers)
 
 
+// let publishersLongest = Object.keys(rankedPublishers)
+// let publishersLength = Object.values(rankedPublishers)
 
-function rankedPublishersBar() {
-  let topPublishersLongest = publishersLongest.slice(0,5)
-  let topPublishersLength = publishersLength.slice(0,5)
-  let trace = {
-    x: topPublishersLength,
-    y: topPublishersLongest,
-    type: 'bar',
-    orientation: 'h',
-    marker: {
-      color: ['red', 'orange', 'yellow', 'green', 'blue'],
-      line: {
-        width: 1,
-        color: 'black'
-      }
-  }}
-  let layout = {
-    title: 'Publishers by Weeks on List',
-    bargap: 0.1,
-    height: 400,
-    yaxis: {
-      automargin: true
-    }
-  }
-  Plotly.newPlot('chart', trace, layout);
-}
-rankedPublishersBar();
-})
+
+
+// function rankedPublishersBar() {
+//   let topPublishersLongest = publishersLongest.slice(0,5)
+//   let topPublishersLength = publishersLength.slice(0,5)
+//   let trace = {
+//     x: topPublishersLength,
+//     y: topPublishersLongest,
+//     type: 'bar',
+//     orientation: 'h',
+//     marker: {
+//       color: ['red', 'orange', 'yellow', 'green', 'blue'],
+//       line: {
+//         width: 1,
+//         color: 'black'
+//       }
+//   }}
+//   let layout = {
+//     title: 'Publishers by Weeks on List',
+//     bargap: 0.1,
+//     height: 400,
+//     yaxis: {
+//       automargin: true
+//     }
+//   }
+//   Plotly.newPlot('chart', trace, layout);
+// }
+// rankedPublishersBar();
+// })
 // }
 // })
 
@@ -276,3 +345,203 @@ rankedPublishersBar();
 // };
 // publishersPieLongest(topBook)
 // })
+
+
+// // top longest publishers chart = chart-pub
+// // having trouble showing the actual top ones
+// fetch('http://127.0.0.1:5000/api/v1.0/books') 
+//   .then(response => response.json())
+//   .then(booksData => {
+//     // console.log(booksData);
+
+//   let groupedPublishers = {};
+
+//   // Iterate over the dataset
+//   for (let data of booksData) {
+//     let publisherName = data.publisher_name;
+//     let weeksOnList = data.weeks_on_list;
+  
+//     // Check if the publisher_name already exists in the groupedData object
+//     if (groupedPublishers[publisherName]) {
+//       groupedPublishers[publisherName] += weeksOnList;
+//     } else {
+//       groupedPublishers[publisherName] = weeksOnList;
+//     }
+//   }
+  
+//   console.log(groupedPublishers);
+
+// // Convert the object into an array of { publisher_name, weeks_on_list } objects
+// let groupedPublishersArray = Object.entries(groupedPublishers).map(([publisherName, weeksOnList]) => ({
+//   publisher_name: publisherName,
+//   weeks_on_list: weeksOnList
+// }));
+
+// // Sort the array based on the weeks_on_list in descending order
+// groupedPublishersArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
+
+// // Select only the top 5 publishers
+// const topPublishers = groupedPublishersArray.slice(0, 5);
+
+// // Extract the publisher names and weeks on list data
+// const publishers = topPublishers.map(publisher => publisher.publisher_name);
+// const weeksOnList = topPublishers.map(publisher => publisher.weeks_on_list);
+
+// // Define the trace for the bar chart
+// const trace = {
+//   x: weeksOnList,
+//   y: publishers,
+//   type: 'bar',
+//   orientation: 'h',
+//   marker: {
+//     color: ['red', 'orange', 'yellow', 'green', 'blue'],
+//     line: {
+//       width: 1,
+//       color: 'black'
+//     }
+//   }
+// };
+
+// // Define the layout for the chart
+// const layout = {
+//   title: 'Top 5 Publishers by Weeks on List',
+//   bargap: 0.1,
+//   height: 400,
+//   yaxis: {
+//     automargin: true
+//   }
+// };
+
+// // Create the data array
+// const data = [trace];
+
+// // Render the chart
+// Plotly.newPlot('chart', data, layout);
+//   })
+
+
+
+// // top longest Publishers div = chart-pub
+// // having trouble showing the actual top ones
+
+// fetch('http://127.0.0.1:5000/api/v1.0/books') 
+//   .then(response => response.json())
+//   .then(booksData => {
+//     // console.log(booksData);
+// const rankedPublishers = booksData.reduce((acc, publisher) => {
+// if (publisher.publisher_name !== "publisher_name") {
+//     acc[publisher.publisher_name] = publisher.weeks_on_list;
+//   }
+//   return acc;
+// }, {});
+// const sortedRankedPublishers = Object.fromEntries(
+// Object.entries(rankedPublishers).sort((a, b) => b[1] - a[1])
+// );
+// console.log(sortedRankedPublishers)
+
+
+// let publishersLongest = Object.keys(sortedRankedPublishers)
+// let publishersLength = Object.values(sortedRankedPublishers)
+
+
+
+// function rankedPublishersBar() {
+// let topPublishersLongest = publishersLongest.slice(0,5)
+// let topPublishersLength = publishersLength.slice(0,5)
+// // console.log(topPublishersLongest)
+// let trace = {
+//   x: topPublishersLength,
+//   y: topPublishersLongest,
+//   type: 'bar',
+//   orientation: 'h',
+//   marker: {
+//     color: ['red', 'orange', 'yellow', 'green', 'blue'],
+//     line: {
+//       width: 1,
+//       color: 'black'
+//     }
+// }}
+// let layout = {
+//   title: 'Publishers by Weeks on List',
+//   bargap: 0.1,
+//   height: 400,
+//   yaxis: {
+//     automargin: true
+//   }
+// }
+// Plotly.newPlot('chart-pub', [trace], layout);
+// }
+// rankedPublishersBar();
+// })
+
+
+
+// top longest publishers chart = chart-pub-group
+// having trouble showing the actual top ones
+fetch('http://127.0.0.1:5000/api/v1.0/books') 
+  .then(response => response.json())
+  .then(booksData => {
+    // console.log(booksData);
+
+  let groupedImprints = {};
+
+  // Iterate over the dataset
+  for (let data of booksData) {
+    let imprintName = data.imprint_name;
+    let weeksOnList = data.weeks_on_list;
+  
+    // Check if the publisher_name already exists in the groupedData object
+    if (groupedImprints[imprintName]) {
+      groupedImprints[imprintName] += weeksOnList;
+    } else {
+      groupedImprints[imprintName] = weeksOnList;
+    }
+  }
+  
+  console.log(groupedImprints);
+
+// Convert the object into an array of { publisher_name, weeks_on_list } objects
+let groupedImprintsArray = Object.entries(groupedImprints).map(([imprintName, weeksOnList]) => ({
+  imprint_name: imprintName,
+  weeks_on_list: weeksOnList
+}));
+
+// Sort the array based on the weeks_on_list in descending order
+groupedImprintsArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
+
+// Select only the top 5 publishers
+const topImprints = groupedImprintsArray.slice(1, 6);
+
+// Extract the publisher names and weeks on list data
+const imprints = topImprints.map(imprint => imprint.imprint_name);
+const weeksOnList = topImprints.map(imprint => imprint.weeks_on_list);
+
+// Define the trace for the bar chart
+const trace = {
+  x: weeksOnList,
+  y: imprints,
+  type: 'bar',
+  orientation: 'h',
+  marker: {
+    color: ['red', 'orange', 'yellow', 'green', 'blue'],
+    line: {
+      width: 1,
+      color: 'black'
+    }
+  }
+};
+
+// Define the layout for the chart
+const layout = {
+  title: 'Top 5 Imprint Publishers by Weeks on List',
+  bargap: 0.1,
+  height: 400,
+  yaxis: {
+    automargin: true
+  }
+};
+
+
+// Render the chart
+Plotly.newPlot('chart-imp-group', [trace], layout);
+  })
