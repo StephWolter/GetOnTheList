@@ -58,10 +58,15 @@
 * Given the structured nature of the information obtained from our data source, we elected to use a relational database for the back end.
 * Using Postgres, we created a SQL database with the following entity relationship diagram (ERD):
        *  ![image](https://github.com/StephWolter/GetOnTheList/assets/124944383/bcf3f26d-dbbe-465f-a8bf-28b7e557ae74)
-### Data Insertion
+### Data Insertion with SQLAlchemy
 * SQLAlchemy was used to write Python code that retrieves data from NYT and inserts the data into the database.
-* The psql_connect.py script manages the connection to the database.
-* The Insert_NYT_Data.ipynb script makes API calls and inserts the response into the database.  
+* The [psql_connect.py](/data_crud/psql_connect.py) script manages the connection to the database.
+* The [Insert_NYT_Data.ipynb](/data_crud/Insert_NYT_Data.ipynb) script imports psql_connect.py, makes calls to the NYT API, and inserts the responses from the API into the SQL database.
+### Manual Data Insertion
+* The responses from the NYT Books API are NOT by themselves sufficient to populate the entire database. This is because the NYT data only contains imprint-level publishing information.
+       * For example, many Colleen Hoover books are published by Atria, which is an imprint of Simon & Schuster. The NYT API shows Atria as the 'publisher' of the Colleen Hoover books, despite the fact that Simon & Schuster, as the owner of Atria, was effectively the publisher of these books from an economic perspective.   
+* The ownership table is a crosswalk that captures the relationship between publishers and any imprints they own.
+* We are not aware of any automated data services that disclose ownership information in the publishing industry. Therefore, the ownership table and publishers table were populated manually.   
 
 ## Website building Pt 1
 * HTML design created ready for data population
