@@ -1617,178 +1617,178 @@ Plotly.newPlot('myDiv', data, layout);
 
 
 
-// top longest publishers chart ACROSS ALL LISTS => 'chart-pub-group'
+// // top longest publishers chart ACROSS ALL LISTS => 'chart-pub-group'
 
-fetch('http://127.0.0.1:5000/api/v1.0/books') 
-  .then(response => response.json())
-  .then(booksData => {
-    // console.log(booksData);
+// fetch('http://127.0.0.1:5000/api/v1.0/books') 
+//   .then(response => response.json())
+//   .then(booksData => {
+//     // console.log(booksData);
 
-function rankedOverallPublisherBar() {
-  let groupedPublishers = {};
+// function rankedOverallPublisherBar() {
+//   let groupedPublishers = {};
 
-  // Iterate over the dataset
-  for (let data of booksData) {
-    let publisherName = data.publisher_name;
-    let weeksOnList = data.weeks_on_list;
+//   // Iterate over the dataset
+//   for (let data of booksData) {
+//     let publisherName = data.publisher_name;
+//     let weeksOnList = data.weeks_on_list;
   
-    // Check if the publisher_name already exists in the groupedData object
-    if (groupedPublishers[publisherName]) {
-      groupedPublishers[publisherName] += weeksOnList;
-    } else {
-      groupedPublishers[publisherName] = weeksOnList;
-    }
-  }
+//     // Check if the publisher_name already exists in the groupedData object
+//     if (groupedPublishers[publisherName]) {
+//       groupedPublishers[publisherName] += weeksOnList;
+//     } else {
+//       groupedPublishers[publisherName] = weeksOnList;
+//     }
+//   }
   
-  console.log(groupedPublishers);
+//   console.log(groupedPublishers);
 
-// Convert the object into an array of { publisher_name, weeks_on_list } objects
-let groupedPublishersArray = Object.entries(groupedPublishers).map(([publisherName, weeksOnList]) => ({
-  publisher_name: publisherName,
-  weeks_on_list: weeksOnList
-}));
+// // Convert the object into an array of { publisher_name, weeks_on_list } objects
+// let groupedPublishersArray = Object.entries(groupedPublishers).map(([publisherName, weeksOnList]) => ({
+//   publisher_name: publisherName,
+//   weeks_on_list: weeksOnList
+// }));
 
-// Sort the array based on the weeks_on_list in descending order
-groupedPublishersArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
+// // Sort the array based on the weeks_on_list in descending order
+// groupedPublishersArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
 
-// Select only the top 5 publishers
-const topPublishers = groupedPublishersArray.slice(1, 6);
+// // Select only the top 5 publishers
+// const topPublishers = groupedPublishersArray.slice(1, 6);
 
-// Extract the publisher names and weeks on list data
-const publishers = topPublishers.map(publisher => publisher.publisher_name);
-const weeksOnList = topPublishers.map(publisher => publisher.weeks_on_list);
+// // Extract the publisher names and weeks on list data
+// const publishers = topPublishers.map(publisher => publisher.publisher_name);
+// const weeksOnList = topPublishers.map(publisher => publisher.weeks_on_list);
 
-// Define the trace for the bar chart
-const trace = {
-  x: weeksOnList,
-  y: publishers,
-  type: 'bar',
-  orientation: 'h',
-  marker: {
-    color: ['red', 'orange', 'yellow', 'green', 'blue'],
-    line: {
-      width: 1,
-      color: 'black'
-    }
-  }
-};
+// // Define the trace for the bar chart
+// const trace = {
+//   x: weeksOnList,
+//   y: publishers,
+//   type: 'bar',
+//   orientation: 'h',
+//   marker: {
+//     color: ['red', 'orange', 'yellow', 'green', 'blue'],
+//     line: {
+//       width: 1,
+//       color: 'black'
+//     }
+//   }
+// };
 
-// Define the layout for the chart
-const layout = {
-  title: 'Top 5 Parent Publishers by Weeks on List',
-  bargap: 0.1,
-  height: 400,
-  yaxis: {
-    automargin: true
-  },
-  font: {
-    family: 'Trebuchet MS, sans-serif' 
-  }
-};
-
-
-// Render the chart
-const tracePub = trace;
-const layoutPub = layout;
-}
-rankedOverallPublisherBar()
+// // Define the layout for the chart
+// const layout = {
+//   title: 'Top 5 Parent Publishers by Weeks on List',
+//   bargap: 0.1,
+//   height: 400,
+//   yaxis: {
+//     automargin: true
+//   },
+//   font: {
+//     family: 'Trebuchet MS, sans-serif' 
+//   }
+// };
 
 
+// // Render the chart
+// const tracePub = trace;
+// const layoutPub = layout;
+// }
+// rankedOverallPublisherBar()
 
 
 
-// top longest imprints chart ACROSS ALL LISTS = chart-imp-group
-// having trouble showing the actual top ones
-    // console.log(booksData);
-function groupedOverallImprintBar() {
 
-  let groupedImprints = {};
 
-  // Iterate over the dataset
-  for (let data of booksData) {
-    let imprintName = data.imprint_name;
-    let weeksOnList = data.weeks_on_list;
+// // top longest imprints chart ACROSS ALL LISTS = chart-imp-group
+// // having trouble showing the actual top ones
+//     // console.log(booksData);
+// function groupedOverallImprintBar() {
+
+//   let groupedImprints = {};
+
+//   // Iterate over the dataset
+//   for (let data of booksData) {
+//     let imprintName = data.imprint_name;
+//     let weeksOnList = data.weeks_on_list;
   
-    // Check if the publisher_name already exists in the groupedData object
-    if (groupedImprints[imprintName]) {
-      groupedImprints[imprintName] += weeksOnList;
-    } else {
-      groupedImprints[imprintName] = weeksOnList;
-    }
-  }
+//     // Check if the publisher_name already exists in the groupedData object
+//     if (groupedImprints[imprintName]) {
+//       groupedImprints[imprintName] += weeksOnList;
+//     } else {
+//       groupedImprints[imprintName] = weeksOnList;
+//     }
+//   }
   
-  console.log(groupedImprints);
+//   console.log(groupedImprints);
 
-// Convert the object into an array of { publisher_name, weeks_on_list } objects
-let groupedImprintsArray = Object.entries(groupedImprints).map(([imprintName, weeksOnList]) => ({
-  imprint_name: imprintName,
-  weeks_on_list: weeksOnList
-}));
+// // Convert the object into an array of { publisher_name, weeks_on_list } objects
+// let groupedImprintsArray = Object.entries(groupedImprints).map(([imprintName, weeksOnList]) => ({
+//   imprint_name: imprintName,
+//   weeks_on_list: weeksOnList
+// }));
 
-// Sort the array based on the weeks_on_list in descending order
-groupedImprintsArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
+// // Sort the array based on the weeks_on_list in descending order
+// groupedImprintsArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
 
-// Select only the top 5 publishers
-const topImprints = groupedImprintsArray.slice(1, 6);
+// // Select only the top 5 publishers
+// const topImprints = groupedImprintsArray.slice(1, 6);
 
-// Extract the publisher names and weeks on list data
-const imprints = topImprints.map(imprint => imprint.imprint_name);
-const weeksOnList = topImprints.map(imprint => imprint.weeks_on_list);
+// // Extract the publisher names and weeks on list data
+// const imprints = topImprints.map(imprint => imprint.imprint_name);
+// const weeksOnList = topImprints.map(imprint => imprint.weeks_on_list);
 
-// Define the trace for the bar chart
-const trace = {
-  x: weeksOnList,
-  y: imprints,
-  type: 'bar',
-  orientation: 'h',
-  marker: {
-    color: ['red', 'orange', 'yellow', 'green', 'blue'],
-    line: {
-      width: 1,
-      color: 'black'
-    }
-  }
-};
+// // Define the trace for the bar chart
+// const trace = {
+//   x: weeksOnList,
+//   y: imprints,
+//   type: 'bar',
+//   orientation: 'h',
+//   marker: {
+//     color: ['red', 'orange', 'yellow', 'green', 'blue'],
+//     line: {
+//       width: 1,
+//       color: 'black'
+//     }
+//   }
+// };
 
-// Define the layout for the chart
-const layout = {
-  title: 'Top 5 Imprint Publishers by Weeks on List',
-  bargap: 0.1,
-  height: 400,
-  yaxis: {
-    automargin: true
-  },
-  font: {
-    family: 'Trebuchet MS, sans-serif' 
-  }
-};
-
-
-// Render the chart
-const traceImp = trace;
-const layoutImp = layout;
-}
-groupedOverallImprintBar()
+// // Define the layout for the chart
+// const layout = {
+//   title: 'Top 5 Imprint Publishers by Weeks on List',
+//   bargap: 0.1,
+//   height: 400,
+//   yaxis: {
+//     automargin: true
+//   },
+//   font: {
+//     family: 'Trebuchet MS, sans-serif' 
+//   }
+// };
 
 
-function combineCharts() {
-  const combinedData = [tracePub, traceImp];
-  const combinedLayout = {
-    title: 'Combined Bar Charts',
-    bargap: 0.1,
-    height: 400,
-    yaxis: {
-      automargin: true
-    },
-    font: {
-      family: 'Trebuchet MS, sans-serif'
-    }
-  };
+// // Render the chart
+// const traceImp = trace;
+// const layoutImp = layout;
+// }
+// groupedOverallImprintBar()
 
-  // Render the combined chart
-  Plotly.newPlot('chart-comb-group', combinedData, combinedLayout);
-}
 
-// Call the function to combine and render the charts
-combineCharts();
-})
+// function combineCharts() {
+//   const combinedData = [tracePub, traceImp];
+//   const combinedLayout = {
+//     title: 'Combined Bar Charts',
+//     bargap: 0.1,
+//     height: 400,
+//     yaxis: {
+//       automargin: true
+//     },
+//     font: {
+//       family: 'Trebuchet MS, sans-serif'
+//     }
+//   };
+
+//   // Render the combined chart
+//   Plotly.newPlot('chart-comb-group', combinedData, combinedLayout);
+// }
+
+// // Call the function to combine and render the charts
+// combineCharts();
+// })

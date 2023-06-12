@@ -434,12 +434,10 @@ const trace = {
   x: weeksOnList,
   y: publishers,
   type: 'bar',
-  name: 'Top 5 Parent Publishers Represented',
+  name: 'Top Parent Publishers Represented',
   orientation: 'h',
   marker: {
-    color: weeksOnList,
-    colorscale: 'YlOrRd',
-    reversescale: true,
+    color: 'Red',
     line: {
       width: 1,
       color: 'black'
@@ -449,7 +447,7 @@ const trace = {
 
 // Define the layout for the chart
 const layout = {
-  title: 'Top 5 Parent Publishers by Weeks on List',
+  title: 'Top Parent Publishers by Weeks on List',
   bargap: 0.1,
   height: 400,
   yaxis: {
@@ -503,7 +501,7 @@ let groupedImprintsArray = Object.entries(groupedImprints).map(([imprintName, we
 groupedImprintsArray.sort((a, b) => b.weeks_on_list - a.weeks_on_list);
 
 // Select only the top 5 publishers
-const topImprints = groupedImprintsArray.slice(1, 6);
+const topImprints = groupedImprintsArray.slice(2, 6);
 
 // Extract the publisher names and weeks on list data
 const imprints = topImprints.map(imprint => imprint.imprint_name);
@@ -514,11 +512,10 @@ const trace = {
   x: weeksOnList,
   y: imprints,
   type: 'bar',
-  name: 'Top 5 Imprint Publishers Represented',
+  name: 'Top Imprint Publishers Represented',
   orientation: 'h',
   marker: {
-    color: weeksOnList,
-    colorscale: 'YlGnBu',
+    color: 'Yellow',
     line: {
       width: 1,
       color: 'black'
@@ -528,7 +525,7 @@ const trace = {
 
 // Define the layout for the chart
 const layout = {
-  title: 'Top 5 Imprint Publishers by Weeks on List',
+  title: 'Top Imprint Publishers by Weeks on List',
   bargap: 0.1,
   height: 400,
   yaxis: {
