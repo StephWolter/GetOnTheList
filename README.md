@@ -56,7 +56,7 @@
 * The primary data source for the tool is the NYT Books API, whose 'full overview' path (/lists/full-overview.json) provides json information on all books on all bestseller lists for a specified date.
 * Given the structured nature of the information obtained from our data source, we elected to use a relational database for the back end.
 * Using Postgres, we created a SQL database with the following entity relationship diagram (ERD):
-       *  ![ERD] (https://github.com/StephWolter/GetOnTheList/blob/main/Images/Website_Brainstorm.png)
+       *  ![ERD](https://github.com/StephWolter/GetOnTheList/blob/main/Images/Website_Brainstorm.png)
 * 
 * Used api keys to pull data from the NYT Bestseller List
 * Created tables and imported data into Postgres
