@@ -88,11 +88,9 @@ author_id,author_name
 87,Andrea Beaty
 88,Kwame Alexander.
 89,Dav Pilkey
-90,and   Jeff Kinney
 91,Tahereh Mafi
 92,J.K. Rowling
 93,Rick Riordan
-94,and   Dav Pilkey
 95,Jim Gigliotti and others; various illustrators
 96,Tui T. Sutherland
 97,Jenny Han
@@ -150,6 +148,7 @@ author_id,author_name
 149,Samantha Shannon
 150,Marlon James
 151,Madeline Miller
+94,Dav Pilkey
 152,Kristin Hannah
 153,JD Robb
 154,Toni Morrison
@@ -1987,3 +1986,4 @@ author_id,author_name
 1986,Shalane Flanagan and Elyse Kopecky
 1987,"Rodrigo Corral, Alex French and Howie Kahn"
 1988,Julian Edelman with Tom E Curran
+90,Jeff Kinney
