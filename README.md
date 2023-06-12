@@ -60,7 +60,7 @@
        *  ![image](https://github.com/StephWolter/GetOnTheList/assets/124944383/bcf3f26d-dbbe-465f-a8bf-28b7e557ae74)
 ### Data Insertion
 * SQLAlchemy was used to write Python code that retrieves data from NYT and inserts the data into the database.
-* The psql_connect.py script manages the connection to the database.
+* The psql_connect.py [psql_connect](/data_crud/psql_connect.py) script manages the connection to the database.
 * The Insert_NYT_Data.ipynb script makes API calls and inserts the response into the database.  
 
 ## Website building Pt 1
