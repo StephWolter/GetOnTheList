@@ -53,16 +53,15 @@
 
 
 ## Gathering and Integration of Data
+### Database Creation
 * The primary data source for the tool is the NYT Books API, whose 'full overview' path (/lists/full-overview.json) provides json information on all books on all bestseller lists for a specified date.
 * Given the structured nature of the information obtained from our data source, we elected to use a relational database for the back end.
 * Using Postgres, we created a SQL database with the following entity relationship diagram (ERD):
        *  ![image](https://github.com/StephWolter/GetOnTheList/assets/124944383/bcf3f26d-dbbe-465f-a8bf-28b7e557ae74)
-* 
-* Used api keys to pull data from the NYT Bestseller List
-* Created tables and imported data into Postgres
-    * ![ERD]()
-* Created database access for the team
-    * Assigned roles and permissions
+### Data Insertion
+* SQLAlchemy was used to write Python code that retrieves data from NYT and inserts the data into the database.
+* The psql_connect.py script manages the connection to the database.
+* The Insert_NYT_Data.ipynb script makes API calls and inserts the response into the database.  
 
 ## Website building Pt 1
 * HTML design created ready for data population
