@@ -105,7 +105,7 @@ function rankedPublisherBar(bookData) {
     type: 'bar',
     orientation: 'h',
     marker: {
-      color: ['red', 'orange', 'yellow', 'green', 'blue'],
+      color: 'purple',
       line: {
         width: 1,
         color: 'black'
@@ -174,7 +174,7 @@ function rankedImprintBar(bookData) {
     type: 'bar',
     orientation: 'h',
     marker: {
-      color: ['red', 'orange', 'yellow', 'green', 'blue'],
+      color: 'yellow',
       line: {
         width: 1,
         color: 'black'
@@ -242,7 +242,7 @@ function rankedAuthorBar(bookData) {
     type: 'bar',
     orientation: 'h',
     marker: {
-      color: ['red', 'orange', 'yellow', 'green', 'blue'],
+      color: ['purple', 'orange', 'yellow', 'green', 'blue'],
       line: {
         width: 1,
         color: 'black'
@@ -376,7 +376,7 @@ fetch('http://127.0.0.1:5000/api/v1.0/books')
         name: 'Top Parent Publishers Represented',
         orientation: 'h',
         marker: {
-          color: 'Red',
+          color: 'purple',
           line: {
             width: 1,
             color: 'black'
