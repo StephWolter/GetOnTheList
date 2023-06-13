@@ -1,5 +1,5 @@
 # from psql_connect import get_engine, get_base
-import sqlalchemy
+
 from sqlalchemy.orm import Session
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -13,15 +13,40 @@ app = Flask(__name__)
 CORS(app)
 
 # # Sqlalchemy set-up
-engine = create_engine("sqlite:///nytdata.sqlite")
+engine = create_engine("sqlite:///nyt_bestsellers.sqlite")
 
 # # reflect an existing database into a new model
 Base = automap_base()
 
 # # reflect the tables
-Base.prepare(autoload_with=engine, reflect=True)
+Base.prepare(engine, reflect=True)
 
-# print(Base.classes.keys)
+# session = Session(engine)
+
+# Assign table classes 
+# Authors = Base.classes.Authors
+# Books = Base.classes.Books
+# Imprints = Base.classes.Imprints
+# Lists = Base.classes.Lists
+# Results = Base.classes.Results
+# Publishers = Base.classes.Publishers
+# Ownership = Base.classes.Ownership
+
+# Query SQL database
+# results = session.query(Books.book_title, Books.book_image, Books.book_description, Authors.author_name, Imprints.imprint_name, Publishers.publisher_name, Lists.list_name, Results.published_date, Results.rank, Results.weeks_on_list).\
+#                     filter(Authors.author_id == Books.author_id).\
+#                     filter(Imprints.imprint_id == Books.imprint_id).\
+#                     filter(Ownership.imprint_id == Books.imprint_id).\
+#                     filter(Publishers.publisher_id == Ownership.publisher_id).\
+#                     filter(Lists.list_id == Results.list_id).\
+#                     filter(Results.book_id == Books.book_id).\
+#                     order_by(Results.published_date.desc(), Results.weeks_on_list.desc()).all()
+
+# results = session.query(Books.book_id).limit(10).all()
+
+# session.close()
+
+# print(results)
 
 
 # session= Session(engine)
@@ -38,15 +63,15 @@ Base.prepare(autoload_with=engine, reflect=True)
 # engine = get_engine()
 # Base = get_base(engine)
 
-print(Base.classes.keys())
+# print(Base.classes.keys())
 
 # # Landing route
-# @app.route("/")
-# def welcome():
-#     # List available api routes
-#     return(
-#         f"/api/v1.0/books"
-#     )
+@app.route("/")
+def welcome():
+    # List available api routes
+    return(
+        f"/api/v1.0/books"
+    )
 
 # @app.route("/api/v1.0/book_longest/")
 # def book_longest_per_list():
@@ -61,35 +86,35 @@ print(Base.classes.keys())
 #     return jsonify(book_longest)
 
 # Best books route
-# @app.route("/api/v1.0/books")
-# def books():
-#     # Start sqlalchemy session
-#     session = Session(engine)
+@app.route("/api/v1.0/books")
+def books():
+    # Start sqlalchemy session
+    session = Session(engine)
 
-#     # Assign table classes 
-#     Authors = Base.classes.authors
-#     Books = Base.classes.books
-#     Imprints = Base.classes.imprints
-#     Lists = Base.classes.lists
-#     Results = Base.classes.results
-#     Publishers = Base.classes.publishers
-#     Ownership = Base.classes.ownership
+    # Assign table classes 
+    Authors = Base.classes.Authors
+    Books = Base.classes.Books
+    Imprints = Base.classes.Imprints
+    Lists = Base.classes.Lists
+    Results = Base.classes.Results
+    Publishers = Base.classes.Publishers
+    Ownership = Base.classes.Ownership
 
-#     # Query SQL database
-#     results = session.query(Books.book_title, Books.book_image, Books.book_description, Authors.author_name, Imprints.imprint_name, Publishers.publisher_name, Lists.list_name, Results.published_date, Results.rank, Results.weeks_on_list).\
-#                         filter(Authors.author_id == Books.author_id).\
-#                         filter(Imprints.imprint_id == Books.imprint_id).\
-#                         filter(Ownership.imprint_id == Books.imprint_id).\
-#                         filter(Publishers.publisher_id == Ownership.publisher_id).\
-#                         filter(Lists.list_id == Results.list_id).\
-#                         filter(Results.book_id == Books.book_id).\
-#                         order_by(Results.published_date.desc(), Results.weeks_on_list.desc()).all()
- 
-#     # Close sqlalchemy session
-#     session.close()
+    # Query SQL database
+    results = session.query(Books.book_title, Books.book_image, Books.book_description, Authors.author_name, Imprints.imprint_name, Publishers.publisher_name, Lists.list_name, Results.published_date, Results.rank, Results.weeks_on_list).\
+                        filter(Authors.author_id == Books.author_id).\
+                        filter(Imprints.imprint_id == Books.imprint_id).\
+                        filter(Ownership.imprint_id == Books.imprint_id).\
+                        filter(Publishers.publisher_id == Ownership.publisher_id).\
+                        filter(Lists.list_id == Results.list_id).\
+                        filter(Results.book_id == Books.book_id).\
+                        order_by(Results.published_date.desc(), Results.weeks_on_list.desc()).all()
+
+    # Close sqlalchemy session
+    session.close()
     
-#     # Return jsonified results
-#     return jsonify([dict(_) for _ in results])
+    # Return jsonified results
+    return jsonify([dict(_) for _ in results])
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
