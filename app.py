@@ -1,4 +1,4 @@
-from psql_connect import get_engine, get_base
+# from psql_connect import get_engine, get_base
 import sqlalchemy
 from sqlalchemy.orm import Session
 from flask import Flask, jsonify
@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 # # Sqlalchemy set-up
-engine = create_engine("sqlite:///nyt_bestsellers.sqlite")
+engine = create_engine("sqlite:///nytdata.sqlite")
 
 # # reflect an existing database into a new model
 Base = automap_base()
