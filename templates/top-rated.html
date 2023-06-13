@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Project 3 Test</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-purple.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Impact">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="import" href="common.html">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Copperplate", sans-serif;}
-</style>
+  
 
+<!-- all the scripts needed here -->
+<link rel="stylesheet" type="text/css" href="static/js/css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
-
-
+<body style="background-color: #dbcece;">
+<style>
+    .card {
+  width: 250px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain the aspect ratio */
+}
+  </style>
+<!-- sidebar -->
 <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="./index.html">Homepage</a>
-    <a href="./about.html">About</a>
-    <a href="./charts.html">Charts/Map</a>
-    <a href="./top-rated.html">Top Stats</a>
-    <a href="./team.html">Who We Are</a>
-    <a href="./genrestats.html">Stats By Genre</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Templates/index.html">About</a>
+  <a href="Templates/charts.html">Interactive Charts</a>
+  <a href="Templates/theplan.html"> Plan</a>
+  <a href="Templates/top-rated.html">Top Stats</a>
+  <a href="Templates/faq.html">Frequently Asked Questions</a>
+  <a href="Templates/team.html">Who We Are</a>
+
+
   </div>
   
-  <<div id="main">
-    <button class="openbtn" onclick="openNav()">☰</button>  
-  </div>
-  
+  <div id="main">
+    <button id="navigationButton" class="openbtn" onclick="openNav()">☰</button>  
   <script>
   function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
@@ -43,79 +43,158 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Copperplate", sans-serif;}
     document.getElementById("main").style.marginLeft= "0";
   }
   </script>
-
-
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
-
-  <div class="content">
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Top Rated Publisher</h1>
-      <p>Publisher Info</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">IMAGES</p>
-    </div>
-  </div>
-
-  <div class="w3-row">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Top Rated Author</h1>
-      <p>Author Info</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">IMAGES</p>
-    </div>
-    </div>
   
-  </div>
+  <h1>Top Rankings</h1>
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-blue">Highest Ranking Book</h1>
-      <p>Book/series Info.</p>
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="Images/rowling.png" class="card-img-top" alt="Top Author">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="bottom" title="beep boop">
+            Top Author
+          </h5>
+          <table class="infobox vcard">
+            <tbody>
+                <tr>
+                    <th class="infobox-above" colspan="2" style="font-size:125%;">
+                        <div class="fn" style="display:inline;">J. K. Rowling</div>
+                        <br/>
+                        <div class="honorific-suffix" style="display:inline;font-size: 77%; font-weight: normal;">
+                            <span class="noexcerpt nowraplinks" style="font-size:100%; font-weight:normal;">
+                                <a class="mw-redirect" href="/wiki/Companion_of_Honour" title="Companion of Honour">CH</a>
+                                <a class="mw-redirect" href="/wiki/Officer_of_the_Order_of_the_British_Empire" title="Officer of the Order of the British Empire">OBE</a>
+                                <a class="mw-redirect" href="/wiki/Honorary_Fellow_of_the_Royal_Society_of_Edinburgh" title="Honorary Fellow of the Royal Society of Edinburgh">HonFRSE</a>
+                                <a class="mw-redirect" href="/wiki/Fellow_of_the_Royal_College_of_Physicians_of_Edinburgh" title="Fellow of the Royal College of Physicians of Edinburgh">FRCPE</a>
+                                <a class="mw-redirect" href="/wiki/Fellow_of_the_Royal_Society_of_Literature" title="Fellow of the Royal Society of Literature">FRSL</a>
+                            </span>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="infobox-label" scope="row" style="line-height:1.2em; padding-right:0.65em;">Born</th>
+                    <td class="infobox-data" style="line-height:1.4em;">Joanne Rowling<br/><span style="display:none"> (<span class="bday">1965-07-31</span>) </span>31 July 1965<span class="noprint ForceAgeToShow"> (age 57)</span>
+                        <br/>
+                        <a href="/wiki/Yate" title="Yate">Yate</a>, Gloucestershire, England</td>
+                    </tr>
+                    <tr>
+                        <th class="infobox-label" scope="row" style="line-height:1.2em; padding-right:0.65em;">Pen name</th>
+                        <td class="infobox-data nickname" style="line-height:1.4em;"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+                            <div class="plainlist">
+                                <ul>
+                                    <li>J. K. Rowling</li>
+                                    <li>Robert Galbraith</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="infobox-label" scope="row" style="line-height:1.2em; padding-right:0.65em;">Alma mater</th>
+                        <td class="infobox-data" style="line-height:1.4em;">
+                            <link href="mw-data:TemplateStyles:r1126788409" rel="mw-deduplicated-inline-style"/>
+                            <div class="plainlist">
+                                <ul>
+                                    <li>
+                                        <a href="/wiki/University_of_Exeter" title="University of Exeter">University of Exeter</a>
+                                    </li>
+                                    <li>
+                                        <a class="mw-redirect" href="/wiki/Moray_House_School_of_Education" title="Moray House School of Education">Moray House</a>
+                                        <sup class="reference" id="cite_ref-Moray_1-0">
+                                            <a href="#cite_note-Moray-1">[a]</a>
+                                        </sup>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="infobox-label" scope="row" style="line-height:1.2em; padding-right:0.65em;">Genres</th>
+                        <td class="infobox-data category" style="line-height:1.4em;">
+                            <link href="mw-data:TemplateStyles:r1129693374" rel="mw-deduplicated-inline-style"/>
+                            <div class="hlist">
+                                <ul>
+                                    <li>
+                                        <a href="/wiki/Fantasy" title="Fantasy">Fantasy</a>
+                                    </li>
+                                    <li><a href="/wiki/Drama" title="Drama">drama</a>
+                                    </li>
+                                    <li><a href="/wiki/Young_adult_fiction" title="Young adult fiction">young adult fiction</a>
+                                    </li>
+                                    <li>
+                                        <a href="/wiki/Crime_fiction" title="Crime fiction">crime fiction</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+        <tr>
+            <th class="infobox-header" colspan="2">Website</th>
+        </tr>
+        </table>
+        </div>
+      </div>
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">IMAGES</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">IMAGES</p>
+
+    <div class="col-lg-4">
+        <h5 class="card-title" data-toggle="tooltip" data-placement="bottom" title="..and for top Book">
+            Book at # 1 the longest
+          </h5>
+      <div class="card">
+        <img src="Images/topbook.jpg" class="card-img-top" alt="Top Book">
+        <div class="card-body">
+            <div id="sample-metadata" class="panel-body"></div>
+          
+        </div>
+      </div>
     </div>
   </div>
 
-</div> 
-  </div>
-<!-- Pagination -->
-<div class="container">
-  <div class="w3-bar">
-    <a class="w3-button w3-hover-black" href="index.html">1</a>
-    <a class="w3-button w3-hover-black" href="./about.html">2</a>
-    <a class="w3-button w3-hover-black" href="./charts.html">3</a>
-    <a class="w3-button w3-black current" href="./top-rated.html">4</a>
-    <a class="w3-button w3-hover-black" href="./genrestats.html">5</a>
-    <a class="w3-button w3-hover-black" href="./team.html">6</a>
-
-  </div>
-  <div class="book-container">
-    <div class="book">
-      <div class="front-page"></div>
-      <div class="back-page"></div>
+  <!-- Footer section -->
+  <div class="foottext">
+    <footer class="myFooter">
+      <div class="w3-container w3-theme-l2 w3-padding-32">
+   
+        <!-- Navbar at the bootom-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/charts.html">Interactive Charts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/top-rated.html">Highest Ranked</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/team.html">The Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/theplan.html">Plan</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+</nav>
+      </div>
 
-  <footer id="myFooter">
-    <div class="w3-container w3-theme-l2 w3-padding-32">
+    <a href="faq.html">Frequently Asked Questions</a> 
+    <p>Powered by <a href="https://github.com/StephWolter/GetOnTheList" target="_blank">OurGroupName</a></p>
+    <a id="github-link" href="https://github.com/StephWolter/GetOnTheList" target="_blank" rel="noreferrer">
+        <button class="btn" type="submit">
+            <i class="bi bi-github"></i>
+        </button>
+    </a>
     </div>
+</footer>
+  
+   <script src="functions_final.js"></script>
 
-    <div class="w3-container w3-theme-l1">
-      <p>Powered by <a href="https://github.com/StephWolter/GetOnTheList" target="_blank">OurGroupName</a></p>
-    </div> 
-  </footer>
-
-<!-- END MAIN -->
-</div>
-<!-- JavaScript file -->
-<script src="data.js"></script>
-<script type="text/javascript" src="logic.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

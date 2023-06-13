@@ -1,99 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Publisher Distribution Map</title>
-  <style>
-    body { margin: 0; }
-    #map { width: 100%; height: 100vh; }
-</style>
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
+  
 
-  <!-- Leaflet JavaScript code -->
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-    crossorigin=""></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" type="text/css" href="static/js/css/style.css">
 
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <!-- <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script> -->
+<!-- so charts take half of the oage, not fit to screen -->
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 </head>
+<body style="background-color: #dbcece;">
 
-<body>
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="./index.html">Homepage</a>
-    <a href="./about.html">About</a>
-    <a href="./charts.html">Charts/Map</a>
-    <a href="./top-rated.html">Top Stats</a>
-    <a href="./team.html">Who We Are</a>
-    <a href="./genrestats.html">Stats By Genre</a>
-  </div>
-  
-  <div id="main">
-    <button class="openbtn" onclick="openNav()">☰</button>  
-  </div>
-  
-  <script>
-  function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-  }
-  </script>
+    <title>Charts</title>
+    <div id="myElement">
+        <!-- sidebar -->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Templates/index.html">About</a>
+      <a href="Templates/charts.html">Interactive Charts</a>
+      <a href="Templates/theplan.html"> Plan</a>
+      <a href="Templates/top-rated.html">Top Stats</a>
+      <a href="Templates/faq.html">Frequently Asked Questions</a>
+      <a href="Templates/team.html">Who We Are</a>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(function() {
-            $('.content').load('charts-content.html');
-        });
-    </script>
-  <!-- The div where we'll insert our map -->
-  <div id="map"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/OBJLoader2.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/OBJLoader2Parser.js"></script> -->
-  <!-- Pagination -->
-<div class="container">
-  <div class="w3-bar">
-    <a class="w3-button w3-hover-black" href="index.html">1</a>
-    <a class="w3-button w3-hover-black" href="./about.html">2</a>
-    <a class="w3-button w3-hover-black" href="./charts.html">3</a>
-    <a class="w3-button w3-black current" href="./top-rated.html">4</a>
-    <a class="w3-button w3-hover-black" href="./genrestats.html">5</a>
-    <a class="w3-button w3-hover-black" href="./team.html">6</a>
-
-  </div>
-  <div class="book-container">
-    <div class="book">
-      <div class="front-page"></div>
-      <div class="back-page"></div>
+            </div>
+            
+            <div id="main">
+              <button id="navigationButton" class="openbtn" onclick="openNav()">☰</button>  
+            <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+        
+        <h1>Choose Your Target List</h1>
+        <select id="selectList" onchange="listChanged(this.value)"></select>
+        <!-- <select id="selectTimePeriod" onchange="timeChanged(this.value)"></select> -->
+        <h3>Top Book in Category</h3>
+        <div id="standalone-metadata" class="panel-body"></div> 
+        <!-- <div id="sample-metadata" class="panel-body"></div> -->
+        <div id="chart"></div>
+        <div class="col-md-5">
+          <div id="chart-pub"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="chart-pub-group"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="chart-auth-group"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="chart-imp-group"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="chart-comb-group"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="pieChart"></div>
+        </div>
+        <div class="col-md-5">
+          <div id="treemap"></div>
+        </div>
+            
+              
+            <!-- Footer section -->
+            <footer id="myFooter">
+              <div class="w3-container w3-theme-l2 w3-padding-32">
+           
+                <!-- Navbar at the bootom-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/charts.html">Interactive Charts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/top-rated.html">Highest Ranked</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/team.html">The Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Templates/theplan.html">Plan</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-
-  <footer id="myFooter">
-    <div class="w3-container w3-theme-l2 w3-padding-32">
-    </div>
-
-    <div class="w3-container w3-theme-l1">
-      <p>Powered by <a href="https://github.com/StephWolter/GetOnTheList" target="_blank">OurGroupName</a></p>
-    </div> 
-  </footer>
-  <script src="data.js"></script>
-  <script src="logic.js"></script>
-  <!-- JavaScript file -->
-  <script src="data.js"></script>
-  <script type="text/javascript" src="logic.js"></script>
-</body>
-
-</html>
+</nav>
+              </div>
+        
+              <div class="w3-container w3-theme-l1">
+                <p>Powered by <a href="https://github.com/StephWolter/GetOnTheList" target="_blank">OurGroupName</a></p>
+                <a id="github-link" href="https://github.com/StephWolter/GetOnTheList" target="_blank" rel="noreferrer">
+                    <button class="btn" type="submit">
+                        <i class="bi bi-github"></i>
+                    </button>
+                </a>
+              </div>
+              <div class="container">
+                <div class="footer text-center">
+                  
+                </div>
+            </div>
+            </footer>
+            <main class="container">
+            
+          </div>
+          <script type="text/javascript" src="./updatingDropdown.js"></script>
+          <script type="text/javascript" src="./functions_final.js"></script>
+        </body>
+        </html>
+        
+        

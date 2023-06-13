@@ -1,57 +1,56 @@
-html, body {
-  background: linear-gradient(to bottom, #2f1733, #05040a);
-  color: #ffffff;
-}
-
-#myElement {
-  background-color: #4b2b50;
-}
 
 /* Update the header style */
 h1 {
-  color: #b98bc9;
+  color: #000000;
 }
 
+.textbox {
+  background-color: #dbcece;
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.foottext {
+  background-color: #dbcece;
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
 /* Update the link color */
 a {
   color: #af6fc4;
 }
 
-/* Add styles for the starry background */
-body:before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: url(booksback.jpg) repeat;
-  opacity: 0.6;
-}
+ /* fixing the footer at the bottom */
 
-/* Additional styles based on various shades of purple */
-.container {
-  background-color: #331b3d;
-  border-radius: 10px;
-  padding: 20px;
-}
+.myfooter {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 80px; /* Adjust the height of the footer as needed */
+      background-color: #f2f2f2;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
 
 /* Add your custom styles here */
 
 
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Copperplate", sans-serif;}
 
-#myElement {
-  background-color: rgba(142, 111, 170, 0.546);
-}
+/* #myElement {
+  background-color: rgba(216, 166, 128, 0.746);
+} */
 /* Remove the default margin and padding from the body. */
 body {
   padding: 0;
   margin: 0;
 }
  /* Set map, body, and html to 100% of the screen size. */ 
-/* #map,
+#map,
 body,
 html {
   height: 100%;
@@ -68,7 +67,7 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #2f040d;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -114,58 +113,29 @@ h1 {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-/* @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
-} */ 
-
-/* * BookBlock container */
-/* .book {
-  position: relative;
-  width: 400px; /* Adjust the width to fit your design */
-  /* height: 300px; /* Adjust the height to fit your design */
-  /* margin: 0 auto;
-  perspective: 2000px;
-} */ 
-
-/* BookBlock pages */
-/* .bb-item {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  transition: transform 0.8s;
-} */
-
-/* BookBlock pages - content styling */
-/* .bb-item > * {
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-  font-size: 18px;
-} */ 
-
-/* BookBlock pages - page-specific styling */
-/* #page1 {
-  background-color: #F9C4D2;
 }
 
-#page2 {
-  background-color: #FBC3E7;
+/* Add the flipBook animation */
+@keyframes flipBook {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
-#page3 {
-  background-color: #D4B5F3;
+/* Apply the animation to the book element */
+.book {
+  animation: flipBook 5s infinite;
 }
-#page4 {
-  background-color: #D4B5F3;
-}
-#page5 {
-  background-color: #625273;
-}
-#page6 {
-  background-color: #9a81b3;
-}
+
 /*  */
 /* .book-container {
   width: 200px;
@@ -211,4 +181,82 @@ h1 {
   100% {
     transform: rotateY(360deg);
   }
-} */ 
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+    /* color: #eee;  */
+    
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    background-color: #eee;
+    color: #440d0d;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color:  #F9F9F9;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
