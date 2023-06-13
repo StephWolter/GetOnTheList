@@ -2,7 +2,7 @@
 
 from sqlalchemy.orm import Session
 from flask import Flask, jsonify
-from flask_cors import CORS
+# from flask_cors import CORS
 import numpy as np
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import create_engine, func
@@ -10,7 +10,7 @@ from sqlalchemy import create_engine, func
 
 # Flask set-up
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 # # Sqlalchemy set-up
 engine = create_engine("sqlite:///nyt_bestsellers.sqlite")
