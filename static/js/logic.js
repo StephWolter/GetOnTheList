@@ -1,8 +1,62 @@
-fetch('http://127.0.0.1:5000/api/v1.0/book_longest') 
+fetch('http://127.0.0.1:5000/api/v1.0/books') 
   .then(response => response.json())
   .then(data => {
     console.log(data);
+    // // console.log(typeof data[0].published_date);
+
+    // let all_results = data;
+    // let most_recent = [];
+    // let mrd = data[0].published_date;
+    // // let mrd_str = mrd.toDateString();
+
+    // // console.log(mrd);
+    // // console.log(data[0].published_date);
+
+    // for (i = 0; i < data.length; i++) {
+      
+    //   // console.log(data[i].published_date);
+
+    //   if (data[i].published_date === mrd) {
+    //     var entry = Object(data[i])
+    //     most_recent.push(entry)
+    //   };
+      
+    // };
+
+    // console.log(most_recent);
+
+
+    // function getNumber1Count(title) {
+    //   let count = 0
+    //   for (let i = 0; i < data.length; i++) {
+    //     if (data[i].book_title == title) and (data[i].rank == 1) {
+    //       count += 1
+    //     };
+    //   }
+    //   return count;
+    // };
+
+    // let titles = [];
+    // let number1_counts = [];
+
+    // for (let i = 0; i < data.length; i++) {
+    //   if (!titles.includes(data[i].book_title)) {
+    //     titles.push(data[i].book_title)
+    //     number1_counts.push(getNumber1Count(data[i].book_title))
+    //   };
+    // };
+
+    // console.log(titles);
+    // console.log(number1_counts);
+    // let book_results = {
+    //   'Title': titles,
+    //   'Number 1 Appearances': number1_counts
+    // };
+
+    // console.log(book_results);
+    
   });
+
 
 // // Create a Leaflet map instance
 // let map = L.map('map').setView([40, -95], 4);

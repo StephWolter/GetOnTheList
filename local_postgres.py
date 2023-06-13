@@ -3,5 +3,5 @@ postgresql = {
     'password': 'postgres',
     'host': 'localhost',
     'port': '5432',
-    'db': 'GetOnTheList'
+    'db': 'nyt_bestsellers'
 }
