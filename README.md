@@ -73,33 +73,28 @@
 ### Data Insertion with SQLAlchemy
 * SQLAlchemy was used to write Python code that retrieves data from NYT and inserts the data into the database.
 * The [psql_connect.py](/data_crud/psql_connect.py) script manages the connection to the database.
-     * Most/Least popular per list of all time
      * This script imports an untracked file, local_postgres.py, with the local machine's Postgres credentials.    
 * The [Insert_NYT_Data.ipynb](/data_crud/Insert_NYT_Data.ipynb) script imports psql_connect.py, makes calls to the NYT API, and inserts the responses from the API into the SQL database.
 ### Manual Data Insertion
 * The responses from the NYT Books API are NOT by themselves sufficient to populate the entire database. This is because the NYT data only contains imprint-level publishing information.
-       * For example, many Colleen Hoover books are published by Atria, which is an imprint of Simon & Schuster. The NYT API shows Atria as the 'publisher' of the Colleen Hoover books, despite the fact that Simon & Schuster, as the owner of Atria, was the effective publisher of these books from an economic perspective.
+     * For example, many Colleen Hoover books are published by Atria, which is an imprint of Simon & Schuster. The NYT API shows Atria as the 'publisher' of the Colleen Hoover books, despite the fact that Simon & Schuster, as the owner of Atria, was the effective publisher of these books from an economic perspective.
 * The publishers table is a manually created table of ultimate parent publishers.
 * The ownership table is a manually created crosswalk between publishers and any imprints they own.
 ### SQLite File Creation
 * The Postgres database was deployed through a local sqlite file, nyt_bestsellers.sqlite.
 * This file was created through the following steps:
-       * Export the Postgres SQL tables as CSV files (found in the alt_CSVs folder)
-       * Convert schema.sql into a SQLite-friendly schema, called schema_sqlite.sql
-       * Create a SQLite database and read the schema as demonstrated below
+     * Export the Postgres SQL tables as CSV files (found in the alt_CSVs folder)
+     * Convert schema.sql into a SQLite-friendly schema, called schema_sqlite.sql
+     * Create a SQLite database, read the schema, and import the CSVs as demonstrated below
 ```
 sqlite3 nyt_bestsellers.sqlite
 .read data_crud/schema_sqlite.sql
-```
-       * Import the CSVs as demonstrated below
-```
 .mode csv
 .import data_crud/alt_CSVs/<table_name.csv> table_name
 ```
 
 ## Website building Pt 1
 * HTML design created ready for data population
-
 
 ## Data Analysis
 
