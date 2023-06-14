@@ -16,29 +16,40 @@
 
 * File Structure:
 
-        * Data Extraction           # Main folder for data
-            * CSVs                  # Main folder for csv
-                * Ownership_v2.csv  
-                * Publishers.csv
-                * authors.csv
-                * books.csv
-                * imprints.csv
-                * lists.csv
-                * ownership.csv
-                * results.csv
+        * Images                          # folder for reference photos
+            * Logos                       # folder with 12 company logo .png files
+            * Memes                       # folder with 3 memes used in presentation
+            * CSVs                               # Main folder for csv
+            * Additional Image Files
+        * data_crud
+            * alt_csvs                     # folder with 7 .csv files 
+            * ERD.png
             * Insert_NYT_Data.ipynb
             * api_keys.py
             * local_postgres.py
+            * psql_connect.py
             * schema.sql
-        * Images
-            * Logos
-            * Memes
-        * PublishingHouses.xlsx
+            * scema_sqlite.sql
+        * Static                            # Folder for html to pull from 
+            * CSS
+                * style.css
+            * JS                            # various javascript files
+                * data.js
+                * faq.js
+                * functions_final.js        # main code for charts
+                * logic.js
+                * top_rated.js              # code for metadata tables
+                * updatingDropdowns.js
+        * Templates                         # Templates for site
+            * Various template files
+        * .gitignore                        # git ignore file
+        * app.py                            # Flask query
+        * nyt_bestsellers.sqlite            # Working file
         * ReadMe.md
 
 * Final Website: [Get On The List]()
 
-* Presentation in Google Slides: [Get On The List](https://docs.google.com/presentation/d/1gQKRitfOxRw1ZQLOcBUpYoVPGTOzSaYite_0RqtkBIM/edit?usp=sharing)
+* Presentation in Google Slides: [Get On The List](https://docs.google.com/presentation/d/1IOOp9pK_GgrUQ2tU1cK2cchfEIlbsooc1lksEFIRrfQ/edit?usp=sharing)
 
 ## Step 1: Setting Up
 ### Conceptualization
@@ -93,11 +104,15 @@
     * [chartimage]()
 
 ## Website building Pt 2
+* Created list of list_names for future use
+* Created 2 metadata tables
 * Insert app links into HTML as appropriate
 * complete Dropdown menus 
 * Smooth out design
 
 ## Create Powerpoint of presentation
+* Created in Excel
+* Shared with team and edited in Google Slides.
 * Practiced
 
 ## Created ReadMe
