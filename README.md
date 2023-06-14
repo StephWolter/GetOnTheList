@@ -28,6 +28,7 @@
             * api_keys.py
             * local_postgres.py
             * psql_connect.py
+            * Datascrape.py                 # used for gathering html data with BeautifulSoup
             * schema.sql
             * scema_sqlite.sql
         * Static                            # Folder for html to pull from 
@@ -96,16 +97,17 @@
 
 ### Visualizations Created and Inserted into Site
 * Used j-query library for enhanced maps of publisher
-* Created charts in javascript using plotly
-    * [chartimage]()
-* Created charts in tableau
-    * [chartimage]()
+* Created charts in javascript using plotly (example below)
+    * ![chartimage](https://github.com/StephWolter/GetOnTheList/blob/main/Images/chart_authors.png)
 * Created maps in Leaflet
     * [chartimage]()
 
 ## Website building Pt 2
 * Created list of list_names for future use
-* Created 2 metadata tables
+* Created 2 metadata tables and formatted for readability
+* Used plotly to create multiple bar charts
+* Used Beautiful Soup to pull styling/data 
+    * Wikipedia
 * Insert app links into HTML as appropriate
 * complete Dropdown menus 
 * Smooth out design
