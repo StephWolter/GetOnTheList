@@ -7,8 +7,7 @@
 * Stephanie Wolter
 
 # Get On The List
-* How does an author get on any of the NYT Bestseller lists? Is it hard? Is it about merit? Money? Marketing?
-**lots more summary**
+* How does an author get on any of the NYT Bestseller lists? Is it hard? Is it about merit? Money? Marketing? This project uses data from the NYT Bestseller lists to create statistical summaries on the leading authors, books, and publishers. With this, through predictive analysis, readers can find their next favorite book.
 
 ## SetUp
 
@@ -40,9 +39,16 @@
                 * functions_final.js        # main code for charts
                 * logic.js
                 * top_rated.js              # code for metadata tables
-                * updatingDropdowns.js
+               
         * Templates                         # Templates for site
-            * Various template files
+            * charts.html 
+            * faq.html
+            * index.html 
+            * team.html
+            * the plan.html 
+            * top-rated.html 
+            
+            
         * .gitignore                        # git ignore file
         * app.py                            # Flask query
         * nyt_bestsellers.sqlite            # Working file
@@ -54,7 +60,7 @@
 
 ## Step 1: Setting Up
 ### Conceptualization
-* Piggy backing off work from Project 1
+* Further developing work done in Project 1
 * Brainstormed site creation
     * ![sketch](https://github.com/StephWolter/GetOnTheList/blob/main/Images/Website_Brainstorm.png)
 * Agreed upon data needed for individual charts
@@ -94,13 +100,32 @@ sqlite3 nyt_bestsellers.sqlite
 ```
 
 ## Website building Pt 1
-* HTML design created ready for data population
+### HTML design created ready for data population
+The six following html files: index.html, the plan.html, charts.html, top-rated.html, faq.html, and team.html were created to serve as different pages in our webpage. The different html files reference the necessary javascript files.
+       * For example, the chart.html file references a JavaScript file called functions_final.js located in the /static/js/ directory. This file  contains functions and logic for interacting with the charts and handling user interactions.
+        
+Across the html files, everal external resources are linked, including:
+
+    * The Plotly library (plotly-latest.min.js) for interactive charting capabilities.
+    * The jQuery library (jquery-3.6.0.min.js) for simplifying JavaScript interactions.
+    * The Bootstrap CSS (bootstrap.min.css) and JavaScript (bootstrap.bundle.min.js) files for styling and UI components.
+    * The Leaflet CSS file (leaflet.css) is responsible for styling the map elements.
+    * The Leaflet JavaScript file (leaflet.js) contains the core functionality of the Leaflet library, including map creation and interaction, which was what it was used for in this case.
+
+### CSS file creation
+     A style.css file was used to:
+        * Create a theme for all the pages
+        * Stylize the sidebar and sidebar button (used to open and close the sidebar)
+        * Style the footer element with a fixed position at the bottom of the page.
+        * Design the container element for the frequently asked questions section as well as style the buttons used to open and close the FAQ page body including the hover. And adding content (Unicode characters) after the FAQ page buttons to indicate whether the body is expanded or collapsed.
+    
+
 
 ## Data Analysis
 
 * Pull tables from database 
 * Created any other necessary tables
-* Imported into Javascript
+* Imported into Javascript through Flask app routes
 * Used Flask apps and sqlalchemy to calculate:
     * Most/Least popular per list of all time
     * Most/Least popular per list of most recent
@@ -108,11 +133,11 @@ sqlite3 nyt_bestsellers.sqlite
     * Statistical calculations
 
 ### Visualizations Created and Inserted into Site
-* Used j-query library for enhanced maps of publisher
+
 * Created charts in javascript using plotly (example below)
     * ![chartimage](https://github.com/StephWolter/GetOnTheList/blob/main/Images/chart_authors.png)
-* Created maps in Leaflet
-    * [chartimage]()
+* Created maps in Leaflet to display the addresses of main publisher companies with markups to pinpoint exact locations.
+    * Data (names, address and coordinates of publishers) was manually generated and insert into a json file (data.json: located in the /static/js/ directory) then imported in the javascrip file where the map instance was created.
 
 ## Website building Pt 2
 * Created list of list_names for future use
@@ -125,7 +150,7 @@ sqlite3 nyt_bestsellers.sqlite
 * Smooth out design
 
 ## Create Powerpoint of presentation
-* Created in Excel
+* Created and designed in Microsoft Powerpoint
 * Shared with team and edited in Google Slides.
 * Practiced
 
