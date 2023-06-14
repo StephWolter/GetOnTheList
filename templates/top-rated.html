@@ -4,7 +4,7 @@
   
 
 <!-- all the scripts needed here -->
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -13,7 +13,7 @@
 <body style="background-color: #dbcece;">
 <style>
     .card {
-  width: 250px; /* Adjust the width to your desired size */
+  width: 400px; /* Adjust the width to your desired size */
   height: auto; /* Maintain the aspect ratio */
 }
   </style>
@@ -48,6 +48,9 @@
 
   <div class="row">
     <div class="col-lg-4">
+      <h3 class="card-title" data-toggle="tooltip" data-placement="bottom" title="..and for top Book">
+        Author on any list the longest
+      </h3>
       <div class="card">
         <img src="../Images/rowling.png" class="card-img-top" alt="Top Author">
         <div class="card-body">
@@ -136,17 +139,35 @@
     </div>
 
     <div class="col-lg-4">
-        <h5 class="card-title" data-toggle="tooltip" data-placement="bottom" title="..and for top Book">
-            Book at # 1 the longest
-          </h5>
+        <h3 class="card-title" data-toggle="tooltip" data-placement="bottom" title="..and for top Book">
+            Book on any list the longest
+          </h3>
       <div class="card">
-        <img src="Images/topbook.jpg" class="card-img-top" alt="Top Book">
+        <img src="../Images/topbook.jpg" class="card-img-top" alt="Top Book">
         <div class="card-body">
             <div id="standalone-metadata" class="panel-body"></div>
-          
+            
         </div>
+        
+          
       </div>
     </div>
+
+    <div class="col-lg-4">
+      <h3 class="card-title" data-toggle="tooltip" data-placement="bottom" title="..and for top Book">
+          Non-series book on the list the longest
+        </h3>
+    <div class="card">
+      <img src="../Images/glasscastles.png" class="card-img-top" alt="Top Book">
+      <div class="card-body">
+          <div id="sample-metadata" class="panel-body"></div>
+          
+      </div>
+      
+        
+    </div>
+  </div>
+
   </div>
 
   <!-- Footer section -->
@@ -194,7 +215,7 @@
     </div>
 </footer>
   
-   <script src="functions_final.js"></script>
+   <script src="../static/js/top_rated.js"></script>
 
 </body>
 </html>

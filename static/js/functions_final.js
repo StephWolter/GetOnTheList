@@ -492,6 +492,8 @@ fetch('http://127.0.0.1:5000/api/v1.0/books')
       Plotly.newPlot('chart-comb-group', combinedData, combinedLayout);
     };
 
+
+
     function init() {
       
       populateListMenu();
